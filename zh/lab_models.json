@@ -1,0 +1,27 @@
+{
+  "datasets_required": "数据集不能为空",
+  "metrics_required": "指标不能为空",
+  "emails_required": "邮箱不能为空",
+  "content_required": "内容不能为空",
+  "invalid_name": "无效的名称",
+  "invalid_dimension": "无效的维度",
+  "invalid_dataset": "无效的数据集",
+  "invalid_algorithm": "无效的算法",
+  "invalid_version": "无效的版本",
+  "invalid_invitation": "无效的邀请",
+  "invitation_expired": "该邀请已过期",
+  "already_memeber": "您已经是协作成员了",
+  "datasets_too_large": "数据集超过了最大长度限制：%{limit}",
+  "metrics_too_large": "指标集超过了最大长度限制：%{limit}",
+  "not_found": "未找到对应资源",
+  "forbidden": "没有访问权限",
+  "create_failed": "创建失败，原因：%{reason}",
+  "update_failed": "更新失败，原因：%{reason}",
+  "delete_failed": "删除失败, 原因： %{reason}",
+  "delete_success": "删除成功",
+  "reaching_daily_limit": "已达成每天分析上限",
+  "reach_limit": "参数超过最大上限",
+  "members": {
+    "expired": "邀请已过期"
+  }
+}

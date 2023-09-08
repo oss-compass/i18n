@@ -1,0 +1,17 @@
+{
+  "login_failed": "login failed, reason: %{reason}",
+  "forbidden": "access forbidden",
+  "require_login": "Operation after login is required",
+  "require_bind": "The %{provider} account is not bound to the current user",
+  "already_banned": "%{provider}: %{nickname} Already bound to another account",
+  "email_verified": "The email has been verified and passed",
+  "email_change_limit": "The email address cannot be modified more than %{count} times within 24 hours",
+  "send_email_limit": "Email verification cannot send more than %{count} times within 24 hours",
+  "send_invite_limit": "Invitation emails cannot be sent more than %{count} times in 24 hours.",
+  "keep_one_login_bind": "Keep at least one login binding",
+  "wechat_already_bind": "It has been bound to a wechat",
+  "provider_not_supported": "Third-party application login currently supports only github and gitee",
+  "subscription_already_exist": "Already subscribed.",
+  "subject_not_exist": "Subscription object does not exist",
+  "subscription_not_exist": "Subscription does not exist"
+}

@@ -1,0 +1,7 @@
+{
+  "project": {
+    "no_exists": "no such task with project name: %{project_name}.",
+    "invalid": "invalid project name: %{project_name}.",
+    "processed": "Your submission is being processed."
+  }
+}

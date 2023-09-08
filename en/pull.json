@@ -1,0 +1,13 @@
+{
+  "too_many_repositories": "too many repositories, please create a pull request manually.",
+  "invalid_level": "invalid resource type.",
+  "duplicate": "analysis report already exists, please visit follow url",
+  "welcome_collection": "Welcome to submit Collection changes. After the PR is reviewd and merged, the new Collection information will be automatically updated and displayed in the next period.",
+  "user": {
+    "validation": {
+      "pass": "user verification passed.",
+      "failed": "user verification failed."
+    },
+    "invalid": "invalid user information."
+  }
+}

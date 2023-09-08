@@ -1,0 +1,8 @@
+{
+  "path": {
+    "invalid": "无效的YAML文件路径: %{path}"
+  },
+  "diff_url": {
+    "invalid": "无效的Diff链接地址"
+  }
+}

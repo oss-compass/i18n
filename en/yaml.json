@@ -1,0 +1,8 @@
+{
+  "path": {
+    "invalid": "invaild configure yaml path: %{path}."
+  },
+  "diff_url": {
+    "invalid": "invalid diff url."
+  }
+}

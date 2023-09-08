@@ -1,0 +1,15 @@
+{
+  "task": {
+    "submitted": "task already sumbitted.",
+    "pending": "The submission has entered the analysis service queue, and we will synchronize the analysis report address under this Pull Request after the analysis is completed.",
+    "unsubmit": "failed to sumbit task, please retry."
+  },
+  "validation": {
+    "pass": "Thanks for the submission, we will analyze the project information after the Pull Request is merged. You can follow the progress of this Pull Request and keep in touch.",
+    "missing": "`%{field}` is required.",
+    "not_support": "no support data source from %{source} now.",
+    "no_tasks": "no tasks enabled.",
+    "cannot_access": "this repository can not access.",
+    "cannot_access_with_tip": "this repository can not access now. system is busy, please try again later."
+  }
+}

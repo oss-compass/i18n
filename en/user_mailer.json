@@ -1,0 +1,20 @@
+{
+  "email_verification": {
+    "subject": "Verify your email address"
+  },
+  "email_invitation": {
+    "subject": "Invitation to join the Lab Model",
+    "body": "We are pleased to invite you to join the %{model_name} modeling project. We are looking for enthusiastic partners who are willing to contribute their time and skills, and we believe that your expertise will be a valuable asset to the project. If you are interested in joining the project, please click the link below:",
+    "accept": "Accept invitation"
+  },
+  "confirm_email": {
+    "subject": "Confirm your email address",
+    "verify_email": "Verify your email address",
+    "verify_email_text": "Please click on the button below to verify your email address. This is required to confirm ownership of the email address.",
+    "browser_text": "If that doesn't work, try copying and pasting the following URL into your browser:",
+    "expire_text": "This link is valid for 72 hour only. If it has expired, log in to your",
+    "expire_text_2": "This link is only valid for 60 minutes. If it has expired, please contact the sender to resend the invitation.",
+    "account_setting": "account settings",
+    "expire_text_end": "request a new link."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "login_failed": "登录失败，原因：%{reason}",
+  "forbidden": "访问受限",
+  "require_login": "需要登录后操作",
+  "require_bind": "当前用户没有绑定 %{provider} 账号",
+  "already_banned": "%{provider}: %{nickname} 已经绑定其他账号",
+  "email_verified": "邮箱已经验证通过",
+  "email_change_limit": "邮箱24小时内修改不可以超过 %{count} 次",
+  "send_email_limit": "邮箱验证24小时内发送不可以超过 %{count} 次",
+  "send_invite_limit": "邀请邮件24小时内发送不可以超过 %{count} 次",
+  "keep_one_login_bind": "至少保留一个登录绑定",
+  "wechat_already_bind": "已经绑定了一个微信",
+  "provider_not_supported": "第三方应用登录目前仅支持 github，gitee",
+  "subscription_already_exist": "已经订阅了",
+  "subject_not_exist": "订阅对象不存在",
+  "subscription_not_exist": "订阅不存在"
+}

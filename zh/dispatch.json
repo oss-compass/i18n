@@ -1,0 +1,7 @@
+{
+  "project": {
+    "no_exists": "该项目 %{project_name} 不存在对应的任务",
+    "invalid": "无效的项目: %{project_name}",
+    "processed": "您提交的请求正在处理中"
+  }
+}
