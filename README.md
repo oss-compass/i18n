@@ -1,19 +1,20 @@
 # OSS Compass i18n Repository
 
-Welcome to the OSS Compass i18n Repository! 
+Welcome to the OSS Compass i18n Repository!
 
-This repository is dedicated to the translation and localization of our community projects into multiple languages. 
+This repository is dedicated to the translation and localization of our community projects into multiple languages.
 
 By contributing translations, you help make our projects accessible and usable to a wider audience.
 
 ## Getting Started
 
 ### Prerequisites
+
 - Basic knowledge of the target language.
 - Git installed on your local machine.
 
-
 ### How to Contribute
+
 Choose a language
 
 Browse the locales directory to see which languages are currently supported.
@@ -40,6 +41,7 @@ Follow the same process mentioned above for contributing translations.
 Be sure to provide clear explanations and context for your changes in the pull request.
 
 ### Contact
+
 If you have any questions or need assistance with the translation process, feel free to reach out to [OSS Compass](https://github.com/oss-compass) via [slack](https://oss-compass.org/docs/community/slack/).
 
 Thank you for your contributions! Together, we can make our projects more accessible to people around the world.
