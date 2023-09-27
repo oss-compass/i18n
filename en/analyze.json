@@ -24,12 +24,12 @@
   "median": "Median",
   "average": "Average",
   "avg_line": {
-    "show": "show average",
-    "hide": "hide average"
+    "show": "Show average",
+    "hide": "Hide average"
   },
   "median_line": {
-    "show": "show median",
-    "hide": "hide median"
+    "show": "Show median",
+    "hide": "Hide median"
   },
   "y_axis_scale": "Y-axis Scaling",
   "unit_label": "Unit: {{unit}}",
@@ -58,8 +58,8 @@
   "code_merge_ratio": "Code Merge Ratio",
   "code_merge": "Code Merge",
   "mark": {
-    "point": "point system",
-    "percentage": "percentage system"
+    "point": "Point system",
+    "percentage": "Percentage system"
   },
   "updated_on": "Updated on",
   "there_is_currently_no_data_in_the_chart": "There is currently no data in the chart,",

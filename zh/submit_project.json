@@ -56,5 +56,7 @@
   "the_email_address": "已成功将邮箱地址",
   "has_been_successfully": "与您的 OSS Compass 帐户绑定",
   "account_setting": "账号设置",
-  "bind_other_code_hosting_platforms": "绑定其它代码托管平台？"
+  "bind_other_code_hosting_platforms": "绑定其它代码托管平台？",
+  "community_home_page": "社区主页",
+  "community_avatar": "社区头像"
 }
