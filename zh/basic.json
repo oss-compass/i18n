@@ -1,3 +1,4 @@
 {
-  "too_long": "请求参数过长，限制为：%{long}"
+  "too_long": "请求参数过长，限制为：%{long}",
+  "invalid_range": "请求参数 %{param} 范围无效, 有效范围为 %{min} ~ %{max}"
 }
