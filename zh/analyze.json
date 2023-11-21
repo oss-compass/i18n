@@ -106,6 +106,8 @@
     "milestone_persona_filter": "里程画像筛选",
     "core": "核心贡献者",
     "regular": "常客贡献者",
+    "core_desc": "本年度所有贡献（不包含star、fork的贡献）的5成，由最少的一组人完成，这组人被称之为年度核心贡献者",
+    "regular_desc": "抛去头部5成贡献，接下来的3成贡献或者本年度至少有8个月贡献，包含在github上issue、pr贡献，在twitter、slack、discourse留言。不包含star、fork的贡献",
     "persona_detail": "画像详情",
     "contribution": "贡献量",
     "organization": "贡献组织",
@@ -201,6 +203,10 @@
     "reviewer": "审查者",
     "merge_author": "合并者",
     "closed": "关闭",
-    "open": "打开"
+    "open": "打开",
+    "progressing": "进行中",
+    "rejected": "已关闭",
+    "merged": "已合并",
+    "comments": "条评论"
   }
 }

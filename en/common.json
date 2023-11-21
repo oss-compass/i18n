@@ -3,6 +3,8 @@
   "header": {
     "home": "Home",
     "explore": "Explore",
+    "projects": "Projects",
+    "docs": "Docs",
     "metrics_models": "Metrics Models",
     "community": "Community",
     "blog": "Blog",
@@ -12,6 +14,7 @@
     "submit_your_project": "Submit your project"
   },
   "range": {
+    "1M": "Last 1 months",
     "3M": "Last 3 months",
     "6M": "Last 6 months",
     "1Y": "Last year",

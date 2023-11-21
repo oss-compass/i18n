@@ -6,7 +6,7 @@
   "activity": "Activity",
   "how_compass_working": "How Compass working",
   "it_points_to_the_thing_you_want_most_in_open_source": "It points to the thing <br/> you want most in <br/> open source world",
-  "we_help_open_source_projects_gain_insight_into_its": "We help open source projects gain insight into its trends, and getting more value of it.",
+  "we_help_open_source_projects_gain_insight_into_its": "Comprehensive Open Source Ecosystem Evaluation System and User-Friendly SaaS Platform.",
   "type_the_name_to_insight_into_your_project": "Type the name to insight into your project",
   "please_enter_repository_name_or_community": "Please enter GitHub/Gitee repository name or community name",
   "a_special_thank_you": "A special thank you…",
@@ -48,5 +48,11 @@
   "report": "Report",
   "event": "Event",
   "read_more": "Read more",
-  "scan_the_code_to_follow": "Scan the code to follow the WeChat Official Accoun"
+  "scan_the_code_to_follow": "Scan the code to follow the WeChat Official Accoun",
+  "open_source_manage": "Open Source Governance",
+  "open_source_manage_desc": "Providing excellent evaluation system, reliable data and technical service support for the open governance of open source communities[to community managers, project owners, maintainers, and developers], enhancing community efficiency and promoting the healthy development of communities.",
+  "data_decision": "Data Decision",
+  "data_decision_desc": "Offering in-depth data analysis and insights to organizations, OSPOs and venture investment institutions, helping them make decisions, optimize resource allocation, and detect high potential open source projects.",
+  "academic_research": "Academic Research",
+  "academic_research_desc": "Providing data and analysis on open source community ecosystems[ to academic researchers], promoting research on open governance and open source software usage and providing the engineering ability and concrete practice of the transformation of academic achievements."
 }

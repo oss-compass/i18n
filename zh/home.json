@@ -6,7 +6,7 @@
   "activity": "活跃度",
   "how_compass_working": "How Compass working",
   "it_points_to_the_thing_you_want_most_in_open_source": "估量有尺 开源有道",
-  "we_help_open_source_projects_gain_insight_into_its": "我们帮助开源项目洞察其趋势，并挖掘更多的价值。",
+  "we_help_open_source_projects_gain_insight_into_its": "全面的开源生态评估体系和易用的SaaS平台。",
   "type_the_name_to_insight_into_your_project": "请输入 GitHub/Gitee 仓库名称或社区名称",
   "please_enter_repository_name_or_community": "",
   "a_special_thank_you": "致谢…",
@@ -48,5 +48,11 @@
   "report": "新闻",
   "event": "事件",
   "read_more": "阅读更多",
-  "scan_the_code_to_follow": "扫码关注微信公众号"
+  "scan_the_code_to_follow": "扫码关注微信公众号",
+  "open_source_manage": "开源治理",
+  "open_source_manage_desc": "为开源社区[管理人员、项目所有者、维护者、开发者]进行开放治理提供完善的评估体系、可靠的数据和技术服务支持，提高社区效能，推动社区的健康发展。",
+  "data_decision": "数据决策",
+  "data_decision_desc": "为组织、OSPOs 和创投机构提供深入的数据分析和项目洞察，帮助制定决策、优化资源分配以及挖掘高潜力开源项目。",
+  "academic_research": "学术研究",
+  "academic_research_desc": "为学术研究人员提供开源社区生态体系数据和分析，促进有关开源治理、开源软件使用的研究，同时提供学术成果转化的工程能力与具体实践。"
 }

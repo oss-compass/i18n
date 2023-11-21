@@ -106,6 +106,8 @@
     "milestone_persona_filter": "Milestone persona filter",
     "core": "Core",
     "regular": "Regular",
+    "core_desc": "Contributors who contribute 50% (excluding observation contributions like star, fork, watch) of all domain-specific contributions in the current year, achieved by at least one group of people.",
+    "regular_desc": "After excluding the contributions of core contributors, the next 30% (excluding observation contributions) of contributions made by at least one group of people, including those who have participated for at least eight months in the current year.",
     "persona_detail": "Persona Detail",
     "contribution": "Contribution count",
     "organization": "Organizations",
@@ -201,6 +203,10 @@
     "reviewer": "Reviewer",
     "merge_author": "Merge Author",
     "closed": "closed",
-    "open": "open"
+    "open": "open",
+    "progressing": "progressing",
+    "rejected": "rejected",
+    "merged": "merged",
+    "comments": " comments"
   }
 }

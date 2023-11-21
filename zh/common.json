@@ -3,6 +3,8 @@
   "header": {
     "home": "首页",
     "explore": "探索",
+    "projects": "项目",
+    "docs": "文档",
     "metrics_models": "评估模型",
     "community": "社区",
     "blog": "博客",
@@ -12,6 +14,7 @@
     "submit_your_project": "提交项目"
   },
   "range": {
+    "1M": "最近1个月",
     "3M": "最近3个月",
     "6M": "最近6个月",
     "1Y": "最近1年",
