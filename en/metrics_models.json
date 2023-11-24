@@ -217,6 +217,23 @@
       }
     }
   },
+  "contributors_persona": {
+    "title": "Contributors Persona",
+    "metrics": {
+      "contributor": "Contributor",
+      "issue": "Issue",
+      "pr": "PR"
+    }
+  },
+  "contributor_route": {
+    "title": "Contributor Route"
+  },
+  "contributor_reputation": {
+    "title": "Contributor Reputation"
+  },
+  "user_reputation": {
+    "title": "User Reputation"
+  },
   "developer_attraction": {
     "title": "Developer Attraction"
   },

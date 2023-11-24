@@ -217,6 +217,23 @@
       }
     }
   },
+  "contributors_persona": {
+    "title": "贡献者画像",
+    "metrics": {
+      "contributor": "贡献者",
+      "issue": "Issue",
+      "pr": "PR"
+    }
+  },
+  "contributor_route": {
+    "title": "贡献者旅程"
+  },
+  "contributor_reputation": {
+    "title": "贡献者口碑"
+  },
+  "user_reputation": {
+    "title": "用户口碑"
+  },
   "developer_attraction": {
     "title": "开发者吸引"
   },
