@@ -88,6 +88,7 @@
   "collaboration": "Collab",
   "contributor": "Contributor",
   "software": "Soft",
+  "coming_soon": "Coming soon",
   "metric_detail": {
     "details": "Get Details",
     "contributors_persona": "Contributors Persona",
@@ -109,19 +110,27 @@
     "milestone_persona_filter": "Milestone Persona",
     "core": "Core",
     "regular": "Regular",
+    "guest": "Guest",
     "core_desc": "Contributors who contribute 50% (excluding observation contributions like star, fork, watch) of all domain-specific contributions in the current year, achieved by at least one group of people.",
     "regular_desc": "After excluding the contributions of core contributors, the next 30% (excluding observation contributions) of contributions made by at least one group of people, including those who have participated for at least eight months in the current year.",
+    "guest_desc": "",
     "persona_detail": "Persona Detail",
     "contribution": "Contribution Count",
+    "contribution_distribution": "Contribution Count Distribution",
+    "global_contribution_distribution": "Global Contribution Count Distribution",
+    "organization_contribution_distribution": "Organization Contribution Count Distribution",
     "organization": "Organization",
     "milestone_persona": "Milestone Persona",
     "role_persona": "Role Persona",
     "domain_persona": "Domain Persona",
     "contributor": "Contributor",
+    "contributor_distribution": "Contributor Distribution",
     "organization_participant": "Organization Participant",
     "organization_manager": "Organization Manager",
     "individual_manager": "Individual Manager",
     "individual_participant": "Individual Participant",
+    "contributor_unit": "People",
+    "contribution_unit": "Time",
     "observe": {
       "fork": "fork",
       "star": "star"
@@ -212,6 +221,6 @@
     "merged": "merged",
     "comments": "comments"
   },
-  "only_the_latest_month": "Only the latest month's data can be viewed",
+  "only_the_latest_month": "Users who do not have an Admin account for the project in the last year (lssue assignment, PR merge, etc.) can only view the data for the last month",
   "for_more_time_frames": "For more time frames, please "
 }
