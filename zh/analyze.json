@@ -90,7 +90,7 @@
   "software": "软件",
   "coming_soon": "即将到来",
   "metric_detail": {
-    "details": "详情",
+    "details": "查看洞察详情",
     "contributors_persona": "贡献者画像",
     "org_count": "贡献组织数量",
     "top_contributing_org": "Top贡献组织",
@@ -219,7 +219,8 @@
     "progressing": "进行中",
     "rejected": "已关闭",
     "merged": "已合并",
-    "comments": "条评论"
+    "comments": "条评论",
+    "show_organization": "展示组织"
   },
   "only_the_latest_month": "最近一年没用对该项目有Admin操作的账号用户(lssue分配、PR合并等)仅可查看最近一个月的数据",
   "for_more_time_frames": "如需查看更多时间范围，请"

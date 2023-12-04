@@ -90,7 +90,7 @@
   "software": "Soft",
   "coming_soon": "Coming soon",
   "metric_detail": {
-    "details": "Get Details",
+    "details": "See Insight Details",
     "contributors_persona": "Contributors Persona",
     "org_count": "Org Count",
     "top_contributing_org": "Top Contributing Org",
@@ -219,7 +219,8 @@
     "progressing": "progressing",
     "rejected": "rejected",
     "merged": "merged",
-    "comments": "comments"
+    "comments": "comments",
+    "show_organization": "Show Organization"
   },
   "only_the_latest_month": "Users who do not have an Admin account for the project in the last year (lssue assignment, PR merge, etc.) can only view the data for the last month",
   "for_more_time_frames": "For more time frames, please "
