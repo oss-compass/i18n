@@ -217,12 +217,131 @@
       }
     }
   },
-  "contributors_persona": {
-    "title": "Contributors Persona",
+  "contributor_milestone_persona": {
+    "title": "贡献者里程画像",
     "metrics": {
-      "contributor": "Contributor",
-      "issue": "Issue",
-      "pr": "PR"
+      "activity_casual_contributor_count": "活跃访客数量",
+      "activity_casual_contributor_count_desc": "",
+      "activity_casual_contributor_count_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_casual_contribution_per_person": "活跃访客每人贡献次数",
+      "activity_casual_contribution_per_person_desc": "",
+      "activity_casual_contribution_per_person_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_regular_contributor_count": "活跃常客数量",
+      "activity_regular_contributor_count_desc": "",
+      "activity_regular_contributor_count_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_regular_contribution_per_person": "活跃常客每人贡献次数",
+      "activity_regular_contribution_per_person_desc": "",
+      "activity_regular_contribution_per_person_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_core_contributor_count": "活跃核心数量",
+      "activity_core_contributor_count_desc": "",
+      "activity_core_contributor_count_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_core_contribution_per_person": "活跃核心每人贡献次数",
+      "activity_core_contribution_per_person_desc": "",
+      "activity_core_contribution_per_person_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      }
+    }
+  },
+  "contributor_role_persona": {
+    "title": "贡献者角色画像",
+    "metrics": {
+      "activity_organization_contributor_count": "活跃组织数量",
+      "activity_organization_contributor_count_desc": "",
+      "activity_organization_contributor_count_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_organization_contribution_per_person": "活跃组织每人贡献次数",
+      "activity_organization_contribution_per_person_desc": "",
+      "activity_organization_contribution_per_person_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_individual_contributor_count": "活跃个人数量",
+      "activity_individual_contributor_count_desc": "",
+      "activity_individual_contributor_count_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_individual_contribution_per_person": "活跃个人每人贡献次数",
+      "activity_individual_contribution_per_person_desc": "",
+      "activity_individual_contribution_per_person_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      }
+    }
+  },
+  "contributor_domain_persona": {
+    "title": "贡献者领域画像",
+    "metrics": {
+      "activity_observation_contributor_count": "观察贡献者数量",
+      "activity_observation_contributor_count_desc": "",
+      "activity_observation_contributor_count_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_observation_contribution_per_person": "观察贡献者每人贡献次数",
+      "activity_observation_contribution_per_person_desc": "",
+      "activity_observation_contribution_per_person_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_code_contributor_count": "Code贡献者数量",
+      "activity_code_contributor_count_desc": "",
+      "activity_code_contributor_count_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_code_contribution_per_person": "Code贡献者每人贡献次数",
+      "activity_code_contribution_per_person_desc": "",
+      "activity_code_contribution_per_person_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_issue_contributor_count": "Issue贡献者数量",
+      "activity_issue_contributor_count_desc": "",
+      "activity_issue_contributor_count_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      },
+      "activity_issue_contribution_per_person": "Issue贡献者每人贡献次数",
+      "activity_issue_contribution_per_person_desc": "",
+      "activity_issue_contribution_per_person_more": {
+        "weight": "",
+        "threshold": "",
+        "detail": ""
+      }
     }
   },
   "contributor_route": {
