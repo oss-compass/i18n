@@ -1,4 +1,22 @@
 {
+  "dimensionality": {
+    "topic": {
+      "productivity": "生产力",
+      "robustness": "稳健性",
+      "niche_creation": "创新力"
+    },
+    "type": {
+      "collaboration": "协作",
+      "contributor": "贡献者",
+      "software": "软件"
+    },
+    "productivity": "一个开源生态将投入转化为产出的能力。",
+    "robustness": "生态系统面对内部或者外部冲突自我恢复的能力。",
+    "niche_creation": "社区生态具有持续创造多样性创新的能力，并成为社区生态向前演进的动力。",
+    "collaboration": "开源的本质是人类追求协作共赢的典范。",
+    "contributor": "协作的关键是KOL(技术领袖)的能力。",
+    "software": "开源软件制品具备的持续创新能力和使用价值。"
+  },
   "collaboration_development_index": {
     "title": "协作开发指数",
     "desc": "开源项目作为人类群体智能的典型表现，是否能够建立协作式的开发管理，是促成项目成功的关键要素。而代码，作为一个软件项目的最终输出件，是整个社区的核心内容。所以我们围绕一系列与代码贡献相关的间接指标，来评估开发流程管理，社区协作式开发做得如何。",

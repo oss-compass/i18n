@@ -16,7 +16,7 @@
   "compass_report": "查看报告",
   "nothing_about_yet": "未找到与 <s> {{expr}} </s> 匹配的结果.",
   "cant_find_the_right_option": "未找到想要的结果？",
-  "oss_eco_evaluation_system": "开源<br/>生态评估<br/>体系",
+  "oss_eco_evaluation_system": "开源生态评估体系",
   "facts": "Facts",
   "recently": "最近更新",
   "trends": "活跃度趋势",
@@ -54,5 +54,6 @@
   "data_decision": "数据决策",
   "data_decision_desc": "为组织、OSPOs 和创投机构提供深入的数据分析和项目洞察，帮助制定决策、优化资源分配以及挖掘高潜力开源项目。",
   "academic_research": "学术研究",
-  "academic_research_desc": "为学术研究人员提供开源社区生态体系数据和分析，促进有关开源治理、开源软件使用的研究，同时提供学术成果转化的工程能力与具体实践。"
+  "academic_research_desc": "为学术研究人员提供开源社区生态体系数据和分析，促进有关开源治理、开源软件使用的研究，同时提供学术成果转化的工程能力与具体实践。",
+  "more_about_the_evaluation_system": "详细了解评估体系"
 }

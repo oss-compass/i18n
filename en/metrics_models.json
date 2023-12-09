@@ -1,4 +1,22 @@
 {
+  "dimensionality": {
+    "topic": {
+      "productivity": "Productivity",
+      "robustness": "Robustness",
+      "niche_creation": "Niche Creation"
+    },
+    "type": {
+      "collaboration": "Collab",
+      "contributor": "Contributor",
+      "software": "Soft"
+    },
+    "productivity": "The efficiency with which an ecosystem or project converts inputs into output.",
+    "robustness": "The capability of an ecosystem or project to face and survive disruptions.",
+    "niche_creation": "The capacity to create and recognize meaningful diversity and thereby new capabilities.",
+    "collaboration": "The essence ofopen source is a typical example of human's pursuit of win-win collaboration.",
+    "contributor": "The key to collaboration is the ability of KOLs(technicaleaders).",
+    "software": "Open source software products have continuous innovation abilityand use value."
+  },
   "collaboration_development_index": {
     "title": "Collaboration Development Index",
     "desc": "Open source projects, as a typical manifestation of human group intelligence, the ability to establish collaborative development management is a key element contributing to the success of the project. And code, as the final output of a project, is the essence of the entire community's contribution. So we evaluate how well the development process is managed and how well the community does collaborative development around a series of indirect metrics related to code contribution.",
