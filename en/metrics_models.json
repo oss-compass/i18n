@@ -236,128 +236,131 @@
     }
   },
   "contributor_milestone_persona": {
-    "title": "贡献者里程画像",
+    "title": "Contributor Milestone Persona",
+    "desc": "Contributors may resonate with open source projects based on upstream or downstream ecological interests, personal development, etc., and engage in community contributions. They may stay in the community for a long time, gradually fade away, or even be reawakened. Based on these scenarios, we define various states of contributors in the community, forming the Milestone Persona Model. This model is inspired by a state machine, where contributors can transition between states, but they can only be in one state at a time. This ensures decoupling of behavior and is more conducive to observing contributors' actions in the community.",
     "metrics": {
-      "activity_casual_contributor_count": "活跃访客数量",
-      "activity_casual_contributor_count_desc": "",
+      "activity_casual_contributor_count": "Visitor Contributor Count",
+      "activity_casual_contributor_count_desc": "How many active visitor contributors in the last 90 days.",
       "activity_casual_contributor_count_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "8%",
+        "threshold": "2000",
         "detail": ""
       },
-      "activity_casual_contribution_per_person": "活跃访客每人贡献次数",
-      "activity_casual_contribution_per_person_desc": "",
+      "activity_casual_contribution_per_person": "Visitor Contribution Count",
+      "activity_casual_contribution_per_person_desc": "The number of contributions per capita for contributors in the active visitor in the last 90 days.",
       "activity_casual_contribution_per_person_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "8%",
+        "threshold": "2000",
         "detail": ""
       },
-      "activity_regular_contributor_count": "活跃常客数量",
-      "activity_regular_contributor_count_desc": "",
+      "activity_regular_contributor_count": "Regular Contributor Count",
+      "activity_regular_contributor_count_desc": "How many active regular contributors in the last 90 days.",
       "activity_regular_contributor_count_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "12%",
+        "threshold": "100",
         "detail": ""
       },
-      "activity_regular_contribution_per_person": "活跃常客每人贡献次数",
-      "activity_regular_contribution_per_person_desc": "",
+      "activity_regular_contribution_per_person": "Regular Contribution Coun",
+      "activity_regular_contribution_per_person_desc": "The number of contributions per capita for contributors in the active regular in the last 90 days.",
       "activity_regular_contribution_per_person_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "18%",
+        "threshold": "25",
         "detail": ""
       },
-      "activity_core_contributor_count": "活跃核心数量",
-      "activity_core_contributor_count_desc": "",
+      "activity_core_contributor_count": "Core Contributor Count",
+      "activity_core_contributor_count_desc": "How many active core contributors in the last 90 days.",
       "activity_core_contributor_count_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "20%",
+        "threshold": "20",
         "detail": ""
       },
-      "activity_core_contribution_per_person": "活跃核心每人贡献次数",
-      "activity_core_contribution_per_person_desc": "",
+      "activity_core_contribution_per_person": "Core Contribution Count",
+      "activity_core_contribution_per_person_desc": "The number of contributions per capita for contributors in the active core in the last 90 days.",
       "activity_core_contribution_per_person_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "30%",
+        "threshold": "200",
         "detail": ""
       }
     }
   },
   "contributor_role_persona": {
-    "title": "贡献者角色画像",
+    "title": "Contributor Role Persona",
+    "desc": "Determining whether a contributor is a manager is based on whether they have made contributions in issue management or code management categories. Of course, a contributor may not be a manager when initially participating in community contributions, so we introduce timestamps to mark the change in this role. In the two contribution categories mentioned above, if contributors declare their organizational identities, such as by forcefully submitting code through a public organizational email, we refer to them as organizational managers; otherwise, they are considered individual managers.",
     "metrics": {
-      "activity_organization_contributor_count": "活跃组织数量",
-      "activity_organization_contributor_count_desc": "",
+      "activity_organization_contributor_count": "Organizational Contributor Count",
+      "activity_organization_contributor_count_desc": "How many active organizational contributors in the last 90 days.",
       "activity_organization_contributor_count_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "20%",
+        "threshold": "1500",
         "detail": ""
       },
-      "activity_organization_contribution_per_person": "活跃组织每人贡献次数",
-      "activity_organization_contribution_per_person_desc": "",
+      "activity_organization_contribution_per_person": "Organizational Contribution Count",
+      "activity_organization_contribution_per_person_desc": "The number of contributions per capita for contributors in the active organizational in the last 90 days.",
       "activity_organization_contribution_per_person_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "30%",
+        "threshold": "10",
         "detail": ""
       },
-      "activity_individual_contributor_count": "活跃个人数量",
-      "activity_individual_contributor_count_desc": "",
+      "activity_individual_contributor_count": "Individual Contributor Count",
+      "activity_individual_contributor_count_desc": "How many active individual contributors in the last 90 days.",
       "activity_individual_contributor_count_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "20%",
+        "threshold": "3500",
         "detail": ""
       },
-      "activity_individual_contribution_per_person": "活跃个人每人贡献次数",
-      "activity_individual_contribution_per_person_desc": "",
+      "activity_individual_contribution_per_person": "Individual Contribution Count",
+      "activity_individual_contribution_per_person_desc": "The number of contributions per capita for contributors in the active individual in the last 90 days.",
       "activity_individual_contribution_per_person_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "30%",
+        "threshold": "5",
         "detail": ""
       }
     }
   },
   "contributor_domain_persona": {
-    "title": "贡献者领域画像",
+    "title": "Contributor Domain Persona",
+    "desc": "In the Domain Persona Model, we first categorize the contributions made by contributors to the community by domain or type. We strive to atomize the contribution domains more finely, matching our current engineering capabilities. However, this categorization process is an ongoing evolution, and as our engineering capabilities improve, we will be able to achieve more granular domain divisions.For observation-type contributions, issue-type contributions, and code-type contributions, we can use insights provided by code hosting platforms (such as GitHub, Gitee, etc.). For other types of contributions, due to differences in community usage and extent, currently we can only provide limited data sources as references. However, as our engineering capabilities gradually improve, we may provide more solutions.",
     "metrics": {
-      "activity_observation_contributor_count": "观察贡献者数量",
-      "activity_observation_contributor_count_desc": "",
+      "activity_observation_contributor_count": "Observation Contributor Count",
+      "activity_observation_contributor_count_desc": "How many active observation class contributors in the last 90 days.",
       "activity_observation_contributor_count_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "8%",
+        "threshold": "2000",
         "detail": ""
       },
-      "activity_observation_contribution_per_person": "观察贡献者每人贡献次数",
-      "activity_observation_contribution_per_person_desc": "",
+      "activity_observation_contribution_per_person": "Observation Contribution Count",
+      "activity_observation_contribution_per_person_desc": "The number of contributions per capita for contributors in the active observation class in the last 90 days.",
       "activity_observation_contribution_per_person_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "12%",
+        "threshold": "2",
         "detail": ""
       },
-      "activity_code_contributor_count": "Code贡献者数量",
-      "activity_code_contributor_count_desc": "",
+      "activity_code_contributor_count": "Code Contributor Count",
+      "activity_code_contributor_count_desc": "How many active code class contributors in the last 90 days.",
       "activity_code_contributor_count_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "16%",
+        "threshold": "500",
         "detail": ""
       },
-      "activity_code_contribution_per_person": "Code贡献者每人贡献次数",
-      "activity_code_contribution_per_person_desc": "",
+      "activity_code_contribution_per_person": "Code Contribution Count",
+      "activity_code_contribution_per_person_desc": "The number of contributions per capita for contributors in the active code class in the last 90 days.",
       "activity_code_contribution_per_person_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "24%",
+        "threshold": "15",
         "detail": ""
       },
-      "activity_issue_contributor_count": "Issue贡献者数量",
-      "activity_issue_contributor_count_desc": "",
+      "activity_issue_contributor_count": "Issue Contributor Count",
+      "activity_issue_contributor_count_desc": "How many active issue class contributors in the last 90 days.",
       "activity_issue_contributor_count_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "16%",
+        "threshold": "1000",
         "detail": ""
       },
-      "activity_issue_contribution_per_person": "Issue贡献者每人贡献次数",
-      "activity_issue_contribution_per_person_desc": "",
+      "activity_issue_contribution_per_person": "Issue Contribution Count",
+      "activity_issue_contribution_per_person_desc": "The number of contributions per capita for contributors in the active issue class in the last 90 days.",
       "activity_issue_contribution_per_person_more": {
-        "weight": "",
-        "threshold": "",
+        "weight": "24%",
+        "threshold": "10",
         "detail": ""
       }
     }
