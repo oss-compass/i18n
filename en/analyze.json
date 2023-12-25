@@ -244,5 +244,8 @@
   },
   "only_the_latest_month": "Users who do not have an Admin account for the project in the last year (lssue assignment, PR merge, etc.) can only view the data for the last month",
   "for_more_time_frames": "For more time frames, please ",
-  "statistics": "In statistics"
+  "statistics": "In statistics",
+  "total_people": "Total {{total}} People",
+  "total_issues": "Total {{total}} Issues",
+  "total_prs": "Total {{total}} PR"
 }
