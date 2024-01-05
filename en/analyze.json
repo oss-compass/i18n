@@ -149,6 +149,9 @@
     "organization_manager": "Organization Admin",
     "individual_manager": "Individual Admin",
     "individual_participant": "Individual Participant",
+    "individual": "Individual",
+    "participant": "Participant",
+    "manager": "Manager",
     "contributor_unit": "People",
     "contribution_unit": "Time",
     "observe": {
@@ -240,7 +243,9 @@
     "rejected": "rejected",
     "merged": "merged",
     "comments": "comments",
-    "show_organization": "Show Organization"
+    "show_organization": "Show Organization",
+    "only_manager_participant": "Only Manager and Articipant",
+    "only_individual_organization": "Only Organization and Individual"
   },
   "only_the_latest_month": "Users who do not have an Admin account for the project in the last year (lssue assignment, PR merge, etc.) can only view the data for the last month",
   "for_more_time_frames": "For more time frames, please ",
