@@ -1,0 +1,4 @@
+{
+  "range_invalid": "last_date 必须在 first_date 之后",
+  "range_overlap": "组织之间的日期范围不能重叠"
+}

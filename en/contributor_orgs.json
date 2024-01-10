@@ -1,0 +1,4 @@
+{
+  "range_invalid": "last_date must be after first_date",
+  "range_overlap": "Date ranges cannot overlap between orgs"
+}

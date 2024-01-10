@@ -9,6 +9,7 @@
   "send_email_limit": "Email verification cannot send more than %{count} times within 24 hours",
   "send_invite_limit": "Invitation emails cannot be sent more than %{count} times in 24 hours.",
   "keep_one_login_bind": "Keep at least one login binding",
+  "no_such_login_bind": "No binding account information for the platform",
   "wechat_already_bind": "It has been bound to a wechat",
   "provider_not_supported": "Third-party application login currently supports only github and gitee",
   "subscription_already_exist": "Already subscribed.",
