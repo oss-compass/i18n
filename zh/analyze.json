@@ -244,8 +244,11 @@
     "merged": "已合并",
     "comments": "条评论",
     "show_organization": "展示组织",
-    "only_manager_participant": "只看管理者参与者",
-    "only_individual_organization": "只看组织个人"
+    "only_manager_participant": "按管理者、参与者查看",
+    "only_individual_organization": "按组织、个人查看",
+    "contributor_data_table": "贡献者数据列表",
+    "issue_data_table": "Issue 数据列表",
+    "pr_data_table": "PR 数据列表"
   },
   "only_the_latest_month": "最近一年没有对该项目有 Admin 操作的账号用户 (lssue 分配、PR 合并等) 仅可查看最近一个月的数据",
   "for_more_time_frames": "如需查看更多时间范围，请",

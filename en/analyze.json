@@ -245,7 +245,10 @@
     "comments": " Comments",
     "show_organization": "Show Organization",
     "only_manager_participant": "Only Manager and Articipant",
-    "only_individual_organization": "Only Organization and Individual"
+    "only_individual_organization": "Only Organization and Individual",
+    "contributor_data_table": "Contributor data table",
+    "issue_data_table": "Issue data table",
+    "pr_data_table": "PR data table"
   },
   "only_the_latest_month": "Users who do not have an Admin account for the project in the last year (lssue assignment, PR merge, etc.) can only view the data for the last month",
   "for_more_time_frames": "For more time frames, please ",
