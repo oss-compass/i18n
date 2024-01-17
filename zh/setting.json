@@ -22,6 +22,9 @@
     "delete_account": "删除账号",
     "delete_account_btn": "删除我的账号",
     "delete_account_warning": "删除账户后，无法进行撤销，在执行此操作时，请确保您已经仔细考虑过。",
+    "organizations": "组织信息",
+    "organizations_desc": "设置你所贡献的组织和日期。此设置将根据日期范围确定计算哪个组织的贡献。",
+    "add_a_new_organization": "新增组织信息",
     "can_be_used_to_submit_project_after_binding": "绑定后可用于提交项目",
     "can_be_used_to_receive_notifications_for_analysis_reports": "可用于接收分析报告的通知",
     "verified": "已验证",
@@ -30,7 +33,7 @@
     "email_sent_later": "{{sec}} 秒后可再次发送",
     "resend_verification_email": "发送验证邮件",
     "language_preferences": "通知语言偏好",
-    "language_preferences_desc": "用于接收通知使用的语言选项，包含邮件通知和Slack 通知"
+    "language_preferences_desc": "用于接收通知使用的语言选项，包含邮件通知和 Slack 通知"
   },
   "subscriptions": {
     "title": "我的订阅",
