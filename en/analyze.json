@@ -255,5 +255,8 @@
   "statistics": "In statistics",
   "total_people": "Total {{total}} People",
   "total_issues": "Total {{total}} Issues",
-  "total_prs": "Total {{total}} PR"
+  "total_prs": "Total {{total}} PR",
+  "org_name": "Organization Name",
+  "date": "Date",
+  "organization_information_modification": "Organization Modify"
 }

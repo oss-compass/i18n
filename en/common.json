@@ -84,6 +84,7 @@
     "delete": "Delete",
     "edit": "Edit",
     "cancel": "Cancel",
+    "add": "Add",
     "func_disabled": "The feature is temporarily disabled"
   },
   "prompt": {
@@ -94,7 +95,11 @@
   },
   "toast": {
     "modification_successful": "Modification Successful",
-    "modification_failed": "Modification Failed"
+    "modification_failed": "Modification Failed",
+    "add_successful": "Add Successful",
+    "add_failed": "Add Failed",
+    "delete_successful": "Delete Successful",
+    "delete_failed": "Delete Failed"
   },
   "loading": "Loading...",
   "loading_more": "Loading more...",
@@ -105,5 +110,6 @@
     "copy_successfully": "copy successfully"
   },
   "contact_us": "Contact us through <s> the community </s>. ",
-  "powered_by_chaoss": "Powered by CHAOSS"
+  "powered_by_chaoss": "Powered by CHAOSS",
+  "up_to_now": "Up to now"
 }

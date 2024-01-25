@@ -15,13 +15,13 @@
     "submit_your_project": "提交项目"
   },
   "range": {
-    "1M": "最近1个月",
-    "3M": "最近3个月",
-    "6M": "最近6个月",
-    "1Y": "最近1年",
-    "2Y": "最近2年",
-    "3Y": "最近3年",
-    "5Y": "最近5年",
+    "1M": "最近 1 个月",
+    "3M": "最近 3 个月",
+    "6M": "最近 6 个月",
+    "1Y": "最近 1 年",
+    "2Y": "最近 2 年",
+    "3Y": "最近 3 年",
+    "5Y": "最近 5 年",
     "Since2000": "创立以来"
   },
   "community": {
@@ -54,8 +54,8 @@
   "error": {
     "url_404": "你访问的页面不存在",
     "invalid_url_query": "非法参数链接",
-    "something_went_wrong": "出错了:",
-    "try_to_refresh_this_page_or_feel_free_to_contact_u": "请刷新此页，如果问题仍然存在，请随时与我们联系.",
+    "something_went_wrong": "出错了：",
+    "try_to_refresh_this_page_or_feel_free_to_contact_u": "请刷新此页，如果问题仍然存在，请随时与我们联系。",
     "try_again": "再试一次",
     "oops": "<s> Oops! </s> {{message}}"
   },
@@ -83,6 +83,7 @@
     "delete": "删除",
     "edit": "编辑",
     "cancel": "取消",
+    "add": "新增",
     "func_disabled": "该功能临时关闭"
   },
   "prompt": {
@@ -93,7 +94,11 @@
   },
   "toast": {
     "modification_successful": "修改成功",
-    "modification_failed": "修改失败"
+    "modification_failed": "修改失败",
+    "add_successful": "新增成功",
+    "add_failed": "新增失败",
+    "delete_successful": "删除成功",
+    "delete_failed": "删除失败"
   },
   "loading": "加载中...",
   "loading_more": "加载更多...",
@@ -104,5 +109,6 @@
     "copy_successfully": "复制成功"
   },
   "contact_us": "通过<s>社区</s>联系我们。",
-  "powered_by_chaoss": "Powered by CHAOSS"
+  "powered_by_chaoss": "Powered by CHAOSS",
+  "up_to_now": "至今"
 }

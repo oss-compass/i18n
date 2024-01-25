@@ -255,5 +255,8 @@
   "statistics": "统计中",
   "total_people": "总共 {{total}} 人",
   "total_issues": "总共 {{total}} Issues",
-  "total_prs": "总共 {{total}} PR"
+  "total_prs": "总共 {{total}} PR",
+  "org_name": "组织名称",
+  "date": "日期",
+  "organization_information_modification": "组织信息修改"
 }
