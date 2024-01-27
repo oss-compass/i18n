@@ -250,7 +250,7 @@
     "issue_data_table": "Issue data table",
     "pr_data_table": "PR data table"
   },
-  "only_the_latest_month": "Users who do not have an Admin account for the project in the last year (lssue assignment, PR merge, etc.) can only view the data for the last month",
+  "only_the_latest_month": "The current user has not been managed in the project in the last year (such as Issue allocation, PR consolidation, etc.), and can only view the data of the latest month",
   "for_more_time_frames": "For more time frames, please ",
   "statistics": "In statistics",
   "total_people": "Total {{total}} People",
