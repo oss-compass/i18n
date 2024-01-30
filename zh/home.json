@@ -6,7 +6,7 @@
   "activity": "活跃度",
   "how_compass_working": "How Compass working",
   "it_points_to_the_thing_you_want_most_in_open_source": "估量有尺 开源有道",
-  "we_help_open_source_projects_gain_insight_into_its": "全面的开源生态评估体系和易用的SaaS平台。",
+  "we_help_open_source_projects_gain_insight_into_its": "全面的开源生态评估体系和易用的 SaaS 平台。",
   "type_the_name_to_insight_into_your_project": "请输入 GitHub/Gitee 仓库名称或社区名称",
   "please_enter_repository_name_or_community": "",
   "a_special_thank_you": "致谢…",
@@ -14,7 +14,7 @@
   "submit_your_project": "提交项目",
   "community": "社区",
   "compass_report": "查看报告",
-  "nothing_about_yet": "未找到与 <s> {{expr}} </s> 匹配的结果.",
+  "nothing_about_yet": "未找到与 <s> {{expr}} </s> 匹配的结果。",
   "cant_find_the_right_option": "未找到想要的结果？",
   "oss_eco_evaluation_system": "开源生态评估体系",
   "facts": "Facts",
@@ -33,11 +33,13 @@
     "time_series_db": "时序数据库",
     "graph_db": "图数据库",
     "big_data_framework": "大数据框架",
-    "web_framework": "Web框架"
+    "web_framework": "Web 框架"
   },
   "trending": {
     "repository_weekly_activity_board": "仓库活跃度周榜",
-    "community_weekly_activity_board": "社区活跃度周榜"
+    "community_weekly_activity_board": "社区活跃度周榜",
+    "repository_weekly_activity_board_desc": "此榜单随机展示与上一周相比活跃度上升的仓库。",
+    "community_weekly_activity_board_desc": "此榜单随机展示与上一周相比活跃度上升的社区。"
   },
   "hot_projects": "热门项目",
   "hot_collection": "热门分类",
@@ -51,7 +53,7 @@
   "read_more": "阅读更多",
   "scan_the_code_to_follow": "扫码关注微信公众号",
   "open_source_manage": "开源治理",
-  "open_source_manage_desc": "为开源社区[管理人员、项目所有者、维护者、开发者]进行开放治理提供完善的评估体系、可靠的数据和技术服务支持，提高社区效能，推动社区的健康发展。",
+  "open_source_manage_desc": "为开源社区 [管理人员、项目所有者、维护者、开发者] 进行开放治理提供完善的评估体系、可靠的数据和技术服务支持，提高社区效能，推动社区的健康发展。",
   "data_decision": "数据决策",
   "data_decision_desc": "为组织、OSPOs 和创投机构提供深入的数据分析和项目洞察，帮助制定决策、优化资源分配以及挖掘高潜力开源项目。",
   "academic_research": "学术研究",

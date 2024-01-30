@@ -246,9 +246,10 @@
     "show_organization": "Show Organization",
     "only_manager_participant": "Only Manager and Articipant",
     "only_individual_organization": "Only Organization and Individual",
-    "contributor_data_table": "Contributor data table",
-    "issue_data_table": "Issue data table",
-    "pr_data_table": "PR data table"
+    "contributor_data_table": "Download contributor data csv table",
+    "issue_data_table": "Download Issue data csv table",
+    "pr_data_table": "Download PR data csv table",
+    "domain_persona_details": "domain persona details"
   },
   "only_the_latest_month": "The current user has not been managed in the project in the last year (such as Issue allocation, PR consolidation, etc.), and can only view the data of the latest month",
   "for_more_time_frames": "For more time frames, please ",

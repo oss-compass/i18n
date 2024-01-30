@@ -246,9 +246,10 @@
     "show_organization": "展示组织",
     "only_manager_participant": "按管理者、参与者查看",
     "only_individual_organization": "按组织、个人查看",
-    "contributor_data_table": "贡献者数据列表",
-    "issue_data_table": "Issue 数据列表",
-    "pr_data_table": "PR 数据列表"
+    "contributor_data_table": "下载贡献者数据 csv 表格",
+    "issue_data_table": "下载 Issue 数据 csv 表格",
+    "pr_data_table": "下载 PR 数据 csv 表格",
+    "domain_persona_details": "领域画像详情"
   },
   "only_the_latest_month": "当前账号最近一年未在本项目进行过管理操作（如 Issue 分配、PR 合并等），仅可查看最近一个月的数据",
   "for_more_time_frames": "如需查看更多时间范围，请",

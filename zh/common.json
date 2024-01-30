@@ -111,5 +111,6 @@
   "contact_us": "通过<s>社区</s>联系我们。",
   "powered_by_chaoss": "Powered by CHAOSS",
   "up_to_now": "至今",
-  "org_name": "组织名称"
+  "org_name": "组织名称",
+  "not_in_chinese": "不能为中文！"
 }

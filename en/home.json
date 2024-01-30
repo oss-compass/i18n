@@ -37,7 +37,9 @@
   },
   "trending": {
     "repository_weekly_activity_board": "Repository Weekly Activity Board",
-    "community_weekly_activity_board": "Community Weekly Activity Board"
+    "community_weekly_activity_board": "Community Weekly Activity Board",
+    "repository_weekly_activity_board_desc": "This list randomly shows repositories with an increase in Activity compared to the previous week.",
+    "community_weekly_activity_board_desc": "This list randomly shows communities with an increase in Activity compared to the previous week."
   },
   "hot_projects": "Hot Projects",
   "hot_collection": "Hot Collection",
