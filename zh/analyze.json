@@ -259,5 +259,6 @@
   "total_prs": "总共 {{total}} PR",
   "org_name": "组织名称",
   "date": "日期",
-  "organization_information_modification": "组织信息修改"
+  "organization_information_modification": "组织信息修改",
+  "no_role_desc": "当前账号无权限修改组织信息"
 }

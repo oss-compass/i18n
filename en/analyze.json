@@ -259,5 +259,6 @@
   "total_prs": "Total {{total}} PR",
   "org_name": "Organization Name",
   "date": "Date",
-  "organization_information_modification": "Organization Modify"
+  "organization_information_modification": "Organization Modify",
+  "no_role_desc": "The current account has no permission to modify organization information"
 }
