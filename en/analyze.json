@@ -249,7 +249,10 @@
     "contributor_data_table": "Download contributor data csv table",
     "issue_data_table": "Download Issue data csv table",
     "pr_data_table": "Download PR data csv table",
-    "domain_persona_details": "domain persona details"
+    "domain_persona_details": "domain persona details",
+    "search_contributor": "Search Contributor",
+    "search": "OK",
+    "reset": "Reset"
   },
   "only_the_latest_month": "The current user has not been managed in the project in the last year (such as Issue allocation, PR consolidation, etc.), and can only view the data of the latest month",
   "for_more_time_frames": "For more time frames, please ",
@@ -260,5 +263,8 @@
   "org_name": "Organization Name",
   "date": "Date",
   "organization_information_modification": "Organization Modify",
-  "no_role_desc": "The current account has no permission to modify organization information"
+  "no_role_desc": "The current account has no permission to modify organization information",
+  "search_contributor": "Search Contributor",
+  "search": "OK",
+  "reset": "Reset"
 }
