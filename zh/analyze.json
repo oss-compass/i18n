@@ -254,7 +254,7 @@
     "search": "确认",
     "reset": "重置"
   },
-  "only_the_latest_month": "当前账号最近一年未在本项目进行过管理操作（如 Issue 分配、PR 合并等），仅可查看最近一个月的数据",
+  "only_the_latest_month": "当前账号最近一年未在本项目进行过管理操作（如 Issue 分配、PR 合并等），仅可查看最近六个月的数据",
   "for_more_time_frames": "如需查看更多时间范围，请",
   "statistics": "统计中",
   "total_people": "总共 {{total}} 人",
