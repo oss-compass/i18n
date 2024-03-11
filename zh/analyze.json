@@ -187,9 +187,12 @@
       "issue_change_branch": "Issue 取消分支"
     },
     "code": {
+      "code_creation": "代码编写",
+      "code_committer": "代码提交",
+      "code_review": "代码审查",
+      "code_commit": "代码提交",
       "pr_creation": "PR 创建",
-      "pr_comments": "PR 评论",
-      "code_commit": "代码提交"
+      "pr_comments": "PR 评论"
     },
     "code_admin": {
       "pr_labeled": "PR 添加标签",

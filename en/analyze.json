@@ -187,9 +187,12 @@
       "issue_change_branch": "Issue change branch"
     },
     "code": {
+      "code_creation": "Code creation",
+      "code_committer": "Code committer",
+      "code_review": "Code review",
+      "code_commit": "Code commit",
       "pr_creation": "PR creation",
-      "pr_comments": "PR comments",
-      "code_commit": "Code commit"
+      "pr_comments": "PR comments"
     },
     "code_admin": {
       "pr_labeled": "PR labeled",
