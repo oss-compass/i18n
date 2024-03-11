@@ -61,5 +61,6 @@
   "type_address_of": "Please enter the repository URL",
   "please_enter_a_valid": "Please enter a valid URL",
   "failed_to_fetch_data": "Failed to fetch data!",
-  "result": "Calculation Result:"
+  "result": "Calculation Result:",
+  "data_usage_process": "Data usage process"
 }
