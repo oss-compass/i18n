@@ -134,6 +134,7 @@
     "core_desc": "本时间段所有贡献（不包含 Star、Fork 的贡献）的 5 成，由最少的一组人完成，这组人被称为核心贡献者",
     "regular_desc": "抛去头部 5 成贡献，接下来的 3 成贡献，包含在 github 上 issue、pr 贡献，在 twitter、slack、discourse 留言。不包含 star、fork 的贡献",
     "guest_desc": "常客、核心以外的贡献者 (包括观察贡献者)",
+    "role_persona_desc": "贡献者角色画像包括组织管理者、个人管理者、组织参与者、个人参与者。判断贡献者是否为管理者的标准是其是否做出了 Issue 管理类贡献或 Code 管理类贡献，而没有被觉察到管理行为的贡献者，我们称之为参与者。在上面提到的两个贡献类别中，如果贡献者声明他们的组织身份，例如通过公共组织电子邮件强制提交代码，我们将他们称为组织管理者;否则，他们被认为是个人管理者。",
     "persona_detail": "画像详情",
     "contribution": "贡献次数",
     "contribution_distribution": "贡献次数分布",

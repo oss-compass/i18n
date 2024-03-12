@@ -134,6 +134,7 @@
     "core_desc": "Contributors who contribute 50% (excluding observation contributions like star, fork, watch) of all domain-specific contributions in the current time period, achieved by at least one group of people.",
     "regular_desc": "After excluding the contributions of core contributors, the next 30% (excluding observation contributions) of contributions made by at least one group of people.",
     "guest_desc": "Individuals who contribute to the remaining contributions in the community after excluding core and regular contributions (including observation contributions).",
+    "role_persona_desc": "Role Persona include Organizational Managers ,Individual Managers ,Organizational Participants,Individual Participants, Determining whether a contributor is a manager is based on whether they have made contributions in issue management or code management categories, Contributors who are not perceived to have managing behaviors are called Participants. In the two contribution categories mentioned above, if contributors declare their organizational identities, such as by forcefully submitting code through a public organizational email, we refer to them as organizational managers; otherwise, they are considered individual managers.",
     "persona_detail": "Persona Detail",
     "contribution": "Contribution Count",
     "contribution_distribution": "Contribution Count Distribution",
