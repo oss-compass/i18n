@@ -21,8 +21,8 @@
     "software_quality": "软件质量",
     "software_usage_quality": "软件使用质量",
     "document_quality": "文档质量",
-    "northbound_adoption": "北向采用",
-    "south_fit": "南向适配",
+    "northbound_adoption": "下游生态",
+    "south_fit": "上游生态",
     "security": "安全",
     "compliance": "合规"
   },
