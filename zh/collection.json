@@ -7,5 +7,7 @@
   "cancel": "取消",
   "compare": "对比",
   "pick_for_compare": "勾选对比",
-  "search_repository": "搜索仓库"
+  "search_repository": "搜索仓库",
+  "descending_order_of_activity": "按活跃度降序",
+  "ascending_order_of_activity": "按活跃度升序"
 }

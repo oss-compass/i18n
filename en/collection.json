@@ -7,5 +7,7 @@
   "cancel": "Cancel",
   "compare": "Compare",
   "pick_for_compare": "Pick for compare",
-  "search_repository": "Search repository"
+  "search_repository": "Search repository",
+  "descending_order_of_activity": "Descending order of activity",
+  "ascending_order_of_activity": "Ascending order of activity"
 }
