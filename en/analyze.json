@@ -259,7 +259,9 @@
     "domain_persona_details": "domain persona details",
     "search_contributor": "Search Contributor",
     "search": "OK",
-    "reset": "Reset"
+    "reset": "Reset",
+    "all_repos": "All repos",
+    "select_all": "Select all"
   },
   "only_the_latest_month": "The current user has not been managed in the project in the last year (such as Issue allocation, PR consolidation, etc.), and can only view the data of the latest 6 months",
   "for_more_time_frames": "For more time frames, please ",
