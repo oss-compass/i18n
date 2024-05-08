@@ -110,6 +110,8 @@
   "software": "Soft",
   "coming_soon": "Coming soon",
   "metric_detail": {
+    "include_robot": "Include robot",
+    "exclude_robot": "Exclude robot",
     "details": "See Insight Details",
     "contributors_persona": "Contributors Persona",
     "org_count": "Org Count",
@@ -253,6 +255,7 @@
     "contributor_data_table": "Download contributor data csv table",
     "issue_data_table": "Download Issue data csv table",
     "pr_data_table": "Download PR data csv table",
+    "download_data": "Download Data",
     "domain_persona_details": "domain persona details",
     "search_contributor": "Search Contributor",
     "search": "OK",

@@ -110,6 +110,8 @@
   "software": "软件",
   "coming_soon": "即将上线",
   "metric_detail": {
+    "include_robot": "包含机器人",
+    "exclude_robot": "排除机器人",
     "details": "查看洞察详情",
     "contributors_persona": "贡献者画像",
     "org_count": "贡献组织数量",
@@ -253,6 +255,7 @@
     "contributor_data_table": "下载贡献者数据 csv 表格",
     "issue_data_table": "下载 Issue 数据 csv 表格",
     "pr_data_table": "下载 PR 数据 csv 表格",
+    "download_data": "下载数据",
     "domain_persona_details": "领域画像详情",
     "search_contributor": "搜索贡献者",
     "search": "确认",
