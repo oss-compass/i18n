@@ -258,6 +258,7 @@
     "download_data": "Download Data",
     "domain_persona_details": "domain persona details",
     "search_contributor": "Search Contributor",
+    "search_organization": "Search Organization",
     "search": "OK",
     "reset": "Reset",
     "all_repos": "All repos",
@@ -273,7 +274,6 @@
   "date": "Date",
   "organization_information_modification": "Organization Modify",
   "no_role_desc": "The current account has no permission to modify organization information",
-  "search_contributor": "Search Contributor",
   "search": "OK",
   "reset": "Reset"
 }
