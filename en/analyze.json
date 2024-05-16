@@ -267,7 +267,7 @@
   "only_the_latest_month": "The current user has not been managed in the project in the last year (such as Issue allocation, PR consolidation, etc.), and can only view the data of the latest 6 months",
   "for_more_time_frames": "For more time frames, please ",
   "statistics": "In statistics",
-  "total_people": "Total {{total}} People",
+  "total_people": "Total {{total}} Items",
   "total_issues": "Total {{total}} Issues",
   "total_prs": "Total {{total}} PR",
   "org_name": "Organization Name",
