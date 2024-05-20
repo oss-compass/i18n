@@ -132,7 +132,7 @@
     "milestone_persona_filter": "Milestone Persona",
     "core": "Core",
     "regular": "Regular",
-    "guest": "Guest",
+    "guest": "Casual",
     "core_desc": "Contributors who contribute 50% (excluding observation contributions like star, fork, watch) of all domain-specific contributions in the current time period, achieved by at least one group of people.",
     "regular_desc": "After excluding the contributions of core contributors, the next 30% (excluding observation contributions) of contributions made by at least one group of people.",
     "guest_desc": "Individuals who contribute to the remaining contributions in the community after excluding core and regular contributions (including observation contributions).",
