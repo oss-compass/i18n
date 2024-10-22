@@ -45,6 +45,11 @@
     "bus_factor_desc": "Determine the smallest number of people that make 50% of contributions in the past 90 days.",
     "bus_factor_value": {
       "threshold": "Between 0 and 5"
+    },
+    "types_of_contributions": "Types Of Contributions",
+    "types_of_contributions_desc": "The type of contribution and the number of contributions in the last 90 days.",
+    "types_of_contributions_value": {
+      "threshold": "Between 0 and 54"
     }
   },
   "git": {
