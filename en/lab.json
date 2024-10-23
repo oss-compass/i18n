@@ -2,6 +2,7 @@
   "back_my_lab": "Back to My Lab",
   "the_locale_names_are_used_for": "Compass Lab is a sandbox that helps people quickly create and validate metrics models of their interest, which can be used for proprietary domain evaluations or as general models. It provides over 20,000 open-source project datasets from over 200 categories, 100+ CHAOSS metrics, and custom algorithms to promote continuous innovation in modeling.",
   "discuss": "Discuss",
+  "public_model": "Public Model",
   "create_a_model": "Create a model",
   "pick_for_compare": "Pick for compare",
   "trigger_analysis_status": "Last time trigger status",
@@ -22,12 +23,16 @@
   "add_dataset": "Add Dataset",
   "add_metric": "Add Metric",
   "my_models": "My Models",
+  "my_model_reports": "My Model Reports",
   "new_model": "New Model",
   "model_detail": "Model Detail",
   "versions": "Versions",
   "default_display_version": "Default display version",
   "user_management": "Member",
+  "share": "Share",
+  "copy_successfully": "Copy the share link successfully, other users can view the model by following the link",
   "model_name": "Model Name",
+  "model_description": "Model Description",
   "version_name": "Version Name",
   "selected_count": "Selected {{value}} items",
   "search_dataset_placeholder": "Search repository",
@@ -63,7 +68,8 @@
   "remaining_times_of_analysis_performed_this_week": "Remaining times of analysis performed this week: ",
   "view_report": "View report",
   "click_on_the_left_menu_and_select_a_category": "Click on the left menu and select a category.",
-  "cant_find_a_suitable_dataset": "Can't find a suitable dataset? ",
+  "cant_find_a_suitable_dataset": "Can't find a suitable project,<s>Click here to submit your project</s>.",
+  "dataset_desc": "The following community classifications only contain some of the included projects. You can query all included projects through the search box.",
   "cant_find_a_suitable_metric": "Can't find a suitable metric? ",
   "ecological_dimension": "Ecological Dimension",
   "industry_options": {
@@ -74,10 +80,18 @@
   "is_public": "Public",
   "is_public_options": {
     "label": "Is public",
-    "public": "public",
+    "public": "Public",
     "public_desc": "This is an open evaluation model that allows display on the Compass LAB homepage for user participation in assessment evolution.",
-    "non_public": "non public",
+    "non_public": "Non public",
     "non_public_desc": "This is a confidential internal evaluation model. I only wish to conduct evaluations and iterations with my collaborative team members."
+  },
+  "is_score": "Calculate the total score of the model",
+  "is_score_options": {
+    "label": "Calculate the total score of the model",
+    "score": "Calculate",
+    "score_desc": "To calculate the total score, it is necessary to set the weight and threshold of each indicator, select the model algorithm, and then calculate the total score of the model.",
+    "non_score": "Non calculate",
+    "non_score_desc": "No need to set weights and thresholds for each indicator, and the overall score of the model will not be calculated."
   },
   "weight_threshold_settings": {
     "label": "Weight & Threshold Settings",
@@ -135,5 +149,7 @@
     "metric_require": "Please select metric"
   },
   "projects_selected": "{{count}} repository selected",
-  "no_comment_data": "No comments yet"
+  "no_comment_data": "No comments yet",
+  "use_the_model_for_evaluation": "Use the model for evaluation",
+  "generate_model_evaluation_reports": "Generate model evaluation reports"
 }

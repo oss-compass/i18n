@@ -2,6 +2,7 @@
   "back_my_lab": "返回我的模型",
   "the_locale_names_are_used_for": "Compass Lab is a sandbox that helps people quickly create and validate metrics models of their interest, which can be used for proprietary domain evaluations or as general models. It provides over 20,000 open-source project datasets from over 200 categories, 100+ CHAOSS metrics, and custom algorithms to promote continuous innovation in modeling.",
   "discuss": "讨论",
+  "public_model": "公开模型",
   "create_a_model": "创建一个模型",
   "pick_for_compare": "勾选对比",
   "trigger_analysis_status": "上次触发状态",
@@ -22,12 +23,16 @@
   "add_dataset": "添加数据集",
   "add_metric": "添加度量指标",
   "my_models": "我的模型",
+  "my_model_reports": "我的模型报告",
   "new_model": "新建模型",
   "model_detail": "模型详情",
   "versions": "版本",
   "default_display_version": "默认展示版本",
   "user_management": "用户管理",
+  "share": "分享",
+  "copy_successfully": "复制分享链接成功，其他用户可通过链接查看该模型",
   "model_name": "模型名称",
+  "model_description": "模型描述",
   "version_name": "版本名称",
   "selected_count": "已选 {{value}} 条",
   "search_dataset_placeholder": "搜索仓库",
@@ -64,6 +69,7 @@
   "view_report": "查看报告",
   "click_on_the_left_menu_and_select_a_category": "点击左侧菜单，选择分类",
   "cant_find_a_suitable_dataset": "未找到相关项目，<s>点此提交项目</s>。",
+  "dataset_desc": "以下社区分类仅包含部分已收录项目，您可以通过搜索框查询全部已收录项目。",
   "cant_find_a_suitable_metric": "找不到合适的度量指标？",
   "ecological_dimension": "生态维度",
   "industry_options": {
@@ -78,6 +84,14 @@
     "public_desc": "这是一个开放的评估模型，允许在 Compass LAB 主页上展示，供用户参与评估演进。",
     "non_public": "不公开",
     "non_public_desc": "这是一个保密的内部评估模型。我只想与我的协作团队成员一起进行评估和迭代。"
+  },
+  "is_score": "是否计算模型总分",
+  "is_score_options": {
+    "label": "是否计算模型总分",
+    "score": "计算总分",
+    "score_desc": "计算总分需要设置每个指标的权重和阈值，选择模型算法，从而计算出模型总得分。",
+    "non_score": "不计算总分",
+    "non_score_desc": "无需设置每个指标的权重和阈值，不计算模型总得分。"
   },
   "weight_threshold_settings": {
     "label": "权重和阈值设置",
@@ -134,5 +148,7 @@
     "metric_require": "请选择指标"
   },
   "projects_selected": "已选中 {{count}} 个仓库",
-  "no_comment_data": "暂无评论数据"
+  "no_comment_data": "暂无评论数据",
+  "use_the_model_for_evaluation": "使用模型进行评估",
+  "generate_model_evaluation_reports": "生成模型评估报告"
 }
