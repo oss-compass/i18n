@@ -153,5 +153,6 @@
   "no_comment_data": "No comments yet",
   "use_the_model_for_evaluation": "Use the model for evaluation",
   "generate_model_evaluation_reports": "Generate model evaluation report",
-  "edit_model_evaluation_reports": "Edit model evaluation report"
+  "edit_model_evaluation_reports": "Edit model evaluation report",
+  "evaluation_report": "Evaluation report"
 }
