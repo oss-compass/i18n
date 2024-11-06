@@ -154,5 +154,6 @@
   "use_the_model_for_evaluation": "Use the model for evaluation",
   "generate_model_evaluation_reports": "Generate model evaluation report",
   "edit_model_evaluation_reports": "Edit model evaluation report",
-  "evaluation_report": "Evaluation report"
+  "evaluation_report": "Evaluation report",
+  "filter_by_metrics": "Filter by metrics"
 }

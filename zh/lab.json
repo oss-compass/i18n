@@ -153,5 +153,6 @@
   "use_the_model_for_evaluation": "使用模型进行评估",
   "generate_model_evaluation_reports": "生成模型评估报告",
   "edit_model_evaluation_reports": "编辑模型评估报告",
-  "evaluation_report": "评估报告"
+  "evaluation_report": "评估报告",
+  "filter_by_metrics": "按指标筛选"
 }
