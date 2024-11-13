@@ -9,6 +9,7 @@
   "datasets": "技术垂域",
   "metrics": "指标",
   "algorithm": "算法",
+  "weight_and_threshold": "权重和阈值",
   "non_score_text": "不计算模型总得分",
   "projects_in_datasets": "数据集中的 {{length}} 个项目在使用这个模型",
   "create_your_own_model_in_5_minutes": "在 5 分钟内创建一个您自己的模型",
@@ -97,7 +98,7 @@
   "weight_threshold_settings": {
     "label": "权重和阈值设置",
     "metrics": "指标",
-    "weight_percentage": "权重百分比",
+    "weight_percentage": "权重 (%)",
     "threshold": "阈值",
     "between": "介于 0-{{end}}之间"
   },

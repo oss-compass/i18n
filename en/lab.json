@@ -9,6 +9,7 @@
   "datasets": "Technological domain",
   "metrics": "Metrics",
   "algorithm": "Algorithm",
+  "weight_and_threshold": "Weight And Threshold",
   "non_score_text": "Not calculate model total score",
   "projects_in_datasets": "{{length}} projects in datasets are using this model",
   "create_your_own_model_in_5_minutes": "Create your own model in 5 minutes",
@@ -97,7 +98,7 @@
   "weight_threshold_settings": {
     "label": "Weight & Threshold Settings",
     "metrics": "Metrics",
-    "weight_percentage": "Weight percentage",
+    "weight_percentage": "Weight(%)",
     "threshold": "Threshold",
     "between": "Between 0 and {{end}}"
   },
