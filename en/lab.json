@@ -156,5 +156,6 @@
   "generate_model_evaluation_reports": "Generate model evaluation report",
   "edit_model_evaluation_reports": "Edit model evaluation report",
   "evaluation_report": "Evaluation report",
-  "filter_by_metrics": "Filter by metrics"
+  "filter_by_metrics": "Filter by metrics",
+  "click_to_modify": "Click to modify"
 }

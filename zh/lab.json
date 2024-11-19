@@ -155,5 +155,6 @@
   "generate_model_evaluation_reports": "生成模型评估报告",
   "edit_model_evaluation_reports": "编辑模型评估报告",
   "evaluation_report": "评估报告",
-  "filter_by_metrics": "按指标筛选"
+  "filter_by_metrics": "按指标筛选",
+  "click_to_modify": "点击去修改"
 }
