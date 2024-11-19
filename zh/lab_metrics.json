@@ -6,6 +6,11 @@
     "contributor_count_value": {
       "threshold": "介于 0-2000 之间"
     },
+    "contributor_count_year": "贡献者数量 (每年)",
+    "contributor_count_year_desc": "过去一年中活跃的代码提交者、Pull Request 作者、代码审查者、Issue 作者和 Issue 评论者的数量。",
+    "contributor_count_year_value": {
+      "threshold": "介于 0-2000 之间"
+    },
     "commit_contributor_count": "代码提交者数量",
     "commit_contributor_count_desc": "过去 90 天中活跃的代码提交者的数量。",
     "commit_contributor_count_value": {
@@ -50,6 +55,11 @@
     "types_of_contributions_desc": "过去 90 天内的贡献类型及其贡献数量。",
     "types_of_contributions_value": {
       "threshold": "介于 0-54 之间"
+    },
+    "org_contributor_count_year": "组织贡献者数量 (每年)",
+    "org_contributor_count_year_desc": "过去一年内有组织附属关系的活跃的代码贡献者人数。",
+    "org_contributor_count_year_value": {
+      "threshold": "介于 0-2000 之间"
     }
   },
   "git": {
@@ -137,7 +147,17 @@
     "lines_add_of_code_frequency": "代码增加行数",
     "lines_add_of_code_frequency_desc": "确定在过去 90 天内平均每周提交的代码行数 (增加行数)",
     "lines_remove_of_code_frequency": "代码减少行数",
-    "lines_remove_of_code_frequency_desc": "确定在过去 90 天内平均每周提交的代码行数 (删除行数)"
+    "lines_remove_of_code_frequency_desc": "确定在过去 90 天内平均每周提交的代码行数 (删除行数)",
+    "commit_count_year": "代码提交量 (每年)",
+    "commit_count_year_desc": "在过去一年内提交的代码次数。",
+    "commit_count_year_value": {
+      "threshold": "介于 0-3000000 之间"
+    },
+    "lines_of_code_frequency_year": "代码变更行数 (每年)",
+    "lines_of_code_frequency_year_desc": "过去一年内平均每周提交的代码行数 (增加行数加上删除行数)。",
+    "lines_of_code_frequency_year_value": {
+      "threshold": "介于 0-3000000 之间"
+    }
   },
   "issue": {
     "title": "Issue",
@@ -150,7 +170,22 @@
     "updated_issues_count": "更新 Issue 数量",
     "updated_issues_count_desc": "过去 90 天 Issue 更新的数量。",
     "closed_issues_count": "关闭 Issue 数量",
-    "closed_issues_count_desc": "过去 90 天关闭 Issue 的数量。"
+    "closed_issues_count_desc": "过去 90 天关闭 Issue 的数量。",
+    "issue_count_year": "新建 Issue 数量 (每年)",
+    "issue_count_year_desc": "过去一年新建 Issue 的数量。",
+    "issue_count_year_value": {
+      "threshold": "介于 0-30000 之间"
+    },
+    "issue_completion_ratio_year": "Issue 关闭百分比 (每年)",
+    "issue_completion_ratio_year_desc": "过去一年新建的 Issue 总数与关闭的 Issue 数之间的比率。",
+    "issue_completion_ratio_year_value": {
+      "threshold": "介于 0-1 之间"
+    },
+    "comment_frequency_year": "Issue 评论频率 (每年)",
+    "comment_frequency_year_desc": "过去一年新建 Issue 的评论平均数（不包含机器人和 Issue 作者本人评论）。",
+    "comment_frequency_year_value": {
+      "threshold": "介于 0-60 之间"
+    }
   },
   "pr": {
     "title": "PR",
@@ -214,7 +249,22 @@
     "code_merge_count": "PR 合并数量",
     "code_merge_count_desc": "过去 90 天内 PR 合并数量。",
     "pr_issue_linked_count": "PR 关联 Issue 数量",
-    "pr_issue_linked_count_desc": "过去 90 天内新建 PR 关联 Issue 的数量。"
+    "pr_issue_linked_count_desc": "过去 90 天内新建 PR 关联 Issue 的数量。",
+    "pr_count_year": "PR 数量 (每年)",
+    "pr_count_year_desc": "过去一年内创建的 PR 的数量。",
+    "pr_count_year_value": {
+      "threshold": "介于 0-30000 之间"
+    },
+    "close_pr_ratio_year": "PR 关闭百分比 (每年)",
+    "close_pr_ratio_year_desc": "过去一年内创建的 PR 数量与关闭的 PR 数量之间的比率。",
+    "close_pr_ratio_year_value": {
+      "threshold": "介于 0-1 之间"
+    },
+    "code_review_count_year": "代码审查评论频率 (每年)",
+    "code_review_count_year_desc": "过去一年内新建 PR 的评论平均数量（不包含机器人和 PR 作者本人评论）。",
+    "code_review_count_year_value": {
+      "threshold": "介于 0-96 之间"
+    }
   },
   "repo": {
     "title": "仓库",
