@@ -158,5 +158,6 @@
   "evaluation_report": "Evaluation report",
   "filter_by_metrics": "Filter by metrics",
   "click_to_modify": "Click to modify",
-  "cannot_select_both": "Cannot select both the model with 'per year' and the regular model at the same time"
+  "cannot_select_both": "Cannot select both the model with 'per year' and the regular model at the same time",
+  "community": "Community"
 }

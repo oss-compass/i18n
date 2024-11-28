@@ -157,5 +157,6 @@
   "evaluation_report": "评估报告",
   "filter_by_metrics": "按指标筛选",
   "click_to_modify": "点击去修改",
-  "cannot_select_both": "不可同时选中年度模型 (每年) 和其他模型"
+  "cannot_select_both": "不可同时选中年度模型 (每年) 和其他模型",
+  "community": "社区"
 }
