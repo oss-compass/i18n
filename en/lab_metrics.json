@@ -273,5 +273,75 @@
     "recent_releases_count_value": {
       "threshold": "Between 0 and 12"
     }
+  },
+  "financial_standards": {
+      "title": "Financial Standards",
+      "org_contribution": "Organization Contribution",
+      "org_contribution_desc": "Assess the contribution of organizations and institutions to open source software",
+      "org_contribution_value": {
+        "threshold": "Between 0 and 2000"
+      },
+      "doc_number": "Number of Documents",
+      "doc_number_desc": "Assess the quantity of documentation",
+      "doc_number_value": { "threshold": "Between 0 and 200" },
+
+      "doc_quarty": "Document Quality",
+      "doc_quarty_desc": "Assess the quantity and quality of supporting documentation",
+      "doc_quarty_value": { "threshold": "Between 0 and 2000" },
+
+      "zh_files_number": "Chinese Document Support Level",
+      "zh_files_number_desc": "Assess whether there is support in Chinese",
+      "zh_files_number_value": { "threshold": "Between 0 and 200" },
+
+      "vul_levels": "Security Vulnerability Levels",
+      "vul_levels_desc": "Assess the security vulnerability levels of open source software",
+      "vul_levels_value": { "threshold": "Between 0 and 1" },
+
+      "vul_dectect_time": "Vulnerability Response Time",
+      "vul_dectect_time_desc": "Average response time for vulnerabilities over the past five versions",
+
+      "vulnerablity_feedback_channels": "Vulnerability Feedback Information",
+      "vulnerability_feedback_channels_desc": "Whether there are feedback methods for vulnerabilities and the paths for feedback",
+      "vulnerability_feedback_channels_value": { "threshold": "Between 0 and 1" },
+
+      "code_readability": "Code Readability",
+      "code_readability_desc": "Assess code readability (module division/code comments, etc.)",
+      "code_readability_value": { "threshold": "Between 0 and 2000" },
+
+      "license_commercial_allowed": "Commercial Use Allowed",
+      "license_commercial_allowed_desc": "Whether users are allowed to close source parts after modifying the source code",
+      "license_commercial_allowed_value": { "threshold": "Between 0 and 1" },
+
+      "license_change_claims_required": "Change Declarations Required",
+      "license_change_claims_required_desc": "Whether changes need to be declared",
+      "license_change_claims_required_value": { "threshold": "Between 0 and 1" },
+
+      "license_is_weak": "Weak Copyright Open Source License",
+      "license_is_weak_desc": "Whether it is a weak copyright open source license",
+      "license_is_weak_value": { "threshold": "Between 0 and 1" },
+
+      "license_conflicts_exist": "Multi-License Compatibility",
+      "license_conflicts_exist_desc": "Whether the open source licenses are compatible",
+      "license_conflicts_exist_value": { "threshold": "Between 0 and 1" },
+
+      "license_dep_conflicts_exist": "Dependency Compatibility",
+      "license_dep_conflicts_exist_desc": "Whether the open source software is compatible with its dependencies",
+      "license_dep_conflicts_exist_value": { "threshold": "Between 0 and 1" },
+
+      "activity_quarterly_contribution": "Participant Code Contribution Amount",
+      "activity_quarterly_contribution_desc": "Code contribution amount per quarter over the past year",
+      "activity_quarterly_contribution_value": { "threshold": "Between 0 and 1" },
+
+      "security_vul_stat": "Number of Security Vulnerabilities",
+      "security_vul_stat_desc": "Number of security vulnerabilities",
+      "security_vul_stat_value": { "threshold": "Between 0 and 1" },
+
+      "security_vul_fixed": "Security Vulnerability Fix Status",
+      "security_vul_fixed_desc": "Check whether exposed security vulnerabilities have been fixed",
+      "security_vul_fixed_value": { "threshold": "Between 0 and 1" },
+
+      "security_scanned": "Code Scanning Records",
+      "security_scanned_desc": "Check whether there are code scanning records",
+      "security_scanned_value": { "threshold": "Between 0 and 1" }
   }
 }
