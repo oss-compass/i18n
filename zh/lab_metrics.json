@@ -283,65 +283,65 @@
     },
     "doc_number": "文档数量",
     "doc_number_desc": "评估文档的数量",
-    "doc_number_value": { "threshold": "介于 0-200 之间"},
+    "doc_number_value": { "threshold": "介于 0-200 之间" },
 
     "doc_quarty": "文档质量",
     "doc_quarty_desc": "评估说明文档的数量、质量等支持情况",
-    "doc_quarty_value": { "threshold": "介于 0-2000 之间"},
+    "doc_quarty_value": { "threshold": "介于 0-2000 之间" },
 
     "zh_files_number": "中文文档支持度",
     "zh_files_number_desc": "评估是否有中文支持",
-    "zh_files_number_value": { "threshold": "介于 0-200 之间"},
+    "zh_files_number_value": { "threshold": "介于 0-200 之间" },
 
     "vul_levels": "安全漏洞等级",
     "vul_levels_desc": "评估开源软件的安全漏洞等级",
-    "vul_levels_value": { "threshold": "介于 0-1 之间"},
+    "vul_levels_value": { "threshold": "介于 0-1 之间" },
 
-    "vul_dectect_time": "漏洞响应时间",
-    "vul_dectect_time_desc": "过去五个版本的漏洞平均响应时间",
+    "vul_detect_time": "漏洞响应时间",
+    "vul_detect_time_desc": "过去五个版本的漏洞平均响应时间",
 
     "vulnerablity_feedback_channels": "漏洞反馈信息",
     "vulnerablity_feedback_channels_desc": "是否含有漏洞的反馈方式，以及反馈方式路径",
-    "vulnerablity_feedback_channels_value": { "threshold": "介于 0-1 之间"},
+    "vulnerablity_feedback_channels_value": { "threshold": "介于 0-1 之间" },
 
     "code_readability": "代码可读性",
     "code_readability_desc": "评估代码可读性（模块划分/代码注释等）",
-    "code_readability_value":{ "threshold": "介于 0-2000 之间"},
+    "code_readability_value": { "threshold": "介于 0-2000 之间" },
 
     "license_commercial_allowed": "是否允许闭源",
     "license_commercial_allowed_desc": "使用者在修改源码后是否允许对修改部分进行闭源",
-    "license_commercial_allowed_value": { "threshold": "介于 0-1 之间"},
+    "license_commercial_allowed_value": { "threshold": "介于 0-1 之间" },
 
     "license_change_claims_required": "需对变更声明",
     "license_change_claims_required_desc": "是否需要对变更进行声明",
-    "license_change_claims_required_value": { "threshold": "介于 0-1 之间"},
+    "license_change_claims_required_value": { "threshold": "介于 0-1 之间" },
 
     "license_is_weak": "宽松型或弱著作权开源许可证",
     "license_is_weak_desc": "是否宽松型或弱著作权开源许可证",
-    "license_is_weak_value": { "threshold": "介于 0-1 之间"},
+    "license_is_weak_value": { "threshold": "介于 0-1 之间" },
 
     "license_conflicts_exist": "多开源许可证兼容性",
     "license_conflicts_exist_desc": "开源许可证之间是否兼容",
-    "license_conflicts_exist_value": { "threshold": "介于 0-1 之间"},
+    "license_conflicts_exist_value": { "threshold": "介于 0-1 之间" },
 
     "license_dep_conflicts_exist": "依赖兼容性",
     "license_dep_conflicts_exist_desc": "开源软件和依赖软件是否兼容",
-    "license_dep_conflicts_exist_value": { "threshold": "介于 0-1 之间"},
+    "license_dep_conflicts_exist_value": { "threshold": "介于 0-1 之间" },
 
     "activity_quarterly_contribution": "参与者代码贡献量",
     "activity_quarterly_contribution_desc": "最近1年中每季度的代码贡献量情况",
-    "activity_quarterly_contribution_value": { "threshold": "介于 0-1 之间"},
+    "activity_quarterly_contribution_value": { "threshold": "介于 0-1 之间" },
 
     "security_vul_stat": "安全漏洞数",
     "security_vul_stat_desc": "安全漏洞数",
-    "security_vul_stat_value": { "threshold": "介于 0-1 之间"},
+    "security_vul_stat_value": { "threshold": "介于 0-1 之间" },
 
     "security_vul_fixed": "安全漏洞修复情况",
     "security_vul_fixed_desc": "核查已暴露的安全漏洞是否已修复",
-    "security_vul_fixed_value": { "threshold": "介于 0-1 之间"},
+    "security_vul_fixed_value": { "threshold": "介于 0-1 之间" },
 
     "security_scanned": "代码扫描记录",
     "security_scanned_desc": "核查是否有代码扫描记录",
-    "security_scanned_value": { "threshold": "介于 0-1 之间"}
+    "security_scanned_value": { "threshold": "介于 0-1 之间" }
   }
 }
