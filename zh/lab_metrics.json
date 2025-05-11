@@ -60,6 +60,16 @@
     "org_contributor_count_year_desc": "过去一年内有组织附属关系的活跃的代码贡献者人数。",
     "org_contributor_count_year_value": {
       "threshold": "介于 0-2000 之间"
+    },
+    "issue_authors": "Issue 贡献者",
+    "issue_authors_desc": "所有 Issue 贡献者详细信息。",
+    "issue_authors_value": {
+      "threshold": ""
+    },
+    "commit_authors": "代码提交贡献者",
+    "commit_authors_desc": "所有代码提交贡献者详细信息。",
+    "commit_authors_value": {
+      "threshold": ""
     }
   },
   "git": {

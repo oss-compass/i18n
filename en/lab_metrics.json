@@ -60,6 +60,16 @@
     "org_contributor_count_year_desc": "Number of active code contributors with organization affiliation in the past year.",
     "org_contributor_count_year_value": {
       "threshold": "Between 0 and 2000"
+    },
+    "issue_authors": "Issue Authors",
+    "issue_authors_desc": "Detailed information of all Issue contributors。",
+    "issue_authors_value": {
+      "threshold": ""
+    },
+    "commit_authors": "Commit Authors",
+    "commit_authors_desc": "Detailed information of all Commit authors",
+    "commit_authors_value": {
+      "threshold": ""
     }
   },
   "git": {
