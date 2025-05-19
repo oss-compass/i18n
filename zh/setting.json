@@ -46,5 +46,27 @@
     "analyzing": "分析中",
     "confirm_cancel": "取消订阅",
     "after_unsubscribing_you_will_no_longer_receive_any": "取消订阅后，你将不会收到关于该项目的相关通知"
+  },
+  "token": {
+    "private_token": "私人令牌",
+    "access_api": "使用私人令牌访问 OSS Compass Open API。",
+    "expires_at": "过期于",
+    "add_private_token": "新增私人令牌",
+    "add_private_token_title": "新增私人令牌",
+    "token_name": "令牌名称",
+    "select_expiry": "选择过期时间",
+    "token_created": "令牌已创建",
+    "your_token": "您的令牌",
+    "copy_token": "复制令牌",
+    "save_token_warning": "本窗口关闭后，平台将不再显示私人令牌，请妥善保存。",
+    "token_copied": "令牌已复制到剪贴板",
+    "copy_token_failed": "复制令牌失败",
+    "delete_token": "您确定要删除此令牌吗？此操作无法撤销。",
+    "expiry": {
+      "7_days": "7天后过期",
+      "30_days": "30天后过期",
+      "90_days": "90天后过期",
+      "180_days": "180天后过期"
+    }
   }
 }

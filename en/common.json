@@ -101,7 +101,8 @@
     "edit": "Edit",
     "cancel": "Cancel",
     "add": "Add",
-    "func_disabled": "The feature is temporarily disabled"
+    "func_disabled": "The feature is temporarily disabled",
+    "confirm_close": "Confirm and Close"
   },
   "prompt": {
     "please_enter": "Please enter"

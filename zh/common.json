@@ -28,7 +28,7 @@
     "five_services": "五大服务",
     "home_input_experience": "首页输入框体验产品",
     "product_home": "产品首页",
-    "apply_api_key": "申请 API Key"
+    "apply_api_key": "申请 API 令牌"
   },
   "range": {
     "1M": "最近 1 个月",
@@ -100,7 +100,8 @@
     "edit": "编辑",
     "cancel": "取消",
     "add": "新增",
-    "func_disabled": "该功能临时关闭"
+    "func_disabled": "该功能临时关闭",
+    "confirm_close": "确认并关闭"
   },
   "prompt": {
     "please_enter": "请输入"

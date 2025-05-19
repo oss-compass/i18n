@@ -46,5 +46,27 @@
     "analyzing": "Analyzing",
     "confirm_cancel": "Confirm unsubscribe",
     "after_unsubscribing_you_will_no_longer_receive_any": "After unsubscribing, you will no longer receive any notifications related to this project."
+  },
+  "token": {
+    "private_token": "Personal Token",
+    "access_api": "Use personal tokens to access the OSS Compass Open API.",
+    "expires_at": "Expires at",
+    "add_private_token": "Add Personal Token",
+    "add_private_token_title": "Add Personal Token",
+    "token_name": "Token Name",
+    "select_expiry": "Select Expiry Time",
+    "token_created": "Token Created",
+    "your_token": "Your Token",
+    "copy_token": "Copy Token",
+    "save_token_warning": "After this window is closed, the platform will no longer display the personal token. Please save it properly.",
+    "token_copied": "Token copied to clipboard",
+    "copy_token_failed": "Failed to copy token",
+    "delete_token": "Are you sure you want to delete this token? This operation cannot be revoked.",
+    "expiry": {
+      "7_days": "Expires in 7 days",
+      "30_days": "Expires in 30 days",
+      "90_days": "Expires in 90 days",
+      "180_days": "Expires in 180 days"
+    }
   }
 }
