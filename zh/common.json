@@ -27,7 +27,8 @@
     "all_services": "全部服务",
     "five_services": "五大服务",
     "home_input_experience": "首页输入框体验产品",
-    "product_home": "产品首页"
+    "product_home": "产品首页",
+    "apply_api_key": "申请 API Key"
   },
   "range": {
     "1M": "最近 1 个月",

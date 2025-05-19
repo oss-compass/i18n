@@ -27,7 +27,8 @@
     "all_services": "All Services",
     "five_services": "Five Major Services",
     "home_input_experience": "Home Input Experience Product",
-    "product_home": "Product Home"
+    "product_home": "Product Home",
+    "apply_api_key": "Apply for API Key"
   },
   "range": {
     "1M": "Last 1 months",
