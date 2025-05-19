@@ -13,7 +13,21 @@
     "academe": "协作",
     "about": "关于",
     "submit_your_project": "提交项目",
-    "more": "更多"
+    "more": "更多",
+    "opensource_assessment_service": "开源生态评估服务",
+    "opensource_assessment_description": "构建三维评估体系，评估开源社区的健康状态。",
+    "developer_influence_service": "开发者影响力画像服务",
+    "developer_influence_description": "从开发者的贡献行为中了解开发人员的生产力、活跃度和协作等。",
+    "opensource_insight_service": "开源生态态势洞察服务",
+    "opensource_insight_description": "通过分析全球开源项目，洞悉全球开源进出口、社区、技术领域、开发者、编程语言、许可证的发展态势。",
+    "opensource_selection_service": "开源软件选型评估服务",
+    "opensource_selection_description": "提供三大功能：评估已知软件、推荐候选软件和查找相似功能替代软件，助力用户高效选择合适的软件。",
+    "opensource_research_service": "开源研究数据中枢服务",
+    "opensource_research_description": "致力于提供高质量的数据集和模型，助力研究者和开发者在开源领域进行深入探索与创新。",
+    "all_services": "全部服务",
+    "five_services": "五大服务",
+    "home_input_experience": "首页输入框体验产品",
+    "product_home": "产品首页"
   },
   "range": {
     "1M": "最近 1 个月",
