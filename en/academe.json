@@ -62,5 +62,11 @@
   "please_enter_a_valid": "Please enter a valid URL",
   "failed_to_fetch_data": "Failed to fetch data!",
   "result": "Calculation Result:",
-  "data_usage_process": "Data usage apply"
+  "data_usage_process": "Data usage apply",
+  "atom_title": "Open Atom Open Source Foundation Global Open Source Collaboration Dashboard",
+  "atom_desc": "The Open Atom Open Source Foundation's Global Open Source Collaboration Dashboard showcases the state of open source development across various countries, covering key metrics such as the number of developers and code submissions. Data is sourced from OSS Compass, providing real-time and accurate analysis of the open source ecosystem, helping users understand the performance and contributions of different countries in the open source field.",
+  "oh_title": "OpenHarmony TPC Governance Platform",
+  "oh_desc": "The OpenHarmony TPC Governance Platform offers a complete governance process for third-party libraries, including selection, incubation, and graduation. Through a systematic evaluation mechanism, it ensures the quality and applicability of the selected libraries. The incubation phase provides technical support to help projects develop; after graduation, the platform continues to monitor and maintain to ensure the healthy growth of projects in the community.",
+  "deep_insight_title": "OSS Compass Project Deep Insights",
+  "deep_insight_desc": "OSS Compass Project Deep Insights provides contributor profiles, details on issues and PRs, and is dedicated to providing reliable data and technical service support for the open source community. Through in-depth analysis, it enhances community efficiency, promotes healthy development, and helps developers better participate in and contribute to the open source ecosystem."
 }

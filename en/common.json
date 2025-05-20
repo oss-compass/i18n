@@ -25,9 +25,10 @@
     "opensource_research_service": "Open Source Research Data Hub Service",
     "opensource_research_description": "The open source research data hub service aims to provide high-quality datasets and models to assist researchers and developers in deep exploration and innovation in the open source field.",
     "all_services": "All Services",
-    "five_services": "Five Major Services",
     "home_input_experience": "Home Input Experience Product",
     "product_home": "Product Home",
+    "mirror_site_of_iscas": "Institute of Software, CAS",
+    "mirror_site_of_pku": "Software Engineering Institute, Peking University",
     "apply_api_key": "Apply for API Key"
   },
   "range": {

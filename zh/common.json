@@ -25,9 +25,10 @@
     "opensource_research_service": "开源研究数据中枢服务",
     "opensource_research_description": "致力于提供高质量的数据集和模型，助力研究者和开发者在开源领域进行深入探索与创新。",
     "all_services": "全部服务",
-    "five_services": "五大服务",
     "home_input_experience": "首页输入框体验产品",
     "product_home": "产品首页",
+    "mirror_site_of_iscas": "中国科学院软件研究所",
+    "mirror_site_of_pku": "北京大学软件研究所",
     "apply_api_key": "申请 API 令牌"
   },
   "range": {
