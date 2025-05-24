@@ -40,7 +40,17 @@
   "quarter": "Quarter",
   "year": "Year",
   "contribution_dataset": "Contribution Dataset",
-  "contribution_dataset_description": "The Contribution Dataset includes open-source contribution data of all countries in the world and all cities in China.",
+  "contribution_dataset_description": "Includes open-source contribution data of all countries in the world and all cities in China.",
   "contributor_dataset": "Contributor Dataset",
-  "contributor_dataset_description": "The Contributor Dataset includes data on active and new open-source contributors in all countries around the world and all cities in China."
+  "contributor_dataset_description": "Includes data on active and new open-source contributors in all countries around the world and all cities in China.",
+  "import_export_dataset": "Import & Export Dataset",
+  "import_export_dataset_description": "Includes the flow and scale data of developer contribution import and export among countries worldwide. The code contributed by developers from a country or region to open-source projects in other countries or regions is \"export\", and the code contributed by developers from other countries or regions to open-source projects in this country or region is \"import\".",
+  "language_dataset": "Language Dataset",
+  "language_dataset_description": "Includes the distribution of main programming languages used in open-source projects globally and across regions in China.",
+  "license_dataset": "License Dataset",
+  "license_dataset_description": "Includes the types and distribution of mainstream open-source licenses adopted by projects worldwide and in China.",
+  "repo_dataset": "Repository Dataset",
+  "repo_dataset_description": "Includes the development trends in the number of open-source repositories globally and in various regions of China.",
+  "technology_dataset": "Technology Domain Dataset",
+  "technology_dataset_description": "Includes the main technology domains involved in open-source projects worldwide and in China, as well as their popularity trends."
 }
