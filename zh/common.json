@@ -16,7 +16,7 @@
     "more": "更多",
     "opensource_assessment_service": "开源生态评估服务",
     "opensource_assessment_description": "构建三维评估体系，评估开源社区的健康状态。",
-    "developer_influence_service": "开发者影响力画像服务",
+    "developer_influence_service": "开发者画像服务",
     "developer_influence_description": "从开发者的贡献行为中了解开发人员的生产力、活跃度和协作等。",
     "opensource_insight_service": "开源生态态势洞察服务",
     "opensource_insight_description": "通过分析全球开源项目，洞悉全球开源进出口、社区、技术领域、开发者、编程语言、许可证的发展态势。",
@@ -132,5 +132,6 @@
   "up_to_now": "至今",
   "org_name": "组织名称",
   "not_in_chinese": "不能为中文！",
-  "more_about_the_evaluation_system": "详细了解评估体系"
+  "more_about_the_evaluation_system": "详细了解评估体系",
+  "total_people": "总共 {{total}} 条"
 }
