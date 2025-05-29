@@ -1,12 +1,12 @@
 {
-    "contribution_overview": "贡献概览",
-    "contributor_language": "编程语言",
-    "contributor_repos_rank": "贡献仓库排名",
-    "contribution_type": "贡献类型占比",
-    "repo_graph": "贡献仓库关系图",
-    "repo_graph_details": "仓库贡献详情",
-    "contributor_collaboration": "贡献者协作关系",
-    "commit_frequency": "每月代码提交频率",
-    "issue_count": "每月更新 Issue 数量",
-    "issue_comments_count": "每月更新 Issue 评论数量"
+  "contribution_overview": "贡献概览",
+  "contributor_language": "编程语言",
+  "contributor_repos_rank": "贡献仓库排名",
+  "contribution_type": "贡献类型占比",
+  "repo_graph": "贡献仓库关系图",
+  "repo_graph_details": "仓库贡献详情",
+  "contributor_collaboration": "贡献者协作关系",
+  "commit_frequency": "每月代码提交频率",
+  "issue_count": "每月更新 Issue 数量",
+  "issue_comments_count": "每月更新 Issue 评论数量"
 }

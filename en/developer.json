@@ -1,12 +1,12 @@
 {
-    "contribution_overview": "Contribution Overview",
-    "contributor_language": "Programming Languages",
-    "contributor_repos_rank": "Repository Contribution Ranking",
-    "contribution_type": "Contribution Type Distribution",
-    "repo_graph": "Repository Contribution Network",
-    "repo_graph_details": "Repository Contribution Details",
-    "contributor_collaboration": "Contributor Collaboration Network",
-    "commit_frequency": "Monthly Code Commit Frequency",
-    "issue_count": "Monthly Updated Issues Count",
-    "issue_comments_count": "Monthly Issue Comments Count"
+  "contribution_overview": "Contribution Overview",
+  "contributor_language": "Programming Languages",
+  "contributor_repos_rank": "Repository Contribution Ranking",
+  "contribution_type": "Contribution Type Distribution",
+  "repo_graph": "Repository Contribution Network",
+  "repo_graph_details": "Repository Contribution Details",
+  "contributor_collaboration": "Contributor Collaboration Network",
+  "commit_frequency": "Monthly Code Commit Frequency",
+  "issue_count": "Monthly Updated Issues Count",
+  "issue_comments_count": "Monthly Issue Comments Count"
 }
