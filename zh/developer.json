@@ -8,5 +8,11 @@
   "contributor_collaboration": "贡献者协作关系",
   "commit_frequency": "每月代码提交频率",
   "issue_count": "每月更新 Issue 数量",
-  "issue_comments_count": "每月更新 Issue 评论数量"
+  "issue_comments_count": "每月更新 Issue 评论数量",
+  "contribution_rank": {
+    "title": "开发者贡献排名",
+    "description": "开发者在全球范围内的年度代码提交、PR、Issue 相关贡献的排名。",
+    "details": "该指标从多个维度量化开发者在 GitHub 项目中的活跃程度，包括：代码提交（Push）贡献、Pull Request（PR）相关贡献、Issue 相关贡献，并根据贡献量统计该开发者在全球开发者中的年度排名。排名采用百分位区间方式进行分级，以体现开发者在整体中的相对位置。",
+    "dataSource": "数据来源依赖于 GitHub 开源平台上公开event数据。"
+  }
 }

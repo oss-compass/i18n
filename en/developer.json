@@ -8,5 +8,11 @@
   "contributor_collaboration": "Contributor Collaboration Network",
   "commit_frequency": "Monthly Code Commit Frequency",
   "issue_count": "Monthly Updated Issues Count",
-  "issue_comments_count": "Monthly Issue Comments Count"
+  "issue_comments_count": "Monthly Issue Comments Count",
+  "contribution_rank": {
+    "title": "Developer Contribution Ranking",
+    "description": "Ranking of developer contributions related to annual code commits, PRs, and Issues globally.",
+    "details": "This metric quantifies developer activity in GitHub projects across multiple dimensions, including:Code Commit (Push) Contributions,Pull Request (PR) Related Contributions,Issue Related Contributions. And ranks the developer's annual global position based on contribution volume. The ranking uses percentile intervals to grade, reflecting the developer's relative position within the overall community.",
+    "dataSource": "Data source relies on public event data from the GitHub open-source platform."
+  }
 }
