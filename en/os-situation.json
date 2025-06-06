@@ -1,0 +1,104 @@
+{
+    "banner": {
+        "title": "Open Source Situation Insight",
+        "description": "By analyzing global open source projects, gain insight into the development trends of global open source import and export, communities, technology fields, developers, programming languages, and licenses."
+    },
+    "dimension": "Insight Dimension",
+    "dimensionLabel": "Insight Dimension: ",
+    "metrics": {
+        "push": {
+            "title": "Open Source Contribution Development Trend",
+            "desc": "Code contribution (Push count) development trends for global TOP30 countries and regions, China TOP30 cities, reflecting the actual participation and contribution scale of countries and regions in the open source field."
+        },
+        "import_export": {
+            "title": "Open Source Import and Export Contribution Development Trend",
+            "desc": "Development trends of open source import and export contributions in global TOP30 countries and regions, reflecting the degree of open source collaboration between countries and regions."
+        },
+        "repositories": {
+            "title": "Active and New Open Source Project Development Trend",
+            "desc": "Development trends of active open source projects (with code submissions in the current year) and annual new (created in the current year) project numbers in global TOP30 countries and regions, reflecting the open source innovation vitality and sustainable development capabilities of countries and regions."
+        },
+        "topics": {
+            "title": "Technology Field Code Contribution and Developer Development Trend",
+            "desc": "Development trends of global TOP17 technology fields in code contribution, analyzing code contributions, active developer numbers, and new developer numbers in various technology fields in countries and regions, reflecting the technical directions of open source investment in countries and regions."
+        },
+        "contributor": {
+            "title": "Active and New Developer Development Trend",
+            "desc": "Development trends of active (with code submissions in the current year) and new (registered and with code submissions in the current year) open source developer numbers in global TOP30 countries and regions, reflecting differences and trends in developer ecosystems across countries."
+        },
+        "language": {
+            "title": "Programming Language Active Project Development Trend",
+            "desc": "Development trends of active open source repository numbers for programming languages in different global regions, reflecting programming language preferences and differences in different countries and regions."
+        },
+        "license": {
+            "title": "License Application and Development Trend",
+            "desc": "Development trends of active open source repository numbers for Licenses in different global regions, reflecting differences in License usage in different countries and regions and the influence of different Licenses."
+        }
+    },
+    "categories": {
+        "global_push": "Global Code Contribution (Push Count)",
+        "china_push": "China Code Contribution",
+        "global_repositories": "Global Active and New Open Source Project Numbers",
+        "china_repositories": "China Active and New Open Source Project Numbers",
+        "technology_push": "Technology Field Code Contribution",
+        "technology_contributor": "Technology Field Active Developer Numbers",
+        "technology_add_contributor": "Technology Field New Developer Numbers",
+        "global_contributor": "Global Active and New Developer Numbers",
+        "china_contributor": "China Active and New Developer Numbers",
+        "global_language": "Global Programming Language Active Project Numbers",
+        "china_language": "China Programming Language Active Project Numbers",
+        "global_license": "Global License Active Project Numbers",
+        "china_license": "China License Active Project Numbers"
+    },
+    "charts": {
+        "global_code_contribution": "Global Code Contribution",
+        "eu_code_contribution": "EU Code Contribution",
+        "china_code_contribution_annual": "China Code Contribution (Annual)",
+        "china_code_contribution_quarterly": "China Code Contribution (Quarterly)",
+        "global_active_projects_annual": "Global Active Projects (Annual)",
+        "global_new_projects_annual": "Global New Projects (Annual)",
+        "global_active_projects_quarterly": "Global Active Projects (Quarterly)",
+        "global_new_projects_quarterly": "Global New Projects (Quarterly)",
+        "china_active_projects_annual": "China Active Projects (Annual)",
+        "china_new_projects_annual": "China New Projects (Annual)",
+        "china_active_projects_quarterly": "China Active Projects (Quarterly)",
+        "china_new_projects_quarterly": "China New Projects (Quarterly)",
+        "global_tech_code_contribution_annual": "Global Technology Field Code Contribution (Annual)",
+        "us_tech_code_contribution_annual": "US Technology Field Code Contribution (Annual)",
+        "eu_tech_code_contribution_annual": "EU Technology Field Code Contribution (Annual)",
+        "china_tech_code_contribution_annual": "China Technology Field Code Contribution (Annual)",
+        "beijing_tech_code_contribution_annual": "Beijing Technology Field Code Contribution (Annual)",
+        "shanghai_tech_code_contribution_annual": "Shanghai Technology Field Code Contribution (Annual)",
+        "hangzhou_tech_code_contribution_annual": "Hangzhou Technology Field Code Contribution (Annual)",
+        "global_tech_active_developers_annual": "Global Technology Field Active Developers (Annual)",
+        "china_tech_active_developers_annual": "China Technology Field Active Developers (Annual)",
+        "us_tech_active_developers_annual": "US Technology Field Active Developers (Annual)",
+        "global_tech_new_developers_annual": "Global Technology Field New Developers (Annual)",
+        "china_tech_new_developers_annual": "China Technology Field New Developers (Annual)",
+        "us_tech_new_developers_annual": "US Technology Field New Developers (Annual)"
+    },
+    "importExport": {
+        "global": "Global Open Source Import and Export Contribution",
+        "import_annual": "Import Contribution (Annual)",
+        "import_quarterly": "Import Contribution (Quarterly)",
+        "export_annual": "Export Contribution (Annual)",
+        "export_quarterly": "Export Contribution (Quarterly)",
+        "total_annual": "Import and Export Contribution Total (Annual)",
+        "total_quarterly": "Import and Export Contribution Total (Quarterly)",
+        "ratio_annual": "Import and Export Contribution to Total Contribution Ratio (Annual)",
+        "ratio_quarterly": "Import and Export Contribution to Total Contribution Ratio (Quarterly)",
+        "top30_import_export": "Top30 Import and Export Push Volume",
+        "global_total_push": "Global Total Push Volume",
+        "ratio_chart": "Top30 Import and Export to Global Total Push Volume Ratio Chart"
+    },
+    "countries": {
+        "us": "United States",
+        "china": "China",
+        "eu": "European Union",
+        "india": "India"
+    },
+    "description": {
+        "topics": "Based on a 10% sample of all GitHub projects from 2022-2024, the research covers approximately 5 million active open source projects, deeply analyzing the development trends of the 17 technology fields with the largest global code contributions."
+    },
+    "view": "View"
+}
