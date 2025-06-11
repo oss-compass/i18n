@@ -1,104 +1,104 @@
 {
-    "banner": {
-        "title": "开源态势洞察",
-        "description": "通过分析全球开源项目，洞悉全球开源进出口、社区、技术领域、开发者、编程语言、许可证的发展态势。"
+  "banner": {
+    "title": "开源态势洞察",
+    "description": "通过分析全球开源项目，洞悉全球开源进出口、社区、技术领域、开发者、编程语言、许可证的发展态势。"
+  },
+  "dimension": "洞察维度",
+  "dimensionLabel": "洞察维度：",
+  "metrics": {
+    "push": {
+      "title": "开源贡献量发展态势",
+      "desc": "全球TOP30国家和地区、中国TOP30城市代码贡献量（Push次数）发展态势，反映各国和地区在开源领域的实际参与度和贡献规模。"
     },
-    "dimension": "洞察维度",
-    "dimensionLabel": "洞察维度：",
-    "metrics": {
-        "push": {
-            "title": "开源贡献量发展态势",
-            "desc": "全球TOP30国家和地区、中国TOP30城市代码贡献量（Push次数）发展态势，反映各国和地区在开源领域的实际参与度和贡献规模。"
-        },
-        "import_export": {
-            "title": "开源进出口贡献量发展态势",
-            "desc": "全球TOP30国家和地区开源进出口贡献量发展态势，反映国家和地区之间开源协作程度。"
-        },
-        "repositories": {
-            "title": "活跃及新增开源项目发展态势",
-            "desc": "全球TOP30国家和地区活跃开源项目（当年有代码提交）数量和年度新增（当年创建）项目数量发展态势，反映各国和地区的开源创新活力与持续发展能力。"
-        },
-        "topics": {
-            "title": "技术领域代码贡献量及开发者发展态势",
-            "desc": "全球代码贡献量TOP17技术领域发展态势，分析各国家和地区在各技术领域代码贡献量、活跃开发者数量和新增开发者数量，反映各国和地区开源投入技术方向。"
-        },
-        "contributor": {
-            "title": "活跃及新增开发者发展态势",
-            "desc": "全球TOP30国家和地区开源开发者活跃（当年有代码提交）和新增（当年注册且有代码提交）数量发展态势，反映各国开发者生态差异和趋势。"
-        },
-        "language": {
-            "title": "编程语言活跃项目发展态势",
-            "desc": "全球不同地区编程语言活跃开源仓库数量发展态势，反映不同国家和地区的编程语言偏好和差异。"
-        },
-        "license": {
-            "title": "License的应用与发展态势",
-            "desc": "全球不同地区License活跃开源仓库数量发展态势，反映不同国家和地区License使用差异和不同License 影响力。"
-        }
+    "import_export": {
+      "title": "开源进出口贡献量发展态势",
+      "desc": "全球TOP30国家和地区开源进出口贡献量发展态势，反映国家和地区之间开源协作程度。"
     },
-    "categories": {
-        "global_push": "全球代码贡献量（Push次数）",
-        "china_push": "中国代码贡献量",
-        "global_repositories": "全球活跃、新增开源项目数量",
-        "china_repositories": "中国活跃、新增开源项目数量",
-        "technology_push": "技术领域代码贡献量",
-        "technology_contributor": "技术领域活跃开发者数量",
-        "technology_add_contributor": "技术领域新增开发者数量",
-        "global_contributor": "全球活跃、新增开发者数量",
-        "china_contributor": "中国活跃、新增开发者数量",
-        "global_language": "全球编程语言活跃项目数量",
-        "china_language": "中国编程语言活跃项目数量",
-        "global_license": "全球License活跃项目数量",
-        "china_license": "中国License活跃项目数量"
+    "repositories": {
+      "title": "活跃及新增开源项目发展态势",
+      "desc": "全球TOP30国家和地区活跃开源项目（当年有代码提交）数量和年度新增（当年创建）项目数量发展态势，反映各国和地区的开源创新活力与持续发展能力。"
     },
-    "charts": {
-        "global_code_contribution": "全球代码贡献量",
-        "eu_code_contribution": "欧盟代码贡献量",
-        "china_code_contribution_annual": "中国代码贡献量（年度）",
-        "china_code_contribution_quarterly": "中国代码贡献量（季度）",
-        "global_active_projects_annual": "全球活跃项目数（年度）",
-        "global_new_projects_annual": "全球新增项目数（年度）",
-        "global_active_projects_quarterly": "全球活跃项目数（季度）",
-        "global_new_projects_quarterly": "全球新增项目数（季度）",
-        "china_active_projects_annual": "中国活跃项目数（年度）",
-        "china_new_projects_annual": "中国新增项目数（年度）",
-        "china_active_projects_quarterly": "中国活跃项目数（季度）",
-        "china_new_projects_quarterly": "中国新增项目数（季度）",
-        "global_tech_code_contribution_annual": "全球技术领域代码贡献量（年度）",
-        "us_tech_code_contribution_annual": "美国技术领域代码贡献量（年度）",
-        "eu_tech_code_contribution_annual": "欧盟技术领域代码贡献量（年度）",
-        "china_tech_code_contribution_annual": "中国技术领域代码贡献量（年度）",
-        "beijing_tech_code_contribution_annual": "北京市技术领域代码贡献量（年度）",
-        "shanghai_tech_code_contribution_annual": "上海市技术领域代码贡献量（年度）",
-        "hangzhou_tech_code_contribution_annual": "杭州市技术领域代码贡献量（年度）",
-        "global_tech_active_developers_annual": "全球技术领域活跃开发者数（年度）",
-        "china_tech_active_developers_annual": "中国技术领域活跃开发者数（年度）",
-        "us_tech_active_developers_annual": "美国技术领域活跃开发者数（年度）",
-        "global_tech_new_developers_annual": "全球技术领域新增开发者数（年度）",
-        "china_tech_new_developers_annual": "中国技术领域新增开发者数（年度）",
-        "us_tech_new_developers_annual": "美国技术领域新增开发者数（年度）"
+    "topics": {
+      "title": "技术领域代码贡献量及开发者发展态势",
+      "desc": "全球代码贡献量TOP17技术领域发展态势，分析各国家和地区在各技术领域代码贡献量、活跃开发者数量和新增开发者数量，反映各国和地区开源投入技术方向。"
     },
-    "importExport": {
-        "global": "全球开源进出口贡献量",
-        "import_annual": "进口贡献量（年度）",
-        "import_quarterly": "进口贡献量（季度）",
-        "export_annual": "出口贡献量（年度）",
-        "export_quarterly": "出口贡献量（季度）",
-        "total_annual": "进出口贡献量总和（年度）",
-        "total_quarterly": "进出口贡献量总和（季度）",
-        "ratio_annual": "进出口贡献量占总贡献量比例（年度）",
-        "ratio_quarterly": "进出口贡献量占总贡献量比例（季度）",
-        "top30_import_export": "Top30进出口push量",
-        "global_total_push": "全球总push量",
-        "ratio_chart": "Top30进出口/全球总push量比例图"
+    "contributor": {
+      "title": "活跃及新增开发者发展态势",
+      "desc": "全球TOP30国家和地区开源开发者活跃（当年有代码提交）和新增（当年注册且有代码提交）数量发展态势，反映各国开发者生态差异和趋势。"
     },
-    "countries": {
-        "us": "美国",
-        "china": "中国",
-        "eu": "欧盟",
-        "india": "印度"
+    "language": {
+      "title": "编程语言活跃项目发展态势",
+      "desc": "全球不同地区编程语言活跃开源仓库数量发展态势，反映不同国家和地区的编程语言偏好和差异。"
     },
-    "description": {
-        "topics": "基于2022-2024年GitHub全量项目中10%的抽样样本，调研覆盖约500万个活跃开源项目，深入分析了全球代码贡献量最大的17个技术领域的发展态势。"
-    },
-    "view": "View"
+    "license": {
+      "title": "License的应用与发展态势",
+      "desc": "全球不同地区License活跃开源仓库数量发展态势，反映不同国家和地区License使用差异和不同License 影响力。"
+    }
+  },
+  "categories": {
+    "global_push": "全球代码贡献量（Push次数）",
+    "china_push": "中国代码贡献量",
+    "global_repositories": "全球活跃、新增开源项目数量",
+    "china_repositories": "中国活跃、新增开源项目数量",
+    "technology_push": "技术领域代码贡献量",
+    "technology_contributor": "技术领域活跃开发者数量",
+    "technology_add_contributor": "技术领域新增开发者数量",
+    "global_contributor": "全球活跃、新增开发者数量",
+    "china_contributor": "中国活跃、新增开发者数量",
+    "global_language": "全球编程语言活跃项目数量",
+    "china_language": "中国编程语言活跃项目数量",
+    "global_license": "全球License活跃项目数量",
+    "china_license": "中国License活跃项目数量"
+  },
+  "charts": {
+    "global_code_contribution": "全球代码贡献量",
+    "eu_code_contribution": "欧盟代码贡献量",
+    "china_code_contribution_annual": "中国代码贡献量（年度）",
+    "china_code_contribution_quarterly": "中国代码贡献量（季度）",
+    "global_active_projects_annual": "全球活跃项目数（年度）",
+    "global_new_projects_annual": "全球新增项目数（年度）",
+    "global_active_projects_quarterly": "全球活跃项目数（季度）",
+    "global_new_projects_quarterly": "全球新增项目数（季度）",
+    "china_active_projects_annual": "中国活跃项目数（年度）",
+    "china_new_projects_annual": "中国新增项目数（年度）",
+    "china_active_projects_quarterly": "中国活跃项目数（季度）",
+    "china_new_projects_quarterly": "中国新增项目数（季度）",
+    "global_tech_code_contribution_annual": "全球技术领域代码贡献量（年度）",
+    "us_tech_code_contribution_annual": "美国技术领域代码贡献量（年度）",
+    "eu_tech_code_contribution_annual": "欧盟技术领域代码贡献量（年度）",
+    "china_tech_code_contribution_annual": "中国技术领域代码贡献量（年度）",
+    "beijing_tech_code_contribution_annual": "北京市技术领域代码贡献量（年度）",
+    "shanghai_tech_code_contribution_annual": "上海市技术领域代码贡献量（年度）",
+    "hangzhou_tech_code_contribution_annual": "杭州市技术领域代码贡献量（年度）",
+    "global_tech_active_developers_annual": "全球技术领域活跃开发者数（年度）",
+    "china_tech_active_developers_annual": "中国技术领域活跃开发者数（年度）",
+    "us_tech_active_developers_annual": "美国技术领域活跃开发者数（年度）",
+    "global_tech_new_developers_annual": "全球技术领域新增开发者数（年度）",
+    "china_tech_new_developers_annual": "中国技术领域新增开发者数（年度）",
+    "us_tech_new_developers_annual": "美国技术领域新增开发者数（年度）"
+  },
+  "importExport": {
+    "global": "全球开源进出口贡献量",
+    "import_annual": "进口贡献量（年度）",
+    "import_quarterly": "进口贡献量（季度）",
+    "export_annual": "出口贡献量（年度）",
+    "export_quarterly": "出口贡献量（季度）",
+    "total_annual": "进出口贡献量总和（年度）",
+    "total_quarterly": "进出口贡献量总和（季度）",
+    "ratio_annual": "进出口贡献量占总贡献量比例（年度）",
+    "ratio_quarterly": "进出口贡献量占总贡献量比例（季度）",
+    "top30_import_export": "Top30进出口push量",
+    "global_total_push": "全球总push量",
+    "ratio_chart": "Top30进出口/全球总push量比例图"
+  },
+  "countries": {
+    "us": "美国",
+    "china": "中国",
+    "eu": "欧盟",
+    "india": "印度"
+  },
+  "description": {
+    "topics": "基于2022-2024年GitHub全量项目中10%的抽样样本，调研覆盖约500万个活跃开源项目，深入分析了全球代码贡献量最大的17个技术领域的发展态势。"
+  },
+  "view": "View"
 }

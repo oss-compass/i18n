@@ -1,0 +1,290 @@
+{
+  "banner": {
+    "title": "Open Source Software Selection Assessment Service",
+    "description": "Provides three main functions: assess known software, recommend candidate software, and find similar alternative software to help users efficiently select suitable software."
+  },
+  "tabs": {
+    "assessment": "Software Assessment & Selection",
+    "my_reports": "My Reports"
+  },
+  "assessment_section": {
+    "input_placeholder": "Enter GitHub or Gitee repository URL (e.g.: https://github.com/username/repo)",
+    "input_error": "Please enter a GitHub or Gitee repository URL.",
+    "button": "Find Project"
+  },
+  "gen_report": {
+    "button": "Generate Report",
+    "modal_title": "Enter Repository Link",
+    "alert": "The following software does not provide a Github or Gitee repository link. Please provide the corresponding link to generate the report.",
+    "form_label": "Software Name:",
+    "form_placeholder": "Please enter a GitHub or Gitee repository link",
+    "form_required": "Please enter a GitHub or Gitee repository link!",
+    "form_invalid": "Please enter a valid GitHub or Gitee repository link!",
+    "toast_success": "Report generation submitted successfully. You can check the status in My Reports.",
+    "toast_failed": "Failed to submit report generation."
+  },
+  "main_content": {
+    "assessment": {
+      "title": "Directly Assess Known Software",
+      "desc": "Enter the repository address of known open source software to get a detailed assessment report."
+    },
+    "recommendation": {
+      "title": "Recommend Software by Function Description",
+      "desc": "Describe your needs and the system will recommend suitable software.",
+      "tag": "Recommend"
+    },
+    "similar": {
+      "title": "Find Similar Function Software",
+      "desc": "Enter the name of known software to find alternative software with similar functions.",
+      "tag": "Recommend"
+    }
+  },
+  "recommendation_section": {
+    "desc_placeholder": "Describe your needs... (e.g.: JS library for processing Microsoft Word documents)",
+    "lang_label": "Select recommendation source(s):",
+    "desc_error": "Please enter your requirement description.",
+    "lang_error": "Please select at least one recommendation source.",
+    "button": "Get Recommendation",
+    "alert": "Recommendation algorithm designed and developed by: Prof. Liang Wang and team, School of Computer Science, Nanjing University."
+  },
+  "similar_section": {
+    "input_placeholder": "Enter known software name, e.g.: lz4, pako, @ohos/imageknife, etc.",
+    "source_label": "Select source ecosystem:",
+    "target_label": "Select recommendation source(s):",
+    "name_error": "Please enter the software name.",
+    "source_error": "Please select the source ecosystem.",
+    "target_error": "Please select at least one recommendation source.",
+    "button": "Get Recommendation",
+    "alert": "Recommendation algorithm designed and developed by: Prof. Liang Wang and team, School of Computer Science, Nanjing University."
+  },
+  "software_card": {
+    "similarity": "Similarity",
+    "score": "Score"
+  },
+  "my_reports": {
+    "compare_tip": "Please select at least two reports to compare",
+    "compare": "Compare",
+    "pick_for_compare": "Pick for compare",
+    "operation": "Operation",
+    "software_name": "Software Name",
+    "repo_url": "Repository URL",
+    "applicant": "Applicant",
+    "status": "Status",
+    "report_update_time": "Report Update Time",
+    "view_report": "View Report",
+    "generating": "Generating Report",
+    "compare_button": "Compare Selected",
+    "evaluation_report": "Evaluation Report",
+    "updated_at": "Updated at: ",
+    "report_page_title": "Software Evaluation Report Details",
+    "status_map": {
+      "pending": "Pending",
+      "generating": "Generating",
+      "again_progress": "Regenerating",
+      "success": "Generated",
+      "failed": "Failed"
+    },
+    "table": {
+      "operation": "Operation",
+      "view_report": "View Report",
+      "report_generating": "Report Generating",
+      "software_name": "Software Name",
+      "enter_software_name": "Enter software name",
+      "source_code_address": "Source Code Address",
+      "enter_source_code_address": "Enter source code address",
+      "applicant": "Applicant",
+      "enter_applicant": "Enter applicant",
+      "current_status": "Current Status",
+      "report_update_time": "Report Update Time"
+    },
+    "total_people": "Total {{total}} items"
+  },
+  "table_dropdown": {
+    "placeholder": "Please enter",
+    "reset": "Reset",
+    "confirm": "Confirm"
+  },
+  "constant": {
+    "github_selected": "GitHub Recommended Repos",
+    "gitee_selected": "Gitee Recommended Repos"
+  },
+  "mertic_detail": {
+    "download_csv": "Download CSV",
+    "metric_list": {
+      "legal_compliance": "Legal Compliance",
+      "technical_ecology": "Technical Ecology",
+      "lifecycle": "Lifecycle",
+      "network_security": "Network Security"
+    },
+    "content": {
+      "score_clarified_prefix": "Score: 10 (Before Clarification: ",
+      "score_clarified_suffix": ")",
+      "score_prefix": "Score: ",
+      "risk_prefix": "Risk: ",
+      "risk_detail_prefix": "Risk Details: "
+    },
+    "metric_icon": {
+      "developing": "Function is under development, please stay tuned",
+      "not_detected": "This metric was not detected"
+    },
+    "risk_tag": {
+      "risk_prefix": "Risk: "
+    },
+    "download_report": {
+      "title_suffix": "{name} Assessment Report",
+      "header": {
+        "metric_name": "Metric Name",
+        "dimension": "Dimension",
+        "score": "Score",
+        "risk": "Risk",
+        "risk_detail": "Risk Details",
+        "risk_detail_raw": "Risk Detail Raw Data",
+        "risk_importance": "Risk Importance",
+        "metric_significance": "Metric Significance"
+      },
+      "no_risk": "None"
+    }
+  },
+  "all_hatch_metric_data": {
+    "oat_render": {
+      "more_alarm_tooltip": "For more alarm information, please download the report in CSV format.",
+      "alarm_prefix": "The following alarms are from OAT scan: ",
+      "more_alarm_suffix": "For more alarm information, please download the report in CSV format."
+    },
+    "compliance_license": {
+      "osi_approved_link": "OSI Approved Open Source License",
+      "not_osi_approved_prefix": "Not an",
+      "permissive_license_link": "Permissive License",
+      "non_permissive_prefix": "Non-",
+      "weak_permissive_license_link": "Weak Permissive License",
+      "none": "None",
+      "no_project_license": "No project-level license detected.",
+      "check_items": "Scoring: OSI approved and permissive license: 10 points; weak permissive license: 8 points; non-permissive license: 6 points; no project-level license or license not OSI approved: 0 points.",
+      "significance": "Software License Compliance Check\n\n[Rules]\n1. Do not use software without a license or with a license not approved by the OSI.\n[Suggestions]\n1. Choose software where both its own license (project and file level) and its dependencies' licenses are permissive.\n2. All source code of the project should include license headers and copyright statements."
+    },
+    "license_compatibility": {
+      "compatibility_issue_prefix": "There are license compatibility issues in the imported software:",
+      "license_with": " license is incompatible with ",
+      "compatibility_issue_suffix": "",
+      "check_items": "Scoring: Project-level or file-level license compatibility issues: 0 points; no compatibility issues: 10 points.",
+      "significance": "Software License Compatibility Check\n\n[Rules]\n1. Do not import software or versions with project-level or file-level license compatibility issues."
+    },
+    "patent_risk": {
+      "check_items": "Scoring: To be determined.",
+      "significance": "Software Patent Risk Analysis\n\n[Suggestions]\n1. Prioritize software certified by OIN (Open Invention Network); uncertified software requires separate patent risk assessment."
+    },
+    "dco": {
+      "detail": "There are {{commitCount}} commits in the imported software, of which {{commitDcoCount}} have signed the DCO.",
+      "check_items": "Scoring: All contributors signed DCO: 10 points; some signed: 8 points; none signed: 6 points.",
+      "significance": "Developer Certificate of Origin (DCO) Signing Check\n\n[Suggestions]\n1. All contributors to the project should sign the DCO."
+    },
+    "dependency_acquisition": {
+      "detail": "The licenses for the following dependent software were not detected: {{list}}",
+      "check_items": "Scoring: Dependencies are open source: 10 points; dependencies are not open source: 0 points.",
+      "significance": "Dependency Source Code Availability Check\n\n[Rules]\n1. Project dependencies must be open source software and publicly available."
+    },
+    "code_maintenance": {
+      "detail_prefix": "Click the link",
+      "detail_suffix": "to view the community activity details in the Oss-Compass assessment report for this software.",
+      "check_items": "Scoring: Based on the average score of the OSS-Compass activity model for the past year (0-10 points).",
+      "significance": "Community Activity and Active Maintenance Check\n\n[Rules]\n1. Select software in its mature (actively updated, regular releases) or growth (actively updated, frequent releases) stage. Do not select software in its decline stage (no updates or new releases)."
+    },
+    "community_support": {
+      "detail_prefix": "Click the link",
+      "detail_suffix": "to view the community service and support details in the Oss-Compass assessment report for this software.",
+      "check_items": "Scoring: Based on the average score of the OSS-Compass community service and support model for the past year (0-10 points).",
+      "significance": "Community Service and Support Check\n\n[Suggestions]\nDo not select software if the community has no clear version plan or if valid bugs/PRs have not been responded to for more than six months."
+    },
+    "adoption_analysis": {
+      "check_items": "Scoring: To be determined.",
+      "significance": "Software Adoption Analysis - Prioritize widely used software.\n\n[Suggestions]\n1. Prioritize mainstream vendors/communities or community projects.\n2. Prioritize software with proven effectiveness in mature applications or products."
+    },
+    "software_quality": {
+      "none": "None",
+      "detail": "Code duplication rate in the project is {{duplicationRatio}}%, score {{duplicationScore}};\n Test coverage rate in the project is {{coverageRatio}}%, score {{coverageScore}}.",
+      "check_items": "Scoring for code duplication: 0%-2% => 10 pts; 3%-4% => 8 pts; 5%-9% => 6 pts; 10%-19% => 4 pts; 20%-99% => 2 pts; 100% => 0 pts.",
+      "significance": "Software Quality Analysis (code standards, cyclomatic complexity, code reusability, test coverage)\n\n[Rules]\n1. Do not import software that does not meet technical architecture and evolution requirements.\n[Suggestions]\n1. Prioritize software with better security, flexibility, and support for modularity and plugins.\n2. Prioritize high-quality code (e.g., fewer unsafe functions, good code structure, low duplication, debug features can be disabled, automated build capabilities, sufficient automated testing)."
+    },
+    "version_lifecycle": {
+      "archived": "The imported software has been archived.",
+      "no_release": "The imported software has no release version.",
+      "latest_version_info": "The latest version of the imported software is {{latestVersionName}}, released on {{latestVersionCreatedAt}}.",
+      "check_items": "Scoring: Release within the last 2 years: 10 points; release older than 2 years: 6 points; no releases: 4 points; repository archived: 0 points.",
+      "significance": "Check if the maintenance lifecycle of the imported software version has ended.\n\n[Suggestions]\n1. Prioritize software with official releases within the last 2 years (calculated from the review node).\n2. Do not import software that has been EOL (archived) by the community."
+    },
+    "binary_artifact": {
+      "exists_prefix": "The software contains the following binary artifacts:",
+      "check_items": "Scoring: Meets criteria: 10 points; does not meet: 0 points.",
+      "significance": "Check if the software source code repository contains binary artifacts.\n\n[Suggestions]\nBinary import is not recommended; build from source. If necessary, it must be decided by TPC SIG and build guidance must be provided."
+    },
+    "vulnerability": {
+      "detail_item": "Dependent software {{packageName}} ({{packageVersion}}) has vulnerabilities: {{vulnerabilities}};\n ",
+      "check_items": "Scoring: No publicly unpatched vulnerabilities: 10 points; publicly unpatched vulnerabilities exist: 0 points.",
+      "significance": "Check for publicly unpatched vulnerabilities in the imported software and its dependencies.\n\n[Rules]\n1. Do not use software with non-false positive virus alerts (including passive dependencies).\n2. Do not use software with known unpatched vulnerabilities."
+    },
+    "vulnerability_response": {
+      "check_items": "Scoring: Vulnerability response link (Issue by default) is available: 10 points; not available: 6 points.",
+      "significance": "Vulnerability Response Mechanism Check\n\n[Rules]\n1. Imported open source software must have a vulnerability feedback and patch tracking mechanism."
+    },
+    "dimension": {
+      "legal_compliance": "Legal Compliance",
+      "technical_ecology": "Technical Ecology",
+      "lifecycle": "Lifecycle",
+      "network_security": "Network Security"
+    },
+    "metric_name": {
+      "license_inclusion": "License Inclusion",
+      "license_compatibility": "License Compatibility",
+      "patent_risk": "Patent Risk",
+      "dco": "DCO",
+      "dependency_acquisition": "Dependency Acquisition",
+      "code_maintenance": "Code Maintenance",
+      "community_support": "Community Support",
+      "adoption_analysis": "Adoption Analysis",
+      "software_quality": "Software Quality",
+      "version_lifecycle": "Version Lifecycle",
+      "binary_artifact": "Binary Artifact",
+      "security_vulnerability": "Security Vulnerability",
+      "vulnerability_response_mechanism": "Vulnerability Response Mechanism"
+    },
+    "risk_importance": {
+      "high": "High",
+      "medium": "Medium"
+    },
+    "clarification_required": {
+      "yes": "Yes",
+      "no": "No"
+    },
+    "score8": {
+      "complianceLicense": "The imported software license is a weak permissive license, please pay attention.",
+      "complianceDco": "Some code commits in the imported software have signed the DCO, please pay attention.",
+      "ecologySoftwareQuality": "The imported software has a high code duplication rate or low test coverage, please pay attention.",
+      "securityVulnerabilityResponse": "The vulnerability response mechanism for the imported software is unclear, please pay attention."
+    },
+    "score6": {
+      "complianceLicense": "The imported software license is a non-permissive license, please pay attention.",
+      "complianceDco": "None of the code commits in the imported software have signed the DCO, please pay attention.",
+      "lifecycleVersionLifecycle": "The imported software version was released more than 2 years ago, please pay attention.",
+      "securityVulnerabilityResponse": "The imported software has no vulnerability response mechanism, please pay attention."
+    },
+    "score_less_than_6": {
+      "complianceLicense": "The imported software has no project-level license or its license is not OSI approved, please pay attention.",
+      "complianceLicenseCompatibility": "There are project-level or file-level license compatibility issues in the imported software, please pay attention.",
+      "ecologyDependencyAcquisition": "The dependencies of the imported software are not open source, please pay attention.",
+      "lifecycleVersionLifecycle": "The imported software repository is archived or has no release versions, please pay attention.",
+      "securityBinaryArtifact": "The imported software source code repository contains binary artifacts, please pay attention.",
+      "securityVulnerability": "The imported software and its dependencies have publicly unpatched vulnerabilities, please pay attention."
+    },
+    "score_messages": {
+      "default_8": "This metric scored 8 points, please pay attention.",
+      "default_6": "This metric scored 6 points, please pay attention.",
+      "default_less_than_6": "This metric scored less than 6 points, please pay close attention."
+    },
+    "risk_content": {
+      "none": "None"
+    },
+    "risk_detail": {
+      "none": "None"
+    }
+  }
+}

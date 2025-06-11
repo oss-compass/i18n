@@ -1,0 +1,290 @@
+{
+  "banner": {
+    "title": "开源软件选型评估服务",
+    "description": "提供三大功能：评估已知软件、推荐候选软件和查找相似功能替代软件，助力用户高效选择合适的软件。"
+  },
+  "tabs": {
+    "assessment": "软件评估选型",
+    "my_reports": "我的报告"
+  },
+  "assessment_section": {
+    "input_placeholder": "输入GitHub、Gitee仓库URL (例: https://github.com/username/repo)",
+    "input_error": "请输入GitHub、Gitee仓库URL。",
+    "button": "查找项目"
+  },
+  "gen_report": {
+    "button": "生成报告",
+    "modal_title": "填写仓库链接",
+    "alert": "以下软件并未提供Github或Gitee仓库链接，请提供对应Github或Gitee仓库链接以生成报告。",
+    "form_label": "软件名称:",
+    "form_placeholder": "请输入GitHub或Gitee仓库链接",
+    "form_required": "请输入GitHub或Gitee仓库链接!",
+    "form_invalid": "请输入有效的GitHub或Gitee仓库链接!",
+    "toast_success": "提交生成报告成功，可在我的报告中查看生成状态",
+    "toast_failed": "提交生成报告失败"
+  },
+  "main_content": {
+    "assessment": {
+      "title": "直接评估已知软件",
+      "desc": "输入已知开源软件的仓库地址，获取详细评估报告。"
+    },
+    "recommendation": {
+      "title": "通过功能描述推荐软件",
+      "desc": "描述你的需求，系统将推荐合适的软件。",
+      "tag": "功能推荐"
+    },
+    "similar": {
+      "title": "查找相似功能软件",
+      "desc": "输入已知软件名称，查找功能相似的替代软件。",
+      "tag": "功能推荐"
+    }
+  },
+  "recommendation_section": {
+    "desc_placeholder": "描述你的需求... (例: 处理Microsoft Word文档的JS库)",
+    "lang_label": "选择推荐库来源(可多选):",
+    "desc_error": "请输入您的需求描述。",
+    "lang_error": "请至少选择一个推荐库来源。",
+    "button": "获取推荐",
+    "alert": "推荐算法设计与研发： 南京大学计算机学院 / 计算机软件研究所 / 前沿交叉中心 汪亮 副教授及团队"
+  },
+  "similar_section": {
+    "input_placeholder": "输入已知软件名称;如：lz4、pako、@ohos/imageknife 等",
+    "source_label": "选择输入库来源:",
+    "target_label": "选择推荐库来源(可多选):",
+    "name_error": "请输入软件名称。",
+    "source_error": "请选择输入库来源。",
+    "target_error": "请至少选择一个推荐库来源。",
+    "button": "获取推荐",
+    "alert": "推荐算法设计与研发： 南京大学计算机学院 / 计算机软件研究所 / 前沿交叉中心 汪亮 副教授及团队"
+  },
+  "software_card": {
+    "similarity": "相似度",
+    "score": "功能匹配分数"
+  },
+  "my_reports": {
+    "compare_tip": "请至少选择两份报告进行对比",
+    "compare": "对比",
+    "pick_for_compare": "勾选对比",
+    "operation": "操作",
+    "software_name": "软件名称",
+    "repo_url": "源码地址",
+    "applicant": "申请人",
+    "status": "当前状态",
+    "report_update_time": "报告更新时间",
+    "view_report": "查看报告",
+    "generating": "报告生成中",
+    "compare_button": "勾选对比",
+    "evaluation_report": "评估报告",
+    "updated_at": "更新于：",
+    "report_page_title": "软件评估报告详情",
+    "status_map": {
+      "pending": "待生成",
+      "again_progress": "重新生成中",
+      "generating": "生成中",
+      "success": "生成成功",
+      "failed": "生成失败"
+    },
+    "table": {
+      "operation": "操作",
+      "view_report": "查看报告",
+      "report_generating": "报告生成中",
+      "software_name": "软件名称",
+      "enter_software_name": "输入软件名称",
+      "source_code_address": "源码地址",
+      "enter_source_code_address": "输入源码地址",
+      "applicant": "申请人",
+      "enter_applicant": "输入申请人",
+      "current_status": "当前状态",
+      "report_update_time": "报告更新时间"
+    },
+    "total_people": "总共 {{total}} 条"
+  },
+  "table_dropdown": {
+    "placeholder": "请输入",
+    "reset": "重置",
+    "confirm": "确认"
+  },
+  "constant": {
+    "github_selected": "Github优选库",
+    "gitee_selected": "Gitee优选库"
+  },
+  "mertic_detail": {
+    "download_csv": "下载 CSV",
+    "metric_list": {
+      "legal_compliance": "合法合规",
+      "technical_ecology": "技术生态",
+      "lifecycle": "生命周期",
+      "network_security": "网络安全"
+    },
+    "content": {
+      "score_clarified_prefix": "得分：10 (澄清前：",
+      "score_clarified_suffix": ")",
+      "score_prefix": "得分：",
+      "risk_prefix": "风险：",
+      "risk_detail_prefix": "风险详情："
+    },
+    "metric_icon": {
+      "developing": "功能开发中，敬请期待",
+      "not_detected": "未检测到该指标"
+    },
+    "risk_tag": {
+      "risk_prefix": "风险："
+    },
+    "download_report": {
+      "title_suffix": "{name}评估报告",
+      "header": {
+        "metric_name": "指标名称",
+        "dimension": "维度",
+        "score": "得分",
+        "risk": "风险",
+        "risk_detail": "风险详情",
+        "risk_detail_raw": "风险详情原数据",
+        "risk_importance": "风险重要性",
+        "metric_significance": "指标意义"
+      },
+      "no_risk": "无"
+    }
+  },
+  "all_hatch_metric_data": {
+    "oat_render": {
+      "more_alarm_tooltip": "更多告警信息请下载报告 csv 查看",
+      "alarm_prefix": "以下告警来自 oat 扫描：",
+      "more_alarm_suffix": "更多告警信息请下载报告 csv 查看"
+    },
+    "compliance_license": {
+      "osi_approved_link": "OSI 批准的开源许可证",
+      "not_osi_approved_prefix": "不是",
+      "permissive_license_link": "宽松型许可证",
+      "non_permissive_prefix": "非",
+      "weak_permissive_license_link": "弱宽松型许可证",
+      "none": "无",
+      "no_project_license": "未检测到项目级许可证",
+      "check_items": "设置评分。许可证是 OSI 批准的，且宽松型许可证 10 分，弱宽松型许可证 8 分，非宽松型许可证 6 分；无项目级许可证或许可证不是 OSI 批准的开源许可证 0 分；",
+      "significance": "引入软件许可证合规性检查\n\n【规则】\n1.禁止选用无许可证、许可证不是开源促进会 OSI 批准的开源许可证的软件；\n【建议】\n1.选择软件本身许可证（含项目级和文件级）及其依赖软件许可证均为宽松类型许可证的软件；\n2. 项目的所有源码包含许可头与版权声明；"
+    },
+    "license_compatibility": {
+      "compatibility_issue_prefix": "引入软件中有 License 存在兼容性问题:",
+      "license_with": "License 与 ",
+      "compatibility_issue_suffix": " 存在兼容性问题",
+      "check_items": "设置评分。引入软件项目级、文件级许可证存在兼容性问题 0 分，无兼容性问题 10 分；",
+      "significance": "引入软件许可证兼容性检查\n\n【规则】\n1. 禁止引入项目级、文件级 License 存在兼容性问题的软件及版本；"
+    },
+    "patent_risk": {
+      "check_items": "设置评分，待定",
+      "significance": "引入软件专利风险分析\n\n【建议】\n1. 优先选择全球专利保护社区 OIN（Open Invention Network）认证软件，未认证软件需单独审视专利风险"
+    },
+    "dco": {
+      "detail": "引入软件代码提交共有{{commitCount}}次，其中{{commitDcoCount}}次已签署 DCO。",
+      "check_items": "设置评分。项目所有贡献者签署 DCO 10 分，部分签署 8 分，无人签署 6 分",
+      "significance": "引入软件代码提交者原创性声明签署检查\n\n【建议】\n1. 项目的提交者应签署 DCO；"
+    },
+    "dependency_acquisition": {
+      "detail": "未检测到以下依赖软件的 License:{{list}}",
+      "check_items": "设置评分。引入软件依赖的库是开源软件 10 分；依赖软件非开源软件 0 分；",
+      "significance": "引入软件依赖源码可获得检查\n\n【规则】\n1. 项目依赖的库必须是开源软件，可公开获得；"
+    },
+    "code_maintenance": {
+      "detail_prefix": "可点击链接",
+      "detail_suffix": "前往该软件的 Oss-Compass 评估报告查看社区活跃度详情",
+      "check_items": "设置评分，采用 OSS-Compass 最近一年活跃度模型平均得分，得分范围 0-10 分",
+      "significance": "社区活跃度及是否活跃维护检查\n\n【规则】\n1.选用成熟期（代码更新活跃，定期发布）或成长期（代码更新活跃，频繁发布）的软件，禁止选用处于衰退期（代码无更新或无新版本发布）的软件；"
+    },
+    "community_support": {
+      "detail_prefix": "可点击链接",
+      "detail_suffix": "前往该软件的 Oss-Compass 评估报告查看社区服务与支撑详情",
+      "check_items": "设置评分，采用 OSS-Compass 最近一年社区服务与支撑模型平均得分，得分范围 0-10 分",
+      "significance": "社区服务与支撑检查\n\n【建议】\n社区无明确版本计划，有效 bug、PR 半年以上未响应不建议选用；"
+    },
+    "adoption_analysis": {
+      "check_items": "设置评分，待定",
+      "significance": "引入软件采用度分析，优选在业界广泛应用软件\n\n【建议】\n1. 优选主流的供应商/社区或社区项目；\n2. 优选在业界成熟应用或产品实际使用效果好的软件；"
+    },
+    "software_quality": {
+      "none": "无",
+      "detail": "项目内代码重复率为{{duplicationRatio}}%，得分{{duplicationScore}}；\n 项目内测试覆盖率为{{coverageRatio}}%，得分{{coverageScore}}。",
+      "check_items": "设置评分，代码重复率评分：0% - 2%   => 10 分; 3% - 4%   => 8 分;5% - 9%   => 6 分;10% - 19% => 4 分;20% - 99% => 2 分;100%      => 0 分",
+      "significance": "引入软件质量分析，包含代码规范，圈复杂度，代码复用度，测试用例覆盖度\n\n【规则】\n1. 不符合技术架构与技术演进淘汰的软件禁止引入；\n【建议】\n1. 技术架构优选更安全、灵活度高、支持组件化、插件化的软件；\n2. 优选代码质量高的软件，如使用不安全函数数量/密度少、代码结构规范（圈复杂度低）、重复度低、代码调试功能可关闭、有自动化构建能力、自动化测试充分；"
+    },
+    "version_lifecycle": {
+      "archived": "引入软件已归档",
+      "no_release": "引入软件无 release 版本",
+      "latest_version_info": "引入软件最新版本为{{latestVersionName}}，发布于{{latestVersionCreatedAt}}。",
+      "check_items": "设置评分。最近 2 年内有版本发布 10 分，版本发布超过 2 年 6 分，没有发布任何版本 4 分，仓库已归档 0 分",
+      "significance": "检查引入软件版本社区维护生命周期是否结束\n\n【建议】\n1. 优先选择 2 年以内有正式版本发布的软件（以评审节点计算）；\n2. 社区已经 EOL(归档) 的软件，不建议引入；"
+    },
+    "binary_artifact": {
+      "exists_prefix": "软件存在以下二进制制品:",
+      "check_items": "设置评分，满足 10 分，不满足 0 分",
+      "significance": "引入软件源码仓库是否包含二进制制品\n\n【建议】\n不建议二进制引入，应从源码构建。如必要引入须在 TPC SIG 决策，并提供构建指导；"
+    },
+    "vulnerability": {
+      "detail_item": "依赖软件{{packageName}} ({{packageVersion}})，存在漏洞:{{vulnerabilities}};\n ",
+      "check_items": "设置评分。无公开未修复漏洞 10 分，有公开未修复漏洞 0 分；",
+      "significance": "检查引入软件及依赖源码是否有公开未修复漏洞\n\n【规则】\n1. 禁止选用含非误报病毒告警的软件（含被动依赖软件）\n2. 禁止选用含已知未修复漏洞软件；"
+    },
+    "vulnerability_response": {
+      "check_items": "设置评分。检查漏洞响应链接（默认使用 Issue 作为响应方式）是否可用，满足 10 分，不满足 6 分；",
+      "significance": "引入软件漏洞响应机制检查\n\n【规则】\n1. 选用开源软件必须有漏洞反馈与修复跟踪管理机制；"
+    },
+    "dimension": {
+      "legal_compliance": "合法合规",
+      "technical_ecology": "技术生态",
+      "lifecycle": "生命周期",
+      "network_security": "网络安全"
+    },
+    "metric_name": {
+      "license_inclusion": "许可证包含",
+      "license_compatibility": "许可证兼容性",
+      "patent_risk": "专利风险",
+      "dco": "DCO",
+      "dependency_acquisition": "依赖可获得",
+      "code_maintenance": "代码维护",
+      "community_support": "社区支撑",
+      "adoption_analysis": "采用度分析",
+      "software_quality": "软件质量",
+      "version_lifecycle": "版本生命周期",
+      "binary_artifact": "二进制制品",
+      "security_vulnerability": "安全漏洞",
+      "vulnerability_response_mechanism": "漏洞响应机制"
+    },
+    "risk_importance": {
+      "high": "高",
+      "medium": "中"
+    },
+    "clarification_required": {
+      "yes": "是",
+      "no": "否"
+    },
+    "score8": {
+      "complianceLicense": "引入软件许可证为弱宽松型许可证，请关注",
+      "complianceDco": "引入软件部分代码提交已签署 DCO，请关注",
+      "ecologySoftwareQuality": "引入软件代码重复率较高或测试覆盖率较低，请关注",
+      "securityVulnerabilityResponse": "引入软件漏洞响应机制不明确，请关注"
+    },
+    "score6": {
+      "complianceLicense": "引入软件许可证为非宽松型许可证，请关注",
+      "complianceDco": "引入软件代码提交均未签署 DCO，请关注",
+      "lifecycleVersionLifecycle": "引入软件版本发布已超过2年，请关注",
+      "securityVulnerabilityResponse": "引入软件无漏洞响应机制，请关注"
+    },
+    "score_less_than_6": {
+      "complianceLicense": "引入软件无项目级许可证或许可证不是 OSI 批准的开源许可证，请关注",
+      "complianceLicenseCompatibility": "引入软件项目级、文件级许可证存在兼容性问题，请关注",
+      "ecologyDependencyAcquisition": "引入软件依赖软件非开源软件，请关注",
+      "lifecycleVersionLifecycle": "引入软件仓库已归档或无任何发布版本，请关注",
+      "securityBinaryArtifact": "引入软件源码仓库包含二进制制品，请关注",
+      "securityVulnerability": "引入软件及依赖源码有公开未修复漏洞，请关注"
+    },
+    "score_messages": {
+      "default_8": "该指标得分为8分，请关注",
+      "default_6": "该指标得分为6分，请关注",
+      "default_less_than_6": "该指标得分低于6分，请重点关注"
+    },
+    "risk_content": {
+      "none": "无"
+    },
+    "risk_detail": {
+      "none": "无"
+    }
+  }
+}
