@@ -1,10 +1,10 @@
 {
   "banner": {
-    "title": "Open Source Software Selection Assessment Service",
+    "title": "Open Source Software Selection Evaluation Service",
     "description": "Provides three main functions: assess known software, recommend candidate software, and find similar alternative software to help users efficiently select suitable software."
   },
   "tabs": {
-    "assessment": "Software Assessment & Selection",
+    "assessment": "Software Evaluation & Selection",
     "my_reports": "My Reports"
   },
   "assessment_section": {
@@ -26,7 +26,7 @@
   "main_content": {
     "assessment": {
       "title": "Directly Assess Known Software",
-      "desc": "Enter the repository address of known open source software to get a detailed assessment report."
+      "desc": "Enter the repository address of known open source software to get a detailed evaluation report."
     },
     "recommendation": {
       "title": "Recommend Software by Function Description",
@@ -58,8 +58,44 @@
     "alert": "Recommendation algorithm designed and developed by: Prof. Liang Wang and team, School of Computer Science, Nanjing University."
   },
   "software_card": {
+    "score": "Score",
     "similarity": "Similarity",
-    "score": "Score"
+    "select": "Select",
+    "selected": "Selected",
+    "stars": "Stars",
+    "forks": "Forks",
+    "issues": "Issues",
+    "contributors": "Contributors",
+    "commits": "Commits",
+    "releases": "Releases",
+    "license": "License",
+    "language": "Language",
+    "created_at": "Created",
+    "updated_at": "Updated",
+    "description": "Description",
+    "homepage": "Homepage",
+    "topics": "Topics",
+    "archived": "Archived",
+    "disabled": "Disabled",
+    "fork": "Fork",
+    "private": "Private",
+    "has_issues": "Has Issues",
+    "has_projects": "Has Projects",
+    "has_wiki": "Has Wiki",
+    "has_pages": "Has Pages",
+    "has_downloads": "Has Downloads",
+    "allow_forking": "Allow Forking",
+    "is_template": "Is Template",
+    "web_commit_signoff_required": "Web Commit Signoff Required"
+  },
+  "vote": {
+    "like": "Like",
+    "dislike": "Dislike",
+    "vote_up_success": "Liked successfully!",
+    "vote_up_failed": "Failed to like",
+    "vote_down_success": "Disliked successfully!",
+    "vote_down_failed": "Failed to dislike",
+    "voting": "Voting..."
   },
   "my_reports": {
     "compare_tip": "Please select at least two reports to compare",
@@ -131,7 +167,7 @@
       "risk_prefix": "Risk: "
     },
     "download_report": {
-      "title_suffix": "{name} Assessment Report",
+      "title_suffix": "{name} Evaluation Report",
       "header": {
         "metric_name": "Metric Name",
         "dimension": "Dimension",
@@ -171,7 +207,7 @@
     },
     "patent_risk": {
       "check_items": "Scoring: To be determined.",
-      "significance": "Software Patent Risk Analysis\n\n[Suggestions]\n1. Prioritize software certified by OIN (Open Invention Network); uncertified software requires separate patent risk assessment."
+      "significance": "Software Patent Risk Analysis\n\n[Suggestions]\n1. Prioritize software certified by OIN (Open Invention Network); uncertified software requires separate patent risk evaluation."
     },
     "dco": {
       "detail": "There are {{commitCount}} commits in the imported software, of which {{commitDcoCount}} have signed the DCO.",
@@ -185,13 +221,13 @@
     },
     "code_maintenance": {
       "detail_prefix": "Click the link",
-      "detail_suffix": "to view the community activity details in the Oss-Compass assessment report for this software.",
+      "detail_suffix": "to view the community activity details in the Oss-Compass evaluation report for this software.",
       "check_items": "Scoring: Based on the average score of the OSS-Compass activity model for the past year (0-10 points).",
       "significance": "Community Activity and Active Maintenance Check\n\n[Rules]\n1. Select software in its mature (actively updated, regular releases) or growth (actively updated, frequent releases) stage. Do not select software in its decline stage (no updates or new releases)."
     },
     "community_support": {
       "detail_prefix": "Click the link",
-      "detail_suffix": "to view the community service and support details in the Oss-Compass assessment report for this software.",
+      "detail_suffix": "to view the community service and support details in the Oss-Compass evaluation report for this software.",
       "check_items": "Scoring: Based on the average score of the OSS-Compass community service and support model for the past year (0-10 points).",
       "significance": "Community Service and Support Check\n\n[Suggestions]\nDo not select software if the community has no clear version plan or if valid bugs/PRs have not been responded to for more than six months."
     },
