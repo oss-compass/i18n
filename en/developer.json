@@ -9,6 +9,13 @@
   "commit_frequency": "Monthly Code Commit Frequency",
   "issue_count": "Monthly Updated Issues Count",
   "issue_comments_count": "Monthly Issue Comments Count",
+  "tooltip": {
+    "country": "Country",
+    "city": "Location",
+    "company": "Organization",
+    "main_language": "Top Programming Language",
+    "topic": "Topic"
+  },
   "contribution_rank": {
     "title": "Developer Contribution Ranking",
     "description": "Ranking of developer contributions related to annual code commits, PRs, and Issues globally.",

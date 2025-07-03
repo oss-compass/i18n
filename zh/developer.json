@@ -9,6 +9,13 @@
   "commit_frequency": "每月代码提交频率",
   "issue_count": "每月更新 Issue 数量",
   "issue_comments_count": "每月更新 Issue 评论数量",
+  "tooltip": {
+    "country": "国家",
+    "city": "地址",
+    "company": "组织",
+    "main_language": "Top编程语言",
+    "topic": "技术领域"
+  },
   "contribution_rank": {
     "title": "开发者贡献排名",
     "description": "开发者在全球范围内的年度代码提交、PR、Issue 相关贡献的排名。",
