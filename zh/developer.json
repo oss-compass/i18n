@@ -1,5 +1,5 @@
 {
-  "developer":"开发者",
+  "developer": "开发者",
   "contribution_overview": "贡献概览",
   "contributor_language": "编程语言",
   "contributor_repos_rank": "贡献仓库排名",
@@ -22,5 +22,28 @@
     "description": "开发者在全球范围内的年度代码提交、PR、Issue 相关贡献的排名。",
     "details": "该指标从多个维度量化开发者在 GitHub 项目中的活跃程度，包括：代码提交（Push）贡献、Pull Request（PR）相关贡献、Issue 相关贡献，并根据贡献量统计该开发者在全球开发者中的年度排名。排名采用百分位区间方式进行分级，以体现开发者在整体中的相对位置。",
     "dataSource": "数据来源依赖于 GitHub 开源平台上公开 event 数据。"
+  },
+  "contribution_overview_score": {
+    "title": "开发者评分规则",
+    "description": "根据开发者贡献次数总和排名计算百分位分数，按照范围计算等级",
+    "percentile_range": "百分位范围",
+    "level_description": "等级说明"
+  },
+  "contributor_language_info": {
+    "title": "编程语言统计",
+    "description": "统计开发者在不同编程语言仓库中贡献量比例",
+    "calculation_details": "仓库中贡献量计算包含以下指标：",
+    "commits": "提交代码次数",
+    "pr_created": "PR创建量",
+    "pr_reopened": "PR重新打开数量",
+    "pr_closed": "PR关闭数量",
+    "pr_approved": "PR审核同意数量",
+    "pr_changes_requested": "PR审核要求修改数量",
+    "pr_merged": "PR合入数量",
+    "pr_review_comments": "PR审核评论数量",
+    "issues_created": "Issue创建数量",
+    "issues_reopened": "Issue重新打开数量",
+    "issue_comments": "Issue评论数量",
+    "issues_closed": "Issue关闭数量"
   }
 }

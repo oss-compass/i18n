@@ -18,9 +18,32 @@
     "topic": "Topic"
   },
   "contribution_rank": {
-    "title": "Developer Contribution Ranking",
-    "description": "Ranking of developer contributions related to annual code commits, PRs, and Issues globally.",
-    "details": "This metric quantifies developer activity in GitHub projects across multiple dimensions, including:Code Commit (Push) Contributions,Pull Request (PR) Related Contributions,Issue Related Contributions. And ranks the developer's annual global position based on contribution volume. The ranking uses percentile intervals to grade, reflecting the developer's relative position within the overall community.",
-    "dataSource": "Data source relies on public event data from the GitHub open-source platform."
+    "title": "Developer Contribution Rank",
+    "description": "Annual ranking of developer contributions including code commits, PRs, and Issues on a global scale.",
+    "details": "This metric quantifies developer activity in GitHub projects across multiple dimensions, including: Code commit (Push) contributions, Pull Request (PR) related contributions, Issue related contributions, and ranks the developer's annual performance among global developers based on contribution volume. Rankings are classified using percentile ranges to reflect the developer's relative position within the overall community.",
+    "dataSource": "Data source depends on public event data from the GitHub open source platform."
+  },
+  "contribution_overview_score": {
+    "title": "Developer Scoring Rules",
+    "description": "Calculate percentile scores based on the total ranking of developer contributions, and calculate levels according to ranges",
+    "percentile_range": "Percentile Range",
+    "level_description": "Level Description"
+  },
+  "contributor_language_info": {
+    "title": "Programming Language Statistics",
+    "description": "Statistics of developer contribution proportions in repositories of different programming languages",
+    "calculation_details": "Repository contribution calculation includes the following metrics:",
+    "commits": "Code commit count",
+    "pr_created": "PR creation count",
+    "pr_reopened": "PR reopened count",
+    "pr_closed": "PR closed count",
+    "pr_approved": "PR approved count",
+    "pr_changes_requested": "PR changes requested count",
+    "pr_merged": "PR merged count",
+    "pr_review_comments": "PR review comment count",
+    "issues_created": "Issue creation count",
+    "issues_reopened": "Issue reopened count",
+    "issue_comments": "Issue comment count",
+    "issues_closed": "Issue closed count"
   }
 }
