@@ -45,5 +45,34 @@
     "issues_reopened": "Issue reopened count",
     "issue_comments": "Issue comment count",
     "issues_closed": "Issue closed count"
+  },
+  "contribution_type_info": {
+    "title": "Contribution Type Distribution Statistics",
+    "description": "Statistics of developer contribution proportions by different contribution types",
+    "calculation_details": "Contribution count calculation includes the following metrics:",
+    "push_count": "Code push count",
+    "pr_count": "Pull Request creation count",
+    "issue_count": "Issue creation count",
+    "pr_comment_count": "PR comment count",
+    "issue_comment_count": "Issue comment count",
+    "code_review_count": "Code review count"
+  },
+  "repo_collaboration_info": {
+    "title": "Repository Contribution Network",
+    "description": "Shows developer's historical contributed projects and contribution volumes",
+    "calculation_details": "Chart displays:",
+    "contributed_repos": "Historically contributed repositories",
+    "contribution_volume": "Contribution volume to each repository",
+    "relationship_strength": "Relationship strength with repositories",
+    "collaboration_network": "Collaboration network formed through contributions"
+  },
+  "contributor_collaboration_info": {
+    "title": "Contributor Collaboration Network",
+    "description": "Shows developer's collaboration and interaction relationships and frequencies around projects",
+    "calculation_details": "Collaboration relationship analysis includes:",
+    "collaboration_frequency": "Collaboration frequency with other developers",
+    "interaction_type": "Interaction types (code collaboration, issue discussions, etc.)",
+    "collaboration_projects": "Number of jointly participated projects",
+    "network_centrality": "Centrality position in the collaboration network"
   }
 }

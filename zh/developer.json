@@ -45,5 +45,34 @@
     "issues_reopened": "Issue重新打开数量",
     "issue_comments": "Issue评论数量",
     "issues_closed": "Issue关闭数量"
+  },
+  "contribution_type_info": {
+    "title": "贡献类型占比统计",
+    "description": "统计开发者各类型贡献次数比例",
+    "calculation_details": "贡献次数计算包含以下指标：",
+    "push_count": "代码推送数量",
+    "pr_count": "Pull Request创建数量",
+    "issue_count": "Issue创建数量",
+    "pr_comment_count": "PR评论数量",
+    "issue_comment_count": "Issue评论数量",
+    "code_review_count": "代码审核数量"
+  },
+  "repo_collaboration_info": {
+    "title": "贡献仓库关系图",
+    "description": "展示开发者历史贡献项目及贡献量",
+    "calculation_details": "图表显示内容包括：",
+    "contributed_repos": "历史贡献的仓库项目",
+    "contribution_volume": "对各仓库的贡献量",
+    "relationship_strength": "与仓库的关联强度",
+    "collaboration_network": "基于贡献形成的协作网络"
+  },
+  "contributor_collaboration_info": {
+    "title": "贡献者协作关系",
+    "description": "展示开发者围绕项目的协作、互动关系和次数",
+    "calculation_details": "协作关系分析包括：",
+    "collaboration_frequency": "与其他开发者的协作频次",
+    "interaction_type": "互动类型（代码协作、Issue讨论等）",
+    "collaboration_projects": "共同参与的项目数量",
+    "network_centrality": "在协作网络中的中心性位置"
   }
 }
