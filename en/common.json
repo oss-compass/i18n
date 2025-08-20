@@ -24,6 +24,8 @@
     "opensource_selection_description": "The open source software selection evaluation service provides three main functions: assessing known software, recommending candidate software, and finding similar functional alternatives to help users efficiently choose suitable software.",
     "opensource_research_service": "OSS Data Hub",
     "opensource_research_description": "The open source research data hub service aims to provide high-quality datasets and models to assist researchers and developers in deep exploration and innovation in the open source field.",
+    "opensource_ecology_service": "Open Source Ecosystem Intelligent Analysis",
+    "opensource_ecology_description": "Deeply analyze key contributors and organizations in open source projects, evaluate their contribution impact and ecosystem value, providing intelligent insights for open source community development.",
     "all_services": "All Services",
     "home_input_experience": "Home Input Experience Product",
     "product_home": "Product Home",

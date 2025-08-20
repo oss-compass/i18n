@@ -24,6 +24,8 @@
     "opensource_selection_description": "提供三大功能：评估已知软件、推荐候选软件和查找相似功能替代软件，助力用户高效选择合适的软件。",
     "opensource_research_service": "开源数据中枢",
     "opensource_research_description": "致力于提供高质量的数据集和模型，助力研究者和开发者在开源领域进行深入探索与创新。",
+    "opensource_ecology_service": "开源生态智能分析",
+    "opensource_ecology_description": "深度分析开源项目的关键贡献者和组织，评估其贡献影响力和生态价值，为开源社区发展提供智能洞察。",
     "all_services": "全部服务",
     "home_input_experience": "首页输入框体验产品",
     "product_home": "产品首页",
