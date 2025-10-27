@@ -107,7 +107,9 @@
     "cancel": "Cancel",
     "add": "Add",
     "func_disabled": "The feature is temporarily disabled",
-    "confirm_close": "Confirm and Close"
+    "confirm_close": "Confirm and Close",
+    "submit": "Submit",
+    "close": "Close"
   },
   "prompt": {
     "please_enter": "Please enter"
@@ -137,5 +139,12 @@
   "org_name": "Organization Name",
   "not_in_chinese": "Not in Chinese!",
   "more_about_the_evaluation_system": "Learn More",
-  "total_people": "Total {{total}} Items"
+  "total_people": "Total {{total}} Items",
+  "feedback": "Feedback",
+  "user_feedback": "User Feedback",
+  "feedback_content": "Feedback Content",
+  "feedback_placeholder": "Please share your feedback, suggestions, or report any issues you encountered...",
+  "feedback_required": "Feedback content is required",
+  "feedback_submitted": "🎉 Feedback submitted successfully! Thank you for your valuable suggestions, we take every feedback seriously.",
+  "feedback_submit_error": "Failed to submit feedback, please try again"
 }

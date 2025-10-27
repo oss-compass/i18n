@@ -106,7 +106,9 @@
     "cancel": "取消",
     "add": "新增",
     "func_disabled": "该功能临时关闭",
-    "confirm_close": "确认并关闭"
+    "confirm_close": "确认并关闭",
+    "submit": "提交",
+    "close": "关闭"
   },
   "prompt": {
     "please_enter": "请输入"
@@ -136,5 +138,12 @@
   "org_name": "组织名称",
   "not_in_chinese": "不能为中文！",
   "more_about_the_evaluation_system": "详细了解评估体系",
-  "total_people": "总共 {{total}} 条"
+  "total_people": "共 {{total}} 项",
+  "feedback": "反馈",
+  "user_feedback": "用户反馈",
+  "feedback_content": "反馈内容",
+  "feedback_placeholder": "请分享您的反馈、建议或遇到的问题...",
+  "feedback_required": "反馈内容不能为空",
+  "feedback_submitted": "🎉 反馈提交成功！感谢您的宝贵建议，我们会认真对待每一条反馈。",
+  "feedback_submit_error": "提交反馈失败，请重试"
 }
