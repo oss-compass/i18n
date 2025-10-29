@@ -63,5 +63,8 @@
   "academic_research": "Academic Research",
   "academic_research_desc": "Providing data and analysis on open source community ecosystems[ to academic researchers], promoting research on open governance and open source software usage and providing the engineering ability and concrete practice of the transformation of academic achievements.",
   "software_selection": "Software Selection",
-  "software_selection_desc": "Provides an intelligent software evaluation system for [enterprise technology decision-makers, system architects, development teams], leveraging industry benchmark data comparison, AI-powered candidate recommendation engines, and alternative solution discovery technology to empower users in efficiently selecting the most suitable software."
+  "software_selection_desc": "Providing an intelligent software evaluation system for [enterprise technology decision-makers, system architects, development teams], leveraging industry benchmark data comparison, AI-powered candidate recommendation engines, and alternative solution discovery technology to empower users in efficiently selecting the most suitable software.",
+  "platform_statistics": "Platform Statistics",
+  "active_users": "Active Users(past year)",
+  "collected_projects": "Collected Projects"
 }
