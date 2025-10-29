@@ -66,5 +66,15 @@
   "software_selection_desc": "Providing an intelligent software evaluation system for [enterprise technology decision-makers, system architects, development teams], leveraging industry benchmark data comparison, AI-powered candidate recommendation engines, and alternative solution discovery technology to empower users in efficiently selecting the most suitable software.",
   "platform_statistics": "Platform Statistics",
   "active_users": "Active Users(past year)",
-  "collected_projects": "Collected Projects"
+  "collected_projects": "Collected Projects",
+  "data_platform_integration": "Data Platform Integration",
+  "data_platform_integration_desc": "GitCode, Github, Gitee, LinkedIn, Twitter, Slack, etc.",
+  "evaluation_metrics_models": "Evaluation Metrics/Models",
+  "evaluation_metrics_models_desc": "Activity, Health, Community Response",
+  "open_source_projects": "Open Source Projects",
+  "open_source_projects_desc": "GitCode、Github、Gitee Platforms",
+  "countries_regions": "Countries & Regions",
+  "countries_regions_desc": "Visiting Users",
+  "active_users_new": "Active Users",
+  "active_users_new_desc": "Visiting Users"
 }
