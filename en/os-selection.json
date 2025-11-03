@@ -167,7 +167,7 @@
       "risk_prefix": "Risk: "
     },
     "download_report": {
-      "title_suffix": "{name} Evaluation Report",
+      "title_suffix": "{{name}} Evaluation Report",
       "header": {
         "metric_name": "Metric Name",
         "dimension": "Dimension",

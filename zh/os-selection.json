@@ -167,7 +167,7 @@
       "risk_prefix": "风险："
     },
     "download_report": {
-      "title_suffix": "{name}评估报告",
+      "title_suffix": "{{name}}评估报告",
       "header": {
         "metric_name": "指标名称",
         "dimension": "维度",
