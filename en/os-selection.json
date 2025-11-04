@@ -295,13 +295,31 @@
       "complianceLicense": "The imported software license is a weak permissive license, please pay attention.",
       "complianceDco": "Some code commits in the imported software have signed the DCO, please pay attention.",
       "ecologySoftwareQuality": "The imported software has a high code duplication rate or low test coverage, please pay attention.",
-      "securityVulnerabilityResponse": "The vulnerability response mechanism for the imported software is unclear, please pay attention."
+      "securityVulnerabilityResponse": "The vulnerability response mechanism for the imported software is unclear, please pay attention.",
+      "complianceLicenseCompatibility": "License compatibility issues detected; please pay attention.",
+      "ecologyPatentRisk": "Potential patent risk; please pay attention.",
+      "ecologyDependencyAcquisition": "Dependency license information missing or unavailable; please pay attention.",
+      "ecologyCodeMaintenance": "Community activity score can be improved; please pay attention.",
+      "ecologyCommunitySupport": "Community service and support score can be improved; please pay attention.",
+      "ecologyAdoptionAnalysis": "Low adoption in industry; please pay attention.",
+      "lifecycleVersionLifecycle": "Latest release is older; please pay attention.",
+      "securityBinaryArtifact": "Repository contains binary artifacts or related alarms; please pay attention.",
+      "securityVulnerability": "Publicly unpatched vulnerabilities exist; please pay attention."
     },
     "score6": {
       "complianceLicense": "The imported software license is a non-permissive license, please pay attention.",
       "complianceDco": "None of the code commits in the imported software have signed the DCO, please pay attention.",
       "lifecycleVersionLifecycle": "The imported software version was released more than 2 years ago, please pay attention.",
-      "securityVulnerabilityResponse": "The imported software has no vulnerability response mechanism, please pay attention."
+      "securityVulnerabilityResponse": "The imported software has no vulnerability response mechanism, please pay attention.",
+      "complianceLicenseCompatibility": "License compatibility issues detected; please pay attention.",
+      "ecologyPatentRisk": "Potential patent risk; please pay attention.",
+      "ecologyDependencyAcquisition": "Dependency license information unclear; please pay attention.",
+      "ecologyCodeMaintenance": "Community activity score can be improved; please pay attention.",
+      "ecologyCommunitySupport": "Community service and support score can be improved; please pay attention.",
+      "ecologyAdoptionAnalysis": "Adoption is average; please pay attention.",
+      "ecologySoftwareQuality": "Software quality analysis does not meet expectations; please pay attention.",
+      "securityBinaryArtifact": "Source repository contains binary artifacts; please pay attention.",
+      "securityVulnerability": "Unpatched vulnerabilities exist; please pay attention."
     },
     "score_less_than_6": {
       "complianceLicense": "The imported software has no project-level license or its license is not OSI approved, please pay attention.",
@@ -309,7 +327,14 @@
       "ecologyDependencyAcquisition": "The dependencies of the imported software are not open source, please pay attention.",
       "lifecycleVersionLifecycle": "The imported software repository is archived or has no release versions, please pay attention.",
       "securityBinaryArtifact": "The imported software source code repository contains binary artifacts, please pay attention.",
-      "securityVulnerability": "The imported software and its dependencies have publicly unpatched vulnerabilities, please pay attention."
+      "securityVulnerability": "The imported software and its dependencies have publicly unpatched vulnerabilities, please pay attention.",
+      "complianceDco": "Project contributors have not signed the DCO, please pay close attention.",
+      "ecologyCodeMaintenance": "Community activity score is low, please pay close attention.",
+      "ecologyCommunitySupport": "Community service and support score is low, please pay close attention.",
+      "ecologyAdoptionAnalysis": "Low adoption in industry, please pay close attention.",
+      "ecologySoftwareQuality": "Software quality analysis does not meet expectations, please pay close attention.",
+      "ecologyPatentRisk": "High patent risk, please pay close attention.",
+      "securityVulnerabilityResponse": "No vulnerability response mechanism, please pay close attention."
     },
     "score_messages": {
       "default_8": "This metric scored 8 points, please pay attention.",

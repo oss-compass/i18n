@@ -295,13 +295,31 @@
       "complianceLicense": "引入软件许可证为弱宽松型许可证，请关注",
       "complianceDco": "引入软件部分代码提交已签署 DCO，请关注",
       "ecologySoftwareQuality": "引入软件代码重复率较高或测试覆盖率较低，请关注",
-      "securityVulnerabilityResponse": "引入软件漏洞响应机制不明确，请关注"
+      "securityVulnerabilityResponse": "引入软件漏洞响应机制不明确，请关注",
+      "complianceLicenseCompatibility": "引入软件许可证存在兼容性问题，请关注",
+      "ecologyPatentRisk": "引入软件存在专利风险，请关注",
+      "ecologyDependencyAcquisition": "引入软件依赖许可证信息缺失或不可获得，请关注",
+      "ecologyCodeMaintenance": "软件的社区活跃度综合评分有提升空间，请关注",
+      "ecologyCommunitySupport": "软件的社区服务与支撑综合评分有提升空间，请关注",
+      "ecologyAdoptionAnalysis": "软件在业界采用度较低，请关注",
+      "lifecycleVersionLifecycle": "引入软件版本发布较久，请关注",
+      "securityBinaryArtifact": "源码仓库包含二进制制品或存在相关告警，请关注",
+      "securityVulnerability": "存在公开未修复漏洞，请关注"
     },
     "score6": {
       "complianceLicense": "引入软件许可证为非宽松型许可证，请关注",
       "complianceDco": "引入软件代码提交均未签署 DCO，请关注",
       "lifecycleVersionLifecycle": "引入软件版本发布已超过2年，请关注",
-      "securityVulnerabilityResponse": "引入软件无漏洞响应机制，请关注"
+      "securityVulnerabilityResponse": "引入软件无漏洞响应机制，请关注",
+      "complianceLicenseCompatibility": "引入软件存在许可证兼容性问题，请关注",
+      "ecologyPatentRisk": "引入软件可能存在专利风险，请关注",
+      "ecologyDependencyAcquisition": "引入软件依赖许可信息不明确，请关注",
+      "ecologyCodeMaintenance": "软件的社区活跃度综合评分有提升空间，请关注",
+      "ecologyCommunitySupport": "软件的社区服务与支撑综合评分有提升空间，请关注",
+      "ecologyAdoptionAnalysis": "软件采用度一般，请关注",
+      "ecologySoftwareQuality": "软件质量分析未达标，请关注",
+      "securityBinaryArtifact": "源码仓库包含二进制制品，请关注",
+      "securityVulnerability": "存在未修复漏洞，请关注"
     },
     "score_less_than_6": {
       "complianceLicense": "引入软件无项目级许可证或许可证不是 OSI 批准的开源许可证，请关注",
@@ -309,7 +327,14 @@
       "ecologyDependencyAcquisition": "引入软件依赖软件非开源软件，请关注",
       "lifecycleVersionLifecycle": "引入软件仓库已归档或无任何发布版本，请关注",
       "securityBinaryArtifact": "引入软件源码仓库包含二进制制品，请关注",
-      "securityVulnerability": "引入软件及依赖源码有公开未修复漏洞，请关注"
+      "securityVulnerability": "引入软件及依赖源码有公开未修复漏洞，请关注",
+      "complianceDco": "项目提交者未签署 DCO，请重点关注",
+      "ecologyCodeMaintenance": "软件的社区活跃度综合评分偏低，请重点关注",
+      "ecologyCommunitySupport": "软件的社区服务与支撑综合评分偏低，请重点关注",
+      "ecologyAdoptionAnalysis": "软件在业界采用度较低，请重点关注",
+      "ecologySoftwareQuality": "软件质量分析未达标，请重点关注",
+      "ecologyPatentRisk": "存在较高专利风险，请重点关注",
+      "securityVulnerabilityResponse": "软件无漏洞响应机制，请重点关注"
     },
     "score_messages": {
       "default_8": "该指标得分为8分，请关注",
