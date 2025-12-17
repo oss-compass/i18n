@@ -55,8 +55,8 @@
     "official_repository_on_github": "Official repository on GitHub",
     "gitee": "Gitee",
     "official_repository_on_gitee": "Official repository on Gitee",
-    "gitcode": "GitCode",
-    "official_repository_on_gitcode": "Official repository on GitCode",
+    "gitcode": "AtomGit",
+    "official_repository_on_gitcode": "Official repository on AtomGit",
     "meeting": "Weekly Meeting",
     "join_meeting": "Technical Seminar Weekly Meeting"
   },

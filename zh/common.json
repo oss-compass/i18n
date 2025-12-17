@@ -55,8 +55,8 @@
     "official_repository_on_github": "官方 GitHub 仓库",
     "gitee": "Gitee",
     "official_repository_on_gitee": "官方 Gitee 仓库",
-    "gitcode": "GitCode",
-    "official_repository_on_gitcode": "官方 GitCode 仓库",
+    "gitcode": "AtomGit",
+    "official_repository_on_gitcode": "官方 AtomGit 仓库",
     "meeting": "腾讯会议",
     "join_meeting": "技术研讨周会"
   },
