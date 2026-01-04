@@ -1,7 +1,8 @@
 {
   "banner": {
     "title": "Open Source Software Selection Evaluation Service",
-    "description": "Provides three main functions: assess known software, recommend candidate software, and find similar alternative software to help users efficiently select suitable software."
+    "description": "Provides three main functions: assess known software, recommend candidate software, and find similar alternative software to help users efficiently select suitable software.",
+    "service_guide": "Service Guide"
   },
   "tabs": {
     "assessment": "Software Evaluation & Selection",

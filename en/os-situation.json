@@ -1,7 +1,8 @@
 {
   "banner": {
     "title": "Open Source Situation Insight",
-    "description": "By analyzing global open source projects, gain insight into the development trends of global open source import and export, communities, technology fields, developers, programming languages, and licenses."
+    "description": "By analyzing global open source projects, gain insight into the development trends of global open source import and export, communities, technology fields, developers, programming languages, and licenses.",
+    "service_guide": "Service Guide"
   },
   "dimension": "Insight Dimension",
   "dimensionLabel": "Insight Dimension : ",
