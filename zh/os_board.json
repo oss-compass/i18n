@@ -1,0 +1,266 @@
+{
+  "banner": {
+    "title": "数字化运营看板",
+    "description": "面向开源社区管理者与项目维护者的健康度评估与数字化运营看板。",
+    "create_dashboard": "创建看板",
+    "manage": "管理中心"
+  },
+  "home": {
+    "title": "我的看板",
+    "manage": "管理中心",
+    "new_dashboard": "新建看板",
+    "open": "进入",
+    "projects_count": "项目范围：{{count}} 个",
+    "projects": "项目"
+  },
+  "dashboard": {
+    "type": {
+      "community": "社区",
+      "project": "仓库"
+    }
+  },
+  "time": {
+    "7d": "近 7 天",
+    "30d": "近 30 天",
+    "90d": "近 90 天",
+    "1y": "近 1 年"
+  },
+  "create": {
+    "title": "创建新看板",
+    "steps": {
+      "basic": "基础信息",
+      "scope": "项目范围",
+      "metrics": "指标模型",
+      "finish": "确认"
+    },
+    "basic": {
+      "name": "看板名称",
+      "name_placeholder": "例如：社区运营周报看板",
+      "type": "看板类型",
+      "time_range": "时间范围",
+      "compare": "对比视图",
+      "compare_help": "启用后可加入竞品项目进行横向对比"
+    },
+    "scope": {
+      "projects": "选择项目",
+      "projects_placeholder": "例如：github:org/repo（回车或点击新增）",
+      "placeholder_repo": "输入仓库 URL",
+      "placeholder_community": "输入社区名称",
+      "competitors": "竞品项目（可选）",
+      "competitors_placeholder": "例如：github:org/repo",
+      "competitors_disabled": "未启用对比视图，竞品输入已禁用"
+    },
+    "metrics": {
+      "selected": "已选择指标",
+      "available": "可选指标/模型",
+      "up": "上移",
+      "down": "下移",
+      "add_metric": "添加指标",
+      "select_modal_title": "选择指标",
+      "selected_count": "已选择:{{count}} 个指标",
+      "search_placeholder": "搜索指标名称或分类",
+      "select_help": "拖拽指标卡片可调整显示顺序"
+    },
+    "model_selection": {
+      "selected_models": "已选模型",
+      "add_model": "添加模型"
+    },
+    "finish": {
+      "review": "请确认配置"
+    },
+    "cancel": {
+      "title": "放弃创建？",
+      "body": "当前配置不会被保存。"
+    },
+    "validation": {
+      "title": "请完善以下必填项：",
+      "name_required": "请输入看板名称",
+      "type_required": "请选择看板类型",
+      "projects_required": "请选择至少一个项目",
+      "metrics_required": "请选择至少一个指标"
+    }
+  },
+  "detail": {
+    "not_found": "看板不存在或已删除。",
+    "updated_at": "更新时间",
+    "copy": "复制",
+    "edit": "编辑看板",
+    "alerts_manage": "预警管理",
+    "model_score": "模型综合评分",
+    "model_score_desc": "基于所选指标计算的综合健康度评分趋势",
+    "model_tag": "模型",
+    "collaboration_dev_index": "协作开发指数",
+    "save_as": "保存为新看板",
+    "export_title": "导出",
+    "export": {
+      "help": "导出当前看板快照（mock 数据）。PDF 使用浏览器打印能力。",
+      "print": "打印为 PDF"
+    },
+    "report": "报告模板",
+    "report_weekly": "周报",
+    "report_monthly": "月报",
+    "delete": {
+      "title": "删除看板？",
+      "body": "删除后无法恢复，同时会移除相关预警与订阅。"
+    },
+    "projects": "项目范围",
+    "time_range": "时间范围",
+    "mode": {
+      "label": "视图模式",
+      "normal": "普通视图",
+      "compare": "对比视图"
+    },
+    "competitor": "竞品",
+    "competitors_count": "竞品项目：{{count}} 个",
+    "metrics": "核心指标",
+    "goto_manage": "去管理中心",
+    "table": {
+      "project": "项目",
+      "contributor": "贡献者",
+      "commits": "提交数",
+      "additions": "新增行",
+      "deletions": "删除行",
+      "last_active": "最近活跃"
+    },
+    "contributor_table": "贡献者统计",
+    "alerts": {
+      "label": "预警提醒",
+      "refresh": "刷新",
+      "more": "查看全部",
+      "value": "当前值 {{value}}，阈值 {{threshold}}"
+    }
+  },
+  "manage": {
+    "title": "管理中心",
+    "back_home": "返回看板",
+    "tabs": {
+      "dashboards": "看板管理",
+      "alerts": "预警管理",
+      "permissions": "权限管理",
+      "models": "模型管理",
+      "subscriptions": "订阅管理"
+    },
+    "permissions": {
+      "title": "成员与权限",
+      "dashboard": "看板",
+      "user": "用户 ID",
+      "role": "角色",
+      "add": "添加成员",
+      "roles": {
+        "owner": "所有者",
+        "editor": "编辑者",
+        "viewer": "查看者"
+      }
+    },
+    "alerts": {
+      "title": "预警规则",
+      "history": "触发记录（最近 15 条）",
+      "create": "新增规则",
+      "dashboard": "看板",
+      "dashboard_placeholder": "请选择看板",
+      "metric": "指标",
+      "condition": "条件",
+      "threshold": "阈值",
+      "level": "级别",
+      "levels": {
+        "critical": "严重",
+        "warning": "警告",
+        "info": "提示"
+      },
+      "enabled": "启用",
+      "disabled": "禁用",
+      "enable": "启用",
+      "disable": "禁用"
+    },
+    "models": {
+      "title": "模型体系",
+      "default": "默认指标（节选）",
+      "derived": "衍生模型",
+      "create": "创建衍生模型",
+      "name": "模型名称",
+      "category": "分类",
+      "unit": "单位",
+      "base": "基础指标",
+      "script": "计算脚本",
+      "base_count": "基础指标：{{count}} 个"
+    },
+    "subscriptions": {
+      "title": "订阅配置",
+      "create": "新增订阅",
+      "enable": "启用订阅",
+      "enabled": "启用",
+      "disabled": "禁用",
+      "frequency": "频率",
+      "frequencies": {
+        "daily": "每日",
+        "weekly": "每周",
+        "monthly": "每月"
+      },
+      "template": "模板",
+      "templates": {
+        "weekly": "周报模板",
+        "monthly": "月报模板",
+        "quarterly": "季度报告",
+        "custom": "自定义模板"
+      },
+      "send_time": "发送时间",
+      "recipients": "收件人（逗号分隔）"
+    }
+  },
+  "alert_dialog": {
+    "create_title": "新增预警规则",
+    "edit_title": "编辑预警规则",
+    "subtitle": "当指标触发预警条件时，系统将及时通知您",
+    "set_alert": "设置预警",
+    "metric": "监控指标",
+    "select_metric": "请选择指标",
+    "alert_condition": "预警条件",
+    "condition": "比较运算符",
+    "conditions": {
+      "gt": "大于",
+      "gte": "大于等于",
+      "lt": "小于",
+      "lte": "小于等于",
+      "eq": "等于"
+    },
+    "threshold": "阈值",
+    "threshold_type": "阈值类型",
+    "threshold_types": {
+      "absolute": "绝对值",
+      "percentage": "百分比",
+      "growth_rate": "增长率"
+    },
+    "level": "预警级别",
+    "levels": {
+      "critical": "严重",
+      "warning": "警告",
+      "info": "提示"
+    },
+    "channels": "通知渠道",
+    "channel_inbox": "站内信",
+    "channel_email": "邮件",
+    "enabled": "启用该规则",
+    "existing_rules": "当前指标已有规则",
+    "disabled": "已禁用",
+    "disable": "禁用",
+    "enable": "启用"
+  },
+  "alert_manage": {
+    "title": "预警管理",
+    "add_rule": "新增预警",
+    "tabs": {
+      "rules": "预警规则",
+      "events": "触发记录"
+    },
+    "table": {
+      "metric": "监控指标",
+      "condition": "预警条件",
+      "level": "预警级别",
+      "status": "启用状态",
+      "actions": "操作",
+      "value": "当前值",
+      "threshold": "阈值",
+      "trigger_time": "触发时间"
+    }
+  }
+}

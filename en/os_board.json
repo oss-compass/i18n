@@ -1,0 +1,266 @@
+{
+  "banner": {
+    "title": "Digital Operations Dashboard",
+    "description": "A health assessment & digital operations dashboard for open-source communities.",
+    "create_dashboard": "Create Dashboard",
+    "manage": "Management"
+  },
+  "home": {
+    "title": "My Dashboards",
+    "manage": "Management",
+    "new_dashboard": "New Dashboard",
+    "open": "Open",
+    "projects_count": "Scope: {{count}} projects",
+    "projects": "Projects"
+  },
+  "dashboard": {
+    "type": {
+      "community": "Community",
+      "project": "Repository"
+    }
+  },
+  "time": {
+    "7d": "Last 7 days",
+    "30d": "Last 30 days",
+    "90d": "Last 90 days",
+    "1y": "Last 1 year"
+  },
+  "create": {
+    "title": "Create Dashboard",
+    "steps": {
+      "basic": "Basic",
+      "scope": "Scope",
+      "metrics": "Metrics",
+      "finish": "Review"
+    },
+    "basic": {
+      "name": "Dashboard Name",
+      "name_placeholder": "e.g. Weekly Ops Dashboard",
+      "type": "Dashboard Type",
+      "time_range": "Time Range",
+      "compare": "Compare View",
+      "compare_help": "Enable competitor projects comparison"
+    },
+    "scope": {
+      "projects": "Select Project",
+      "projects_placeholder": "e.g. github:org/repo",
+      "placeholder_repo": "Input repository URL",
+      "placeholder_community": "Input community name",
+      "competitors": "Competitors (optional)",
+      "competitors_placeholder": "e.g. github:org/repo",
+      "competitors_disabled": "Compare view is disabled"
+    },
+    "metrics": {
+      "selected": "Selected metrics",
+      "available": "Available metrics/models",
+      "up": "Up",
+      "down": "Down",
+      "add_metric": "Add Metric",
+      "select_modal_title": "Select Metrics",
+      "selected_count": "Selected: {{count}} metrics",
+      "search_placeholder": "Search metric name or category",
+      "select_help": "Drag metric cards to adjust display order"
+    },
+    "model_selection": {
+      "selected_models": "Selected Models",
+      "add_model": "Add Model"
+    },
+    "finish": {
+      "review": "Review configuration"
+    },
+    "cancel": {
+      "title": "Discard?",
+      "body": "Current configuration will not be saved."
+    },
+    "validation": {
+      "title": "Please complete the following required fields:",
+      "name_required": "Please enter dashboard name",
+      "type_required": "Please select dashboard type",
+      "projects_required": "Please select at least one project",
+      "metrics_required": "Please select at least one metric"
+    }
+  },
+  "detail": {
+    "not_found": "Dashboard not found or deleted.",
+    "updated_at": "Updated at",
+    "copy": "Copy",
+    "edit": "Edit dashboard",
+    "alerts_manage": "Alert Management",
+        "model_score": "Model Score",
+        "model_score_desc": "Comprehensive health score trend based on selected metrics",
+            "model_tag": "Model",
+    "collaboration_dev_index": "Collaboration Development Index",
+    "save_as": "Save as new",
+    "export_title": "Export",
+    "export": {
+      "help": "Export current dashboard snapshot (mock data). PDF uses browser print.",
+      "print": "Print to PDF"
+    },
+    "report": "Report templates",
+    "report_weekly": "Weekly report",
+    "report_monthly": "Monthly report",
+    "delete": {
+      "title": "Delete dashboard?",
+      "body": "This action cannot be undone. Related alerts and subscriptions will be removed."
+    },
+    "projects": "Projects",
+    "time_range": "Time range",
+    "mode": {
+      "label": "Mode",
+      "normal": "Normal",
+      "compare": "Compare"
+    },
+    "competitor": "Competitor",
+    "competitors_count": "Competitors: {{count}}",
+    "metrics": "Key metrics",
+    "goto_manage": "Go to management",
+    "table": {
+      "project": "Project",
+      "contributor": "Contributor",
+      "commits": "Commits",
+      "additions": "Additions",
+      "deletions": "Deletions",
+      "last_active": "Last Active"
+    },
+    "contributor_table": "Contributor Statistics",
+    "alerts": {
+      "label": "Alerts",
+      "refresh": "Refresh",
+      "more": "View all",
+      "value": "Value {{value}}, threshold {{threshold}}"
+    }
+  },
+  "manage": {
+    "title": "Management",
+    "back_home": "Back to dashboards",
+    "tabs": {
+      "dashboards": "Dashboards",
+      "alerts": "Alerts",
+      "permissions": "Permissions",
+      "models": "Models",
+      "subscriptions": "Subscriptions"
+    },
+    "permissions": {
+      "title": "Members & permissions",
+      "dashboard": "Dashboard",
+      "user": "User ID",
+      "role": "Role",
+      "add": "Add member",
+      "roles": {
+        "owner": "Owner",
+        "editor": "Editor",
+        "viewer": "Viewer"
+      }
+    },
+    "alerts": {
+      "title": "Alert rules",
+      "history": "Trigger history (latest 15)",
+      "create": "New rule",
+      "dashboard": "Dashboard",
+      "dashboard_placeholder": "Select dashboard",
+      "metric": "Metric",
+      "condition": "Condition",
+      "threshold": "Threshold",
+      "level": "Level",
+      "levels": {
+        "critical": "Critical",
+        "warning": "Warning",
+        "info": "Info"
+      },
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "enable": "Enable",
+      "disable": "Disable"
+    },
+    "models": {
+      "title": "Model system",
+      "default": "Default metrics (subset)",
+      "derived": "Derived models",
+      "create": "Create derived model",
+      "name": "Name",
+      "category": "Category",
+      "unit": "Unit",
+      "base": "Base metrics",
+      "script": "Script",
+      "base_count": "Base metrics: {{count}}"
+    },
+    "subscriptions": {
+      "title": "Subscriptions",
+      "create": "New subscription",
+      "enable": "Enable subscription",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "frequency": "Frequency",
+      "frequencies": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly"
+      },
+      "template": "Template",
+      "templates": {
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "custom": "Custom"
+      },
+      "send_time": "Send time",
+      "recipients": "Recipients (comma-separated)"
+    }
+  },
+  "alert_dialog": {
+    "create_title": "Create Alert Rule",
+    "edit_title": "Edit Alert Rule",
+    "subtitle": "Get notified when metric triggers the alert condition",
+    "set_alert": "Set Alert",
+    "metric": "Monitor Metric",
+    "select_metric": "Select a metric",
+    "alert_condition": "Alert Condition",
+    "condition": "Comparison Operator",
+    "conditions": {
+      "gt": "Greater than",
+      "gte": "Greater than or equal",
+      "lt": "Less than",
+      "lte": "Less than or equal",
+      "eq": "Equal to"
+    },
+    "threshold": "Threshold",
+    "threshold_type": "Threshold Type",
+    "threshold_types": {
+      "absolute": "Absolute Value",
+      "percentage": "Percentage",
+      "growth_rate": "Growth Rate"
+    },
+    "level": "Alert Level",
+    "levels": {
+      "critical": "Critical",
+      "warning": "Warning",
+      "info": "Info"
+    },
+    "channels": "Notification Channels",
+    "channel_inbox": "Inbox",
+    "channel_email": "Email",
+    "enabled": "Enable this rule",
+    "existing_rules": "Existing rules for this metric",
+    "disabled": "Disabled",
+    "disable": "Disable",
+    "enable": "Enable"
+  },
+  "alert_manage": {
+    "title": "Alert Management",
+    "add_rule": "Add Alert",
+    "tabs": {
+      "rules": "Alert Rules",
+      "events": "Trigger History"
+    },
+    "table": {
+      "metric": "Metric",
+      "condition": "Condition",
+      "level": "Level",
+      "status": "Status",
+      "actions": "Actions",
+      "value": "Value",
+      "threshold": "Threshold",
+      "trigger_time": "Trigger Time"
+    }
+  }
+}
