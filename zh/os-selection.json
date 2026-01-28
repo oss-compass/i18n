@@ -9,8 +9,8 @@
     "my_reports": "我的报告"
   },
   "assessment_section": {
-    "input_placeholder": "输入GitHub、Gitee仓库URL (例: https://github.com/username/repo)",
-    "input_error": "请输入GitHub、Gitee仓库URL。",
+    "input_placeholder": "输入GitHub、Gitee、AtomGit仓库URL (例: https://github.com/username/repo)",
+    "input_error": "请输入GitHub、Gitee、AtomGit仓库URL。",
     "button": "查找项目"
   },
   "gen_report": {
