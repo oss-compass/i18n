@@ -59,7 +59,8 @@
       "select_modal_title": "Select Metrics",
       "selected_count": "Selected: {{count}} metrics",
       "search_placeholder": "Search metric name or category",
-      "select_help": "Drag metric cards to adjust display order"
+      "select_help": "Drag metric cards to adjust display order",
+      "cannot_delete_model_metric": "This metric belongs to model \"{{modelName}}\" and cannot be deleted separately"
     },
     "model_selection": {
       "selected_models": "Selected Models",

@@ -59,7 +59,8 @@
       "select_modal_title": "选择指标",
       "selected_count": "已选择:{{count}} 个指标",
       "search_placeholder": "搜索指标名称或分类",
-      "select_help": "拖拽指标卡片可调整显示顺序"
+      "select_help": "拖拽指标卡片可调整显示顺序",
+      "cannot_delete_model_metric": "该指标属于模型“{{modelName}}”，无法单独删除"
     },
     "model_selection": {
       "selected_models": "已选模型",
