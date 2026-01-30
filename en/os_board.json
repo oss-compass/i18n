@@ -82,7 +82,13 @@
     }
   },
   "detail": {
+    "competitors": "Competitor",
     "not_found": "Dashboard not found or deleted.",
+    "contributor_stats": "Contributor Statistics",
+    "contributor_count": "Contributor Count",
+    "top_contributor": "Top Contributor",
+    "org_count": "Organization Count",
+    "top_contributing_org": "Top Contributing Organization",
     "updated_at": "Updated at",
     "copy": "Copy",
     "edit": "Edit dashboard",
@@ -124,6 +130,8 @@
       "last_active": "Last Active"
     },
     "contributor_table": "Contributor Statistics",
+    "issue_table": "Issue Management",
+    "pr_table": "PR Management",
     "alerts": {
       "label": "Alerts",
       "refresh": "Refresh",
@@ -263,5 +271,10 @@
       "threshold": "Threshold",
       "trigger_time": "Trigger Time"
     }
+  },
+  "sidebar": {
+    "title": "Metric Navigation",
+    "empty": "No metrics",
+    "other": "Other"
   }
 }

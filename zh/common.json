@@ -109,6 +109,8 @@
     "edit": "编辑",
     "cancel": "取消",
     "add": "新增",
+    "hide": "隐藏",
+    "show": "显示",
     "func_disabled": "该功能临时关闭",
     "confirm_close": "确认并关闭",
     "submit": "提交",

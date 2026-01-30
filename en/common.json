@@ -110,6 +110,8 @@
     "edit": "Edit",
     "cancel": "Cancel",
     "add": "Add",
+    "hide": "Hide",
+    "show": "Show",
     "func_disabled": "The feature is temporarily disabled",
     "confirm_close": "Confirm and Close",
     "submit": "Submit",

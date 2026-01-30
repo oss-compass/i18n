@@ -82,7 +82,13 @@
     }
   },
   "detail": {
+    "competitors": "竞品",
     "not_found": "看板不存在或已删除。",
+    "contributor_stats": "贡献者统计",
+    "contributor_count": "贡献者数量",
+    "top_contributor": "Top 贡献者",
+    "org_count": "贡献组织数量",
+    "top_contributing_org": "Top 贡献组织",
     "updated_at": "更新时间",
     "copy": "复制",
     "edit": "编辑看板",
@@ -124,6 +130,8 @@
       "last_active": "最近活跃"
     },
     "contributor_table": "贡献者统计",
+    "issue_table": "Issue 管理",
+    "pr_table": "PR 管理",
     "alerts": {
       "label": "预警提醒",
       "refresh": "刷新",
@@ -263,5 +271,10 @@
       "threshold": "阈值",
       "trigger_time": "触发时间"
     }
+  },
+  "sidebar": {
+    "title": "指标导航",
+    "empty": "暂无指标",
+    "other": "其他"
   }
 }
