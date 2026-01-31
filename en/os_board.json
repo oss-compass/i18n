@@ -57,10 +57,11 @@
       "down": "Down",
       "add_metric": "Add Metric",
       "select_modal_title": "Select Metrics",
-      "selected_count": "Selected: {{count}} metrics",
+      "selected_count": "Selected {{count}} metrics",
       "search_placeholder": "Search metric name or category",
       "select_help": "Drag metric cards to adjust display order",
-      "cannot_delete_model_metric": "This metric belongs to model \"{{modelName}}\" and cannot be deleted separately"
+      "cannot_delete_model_metric": "This metric belongs to model \"{{modelName}}\" and cannot be deleted separately",
+      "independent": "Independent Metrics"
     },
     "model_selection": {
       "selected_models": "Selected Models",
@@ -276,5 +277,25 @@
     "title": "Metric Navigation",
     "empty": "No metrics",
     "other": "Other"
+  },
+  "issue_table": {
+    "repo_name": "Repository Name",
+    "issue_total": "Total Issues",
+    "issue_open": "Open Issues",
+    "issue_completion_ratio": "Issue Completion Rate",
+    "issue_unresponsive": "Unresponsive Issues",
+    "issue_first_response": "First Response Time",
+    "issue_comment_mean": "Avg Comments"
+  },
+  "pr_table": {
+    "repo_name": "Repository Name",
+    "pr_total": "Total PRs",
+    "pr_open": "Open PRs",
+    "pr_completion_ratio": "PR Completion Rate",
+    "pr_unresponsive": "Unresponsive PRs",
+    "pr_first_response": "First Response Time"
+  },
+  "metrics": {
+    "independent": "Independent Metrics"
   }
 }

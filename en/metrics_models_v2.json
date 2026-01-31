@@ -1,0 +1,306 @@
+{
+  "model_001": {
+    "title": "Response Timeliness",
+    "desc": "Response timeliness model description",
+    "metrics": {
+      "metric_001": {
+        "title": "Percentage of Issues Not Responded Within One Cycle",
+        "desc": "The percentage of newly created Issues in the current cycle that have not been responded to within one cycle, excluding bots and creator comments"
+      },
+      "metric_002": {
+        "title": "Issue First Response Time",
+        "desc": "First response time for newly created Issues within the cycle, excluding bots and creator comments"
+      },
+      "metric_003": {
+        "title": "Issue Processing Duration",
+        "desc": "Average Issue processing duration (days), including closed Issues and unresolved Issues"
+      },
+      "metric_004": {
+        "title": "Percentage of PRs Not Responded Within One Cycle",
+        "desc": "The percentage of newly created PRs in the current cycle that have not been responded to within one cycle"
+      },
+      "metric_005": {
+        "title": "PR First Response Time",
+        "desc": "First response time for newly created PRs within the cycle, excluding bots and creator comments"
+      },
+      "metric_006": {
+        "title": "PR Processing Duration",
+        "desc": "Average duration from PR creation to merge or close"
+      }
+    }
+  },
+  "model_002": {
+    "title": "Collaborative Development Quality",
+    "desc": "Collaborative development quality model description",
+    "metrics": {
+      "metric_007": {
+        "title": "Code Submission via PR Ratio",
+        "desc": "The percentage of code submitted via PR within the cycle"
+      },
+      "metric_008": {
+        "title": "PR Linked to Issue Ratio",
+        "desc": "The percentage of PRs linked to Issues within the cycle"
+      },
+      "metric_009": {
+        "title": "Review Collaboration Ratio",
+        "desc": "The percentage of PRs with at least one non-author Review comment or Approval record within the cycle"
+      },
+      "metric_010": {
+        "title": "Merge Collaboration Ratio",
+        "desc": "The percentage of PRs where the merger is different from the PR author within the cycle"
+      },
+      "metric_011": {
+        "title": "PR Comment Frequency",
+        "desc": "Average number of comments/conversations per PR"
+      },
+      "metric_012": {
+        "title": "Review Time by Pull Request Size",
+        "desc": "Average review time grouped by code change lines (XS/S/M/L/XL)"
+      }
+    }
+  },
+  "model_003": {
+    "title": "Developer Base",
+    "desc": "Developer base model description",
+    "metrics": {
+      "metric_013": {
+        "title": "Community Contributor Count",
+        "desc": "Number of unique users with any contribution behavior within the cycle"
+      },
+      "metric_014": {
+        "title": "Code Contributor Count",
+        "desc": "Number of unique users with code commits, PR merges, or PR comments within the cycle"
+      },
+      "metric_015": {
+        "title": "Non-Code Contributor Count",
+        "desc": "Number of users who only participated in discussions without submitting code within the cycle"
+      }
+    }
+  },
+  "model_004": {
+    "title": "Contribution Activity",
+    "desc": "Contribution activity model description",
+    "metrics": {
+      "metric_016": {
+        "title": "Code Commit Count",
+        "desc": "Total number of new Commits within the cycle"
+      },
+      "metric_017": {
+        "title": "Lines of Code Added",
+        "desc": "Total code line changes within the cycle"
+      },
+      "metric_018": {
+        "title": "PR Comment Count",
+        "desc": "Total number of comments under all Issues and PRs within the cycle"
+      },
+      "metric_019": {
+        "title": "Issue Creation Count",
+        "desc": "Total number of Issues created within the cycle"
+      },
+      "metric_020": {
+        "title": "Issue Comment Count",
+        "desc": "Total number of comments under Issues within the cycle"
+      },
+      "metric_021": {
+        "title": "Version Iteration Count",
+        "desc": "Number of Releases published within the cycle"
+      }
+    }
+  },
+  "model_005": {
+    "title": "Community Popularity",
+    "desc": "Community popularity model description",
+    "metrics": {
+      "metric_022": {
+        "title": "Stars",
+        "desc": "Number of new Stars within the cycle"
+      },
+      "metric_023": {
+        "title": "Forks",
+        "desc": "Number of new Forks within the cycle"
+      },
+      "metric_024": {
+        "title": "Social Media Mentions",
+        "desc": "Mentions on social media platforms such as Twitter/X, Reddit, Hacker News, etc."
+      },
+      "metric_025": {
+        "title": "GitHub Mentions",
+        "desc": "Mentions of the project repository in Issues, PRs, and README files on GitHub among TOP 500k projects"
+      },
+      "metric_026": {
+        "title": "Media Coverage",
+        "desc": "Number of times the project is mentioned in online news media, blogs, and tech media"
+      },
+      "metric_027": {
+        "title": "Search Query Volume",
+        "desc": "Query volume for the project in search engines"
+      }
+    }
+  },
+  "model_006": {
+    "title": "Ecosystem Partner Diversity",
+    "desc": "Ecosystem partner diversity model description",
+    "metrics": {
+      "metric_028": {
+        "title": "Commercial Organization Count",
+        "desc": "Number of unique commercial companies identified through contributor email domains or user profiles within the cycle"
+      },
+      "metric_029": {
+        "title": "Commercial Organization Contributor Count",
+        "desc": "Number of active developers affiliated with commercial organizations (non-personal email) within the cycle"
+      },
+      "metric_030": {
+        "title": "Research Institution Count",
+        "desc": "Number of research institution organizations participating in contributions within the cycle"
+      },
+      "metric_031": {
+        "title": "Research Institution Developer Count",
+        "desc": "Number of contributors from research institution organizations participating in code contributions within the cycle"
+      },
+      "metric_032": {
+        "title": "Individual Core Contributor Count",
+        "desc": "Individual contributors whose code contributions exceed 50% of their total contributions are core contributors, those below 50% are regular contributors"
+      }
+    }
+  },
+  "model_007": {
+    "title": "Ecosystem Partner Influence",
+    "desc": "Ecosystem partner influence model description",
+    "metrics": {
+      "metric_033": {
+        "title": "Commercial Organization Ecosystem Influence",
+        "desc": "Influence of contributing commercial organizations in the ecosystem"
+      },
+      "metric_034": {
+        "title": "Research Institution Ecosystem Influence",
+        "desc": "Influence of contributing research institutions in the ecosystem"
+      },
+      "metric_035": {
+        "title": "Individual Contributor Ecosystem Influence",
+        "desc": "Influence of contributing individual contributors in the ecosystem"
+      }
+    }
+  },
+  "model_008": {
+    "title": "Technology Adoption",
+    "desc": "Technology adoption model description",
+    "metrics": {
+      "metric_036": {
+        "title": "Software Package Downloads",
+        "desc": "Number of open source software downloads"
+      },
+      "metric_037": {
+        "title": "Open Source Software Adoption",
+        "desc": "Number of references by other open source projects (TOP 500k)"
+      },
+      "metric_038": {
+        "title": "Commercial Software Adoption",
+        "desc": "Number of mainstream commercial products/services based on this project"
+      },
+      "metric_039": {
+        "title": "Paper Citations",
+        "desc": "Number of paper citations"
+      }
+    }
+  },
+  "model_009": {
+    "title": "Organizational Open Governance",
+    "desc": "Organizational open governance model description",
+    "metrics": {
+      "metric_040": {
+        "title": "Organization Count",
+        "desc": "Number of organizations participating in contributions within the cycle"
+      },
+      "metric_041": {
+        "title": "Organization Code Contributors",
+        "desc": "Number of organization contributors participating in code contributions within the cycle"
+      },
+      "metric_042": {
+        "title": "Organization Code Contributor Ratio",
+        "desc": "Ratio of organization contributors participating in code contributions to total code contributors within the cycle"
+      },
+      "metric_043": {
+        "title": "Organization Code Contribution Volume",
+        "desc": "Lines of code contributed by organizations within the cycle"
+      },
+      "metric_044": {
+        "title": "Organization Code Contribution Ratio",
+        "desc": "Ratio of code contributed by organizations to total code within the cycle"
+      },
+      "metric_045": {
+        "title": "Organization Non-Code Contributors",
+        "desc": "Number of organization contributors participating in non-code contributions within the cycle"
+      },
+      "metric_046": {
+        "title": "Organization Non-Code Contributor Ratio",
+        "desc": "Ratio of organization non-code contributors to total non-code contributors within the cycle"
+      },
+      "metric_047": {
+        "title": "Organization Non-Code Contribution Volume",
+        "desc": "Non-code contribution volume by organizations within the cycle"
+      },
+      "metric_048": {
+        "title": "Organization Non-Code Contribution Ratio",
+        "desc": "Ratio of organization non-code contributions to total non-code contributions within the cycle"
+      },
+      "metric_049": {
+        "title": "Organizations Participating in Governance",
+        "desc": "Number of unique organizations from non-founding organizations in community governance roles within the cycle"
+      },
+      "metric_050": {
+        "title": "Organization Manager Count",
+        "desc": "Number of unique managers from non-founding organizations in community governance roles within the cycle"
+      },
+      "metric_051": {
+        "title": "Organization Manager Ratio",
+        "desc": "Ratio of managers from organizations (non-individual) in community governance roles to total managers within the cycle"
+      }
+    }
+  },
+  "model_010": {
+    "title": "Individual Open Governance",
+    "desc": "Individual open governance model description",
+    "metrics": {
+      "metric_052": {
+        "title": "Individual Code Contributors",
+        "desc": "Number of individual (non-organizational) contributors with code contribution behavior (such as code commits, PRs) within the cycle"
+      },
+      "metric_053": {
+        "title": "Individual Code Contributor Ratio",
+        "desc": "Ratio of individual code contributors to total code contributors within the cycle"
+      },
+      "metric_054": {
+        "title": "Individual Code Contribution Volume",
+        "desc": "Lines of code submitted by individual contributors within the cycle"
+      },
+      "metric_055": {
+        "title": "Individual Code Contribution Ratio",
+        "desc": "Ratio of code lines contributed by individuals to total code contribution lines within the cycle"
+      },
+      "metric_056": {
+        "title": "Individual Non-Code Contributors",
+        "desc": "Number of individual (non-organizational) contributors who only participated in non-code contribution behaviors (such as Issue/PR comments, documentation) within the cycle"
+      },
+      "metric_057": {
+        "title": "Individual Non-Code Contributor Ratio",
+        "desc": "Ratio of individual non-code contributors to total non-code contributors within the cycle"
+      },
+      "metric_058": {
+        "title": "Individual Non-Code Contribution Volume",
+        "desc": "Total non-code contributions submitted by individual contributors within the cycle (such as Issue/PR comment count)"
+      },
+      "metric_059": {
+        "title": "Individual Non-Code Contribution Ratio",
+        "desc": "Ratio of individual non-code contributions to total non-code contributions within the cycle"
+      },
+      "metric_060": {
+        "title": "Individual Manager Count",
+        "desc": "Number of unique individual managers in community governance roles within the cycle"
+      },
+      "metric_061": {
+        "title": "Individual Manager Ratio",
+        "desc": "Ratio of individual managers in community governance roles to total managers within the cycle"
+      }
+    }
+  }
+}
