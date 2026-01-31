@@ -302,5 +302,23 @@
         "desc": "Ratio of individual managers in community governance roles to total managers within the cycle"
       }
     }
+  },
+  "model_999": {
+    "title": "Independent Metrics",
+    "desc": "Independent metrics model description",
+    "metrics": {
+      "metric_062": {
+        "title": "Contributor Statistics",
+        "desc": "Display contributor details, including contributor count, top contributor, contributing organization count, top contributing organization, as well as each contributor's role persona, milestone persona, domain persona, organization affiliation and contribution volume"
+      },
+      "metric_063": {
+        "title": "Issue Management",
+        "desc": "Display Issue management details, including new Issue count, Issue resolution rate, unresponded Issue count, average comment count, as well as each Issue's status, processing duration, comment count and other information"
+      },
+      "metric_064": {
+        "title": "PR Management",
+        "desc": "Display PR management details, including new PR count, PR resolution rate, unresponded PR count, code commit count, as well as each PR's status, processing duration, reviewers and other information"
+      }
+    }
   }
 }
