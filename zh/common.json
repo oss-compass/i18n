@@ -114,7 +114,10 @@
     "func_disabled": "该功能临时关闭",
     "confirm_close": "确认并关闭",
     "submit": "提交",
-    "close": "关闭"
+    "submitting": "提交中...",
+    "close": "关闭",
+    "select_all": "全选",
+    "deselect_all": "取消全选"
   },
   "prompt": {
     "please_enter": "请输入"

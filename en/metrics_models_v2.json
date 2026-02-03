@@ -1,4 +1,19 @@
 {
+  "dimensionality_001": {
+    "title": "Collaboration Efficiency"
+  },
+  "dimensionality_002": {
+    "title": "Community Vitality"
+  },
+  "dimensionality_003": {
+    "title": "Ecological influence"
+  },
+  "dimensionality_004": {
+    "title": "Development Governance"
+  },
+  "dimensionality_005": {
+    "title": "Other Metrics"
+  },
   "model_001": {
     "title": "Response Timeliness",
     "desc": "Response timeliness model description",
@@ -304,8 +319,8 @@
     }
   },
   "model_999": {
-    "title": "Independent Metrics",
-    "desc": "Independent metrics model description",
+    "title": "Other Metrics",
+    "desc": "Other metrics model description",
     "metrics": {
       "metric_062": {
         "title": "Contributor Statistics",

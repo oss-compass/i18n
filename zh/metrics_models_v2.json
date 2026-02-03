@@ -1,4 +1,19 @@
 {
+  "dimensionality_001": {
+    "title": "协作效率"
+  },
+  "dimensionality_002": {
+    "title": "社区活力"
+  },
+  "dimensionality_003": {
+    "title": "生态影响力"
+  },
+  "dimensionality_004": {
+    "title": "开发治理"
+  },
+  "dimensionality_005": {
+    "title": "其他指标"
+  },
   "model_001": {
     "title": "响应及时性",
     "desc": "响应及时性模型说明",
@@ -304,8 +319,8 @@
     }
   },
   "model_999": {
-    "title": "独立指标",
-    "desc": "独立指标模型说明",
+    "title": "其他指标",
+    "desc": "其他指标模型说明",
     "metrics": {
       "metric_062": {
         "title": "贡献者统计",

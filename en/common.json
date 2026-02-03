@@ -115,7 +115,10 @@
     "func_disabled": "The feature is temporarily disabled",
     "confirm_close": "Confirm and Close",
     "submit": "Submit",
-    "close": "Close"
+    "submitting": "Submitting...",
+    "close": "Close",
+    "select_all": "Select All",
+    "deselect_all": "Deselect All"
   },
   "prompt": {
     "please_enter": "Please enter"

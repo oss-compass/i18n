@@ -16,7 +16,7 @@
   "dashboard": {
     "type": {
       "community": "Community",
-      "project": "Repository"
+      "repo": "Repository"
     }
   },
   "time": {
@@ -61,7 +61,8 @@
       "search_placeholder": "Search metric name or category",
       "select_help": "Drag metric cards to adjust display order",
       "cannot_delete_model_metric": "This metric belongs to model \"{{modelName}}\" and cannot be deleted separately",
-      "independent": "Independent Metrics"
+      "independent": "Independent Metrics",
+      "metric_count": "{{count}} metrics"
     },
     "model_selection": {
       "selected_models": "Selected Models",
@@ -83,6 +84,7 @@
     }
   },
   "detail": {
+    "summary": "Summary",
     "competitors": "Competitor",
     "not_found": "Dashboard not found or deleted.",
     "contributor_stats": "Contributor Statistics",

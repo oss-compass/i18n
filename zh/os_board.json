@@ -16,7 +16,7 @@
   "dashboard": {
     "type": {
       "community": "社区",
-      "project": "仓库"
+      "repo": "仓库"
     }
   },
   "time": {
@@ -60,7 +60,8 @@
       "selected_count": "已选择 {{count}} 个指标",
       "search_placeholder": "搜索指标名称或分类",
       "select_help": "拖拽指标卡片可调整显示顺序",
-      "cannot_delete_model_metric": "该指标属于模型“{{modelName}}”，无法单独删除"
+      "cannot_delete_model_metric": "该指标属于模型 {{modelName}}，无法单独删除",
+      "metric_count": "共 {{count}} 个指标"
     },
     "model_selection": {
       "selected_models": "已选模型",
@@ -82,6 +83,7 @@
     }
   },
   "detail": {
+    "summary": "汇总",
     "competitors": "竞品",
     "not_found": "看板不存在或已删除。",
     "contributor_stats": "贡献者统计",
@@ -280,10 +282,10 @@
   "issue_table": {
     "repo_name": "仓库名称",
     "issue_total": "Issue 总数",
-    "issue_open": "打开Issue数量",
+    "issue_open": "打开 Issue 数量",
     "issue_completion_ratio": "Issue 解决百分比",
-    "issue_unresponsive": "未响应Issue数量",
-    "issue_first_response": "Issue首次响应时间",
+    "issue_unresponsive": "未响应 Issue 数量",
+    "issue_first_response": "Issue 首次响应时间",
     "issue_comment_mean": "平均评论数量"
   },
   "pr_table": {
@@ -291,8 +293,8 @@
     "pr_total": "PR 总数",
     "pr_open": "PR 开启数量",
     "pr_completion_ratio": "PR 解决百分比",
-    "pr_unresponsive": "未响应PR数量",
-    "pr_first_response": "PR首次响应时间"
+    "pr_unresponsive": "未响应 PR 数量",
+    "pr_first_response": "PR 首次响应时间"
   },
   "metrics": {
     "independent": "独立指标"
