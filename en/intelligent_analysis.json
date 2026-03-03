@@ -120,7 +120,7 @@
     "search_developer": "Search Developer",
     "search_organization": "Search Organization",
     "search": "Search",
-    "filter_by_region": "Filter by Region",
+    "filter_by_region": "Region",
     "select_regions": "Select Regions",
     "pagination_total": "{{start}}-{{end}} of {{total}} items",
     "region_chart": {

@@ -120,7 +120,7 @@
     "search_developer": "搜索开发者",
     "search_organization": "搜索组织",
     "search": "搜索",
-    "filter_by_region": "按地区筛选",
+    "filter_by_region": "地区",
     "select_regions": "选择地区",
     "pagination_total": "第 {{start}}-{{end}} 条/共 {{total}} 条",
     "region_chart": {
