@@ -69,7 +69,7 @@
         "desc": "平均每个 PR 下的对话/评论数量"
       },
       "metric_012": {
-        "title": "Review Time by Pull Request Size",
+        "title": "分级代码审查时长",
         "desc": "按代码变更行数（XS/S/M/L/XL）分组统计的平均审查时间"
       }
     }
