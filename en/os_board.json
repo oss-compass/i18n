@@ -1,4 +1,5 @@
 {
+  "oss_eco_evaluation_system": "Open Source Ecosystem Evaluation System",
   "banner": {
     "title": "Digital Operations Dashboard",
     "description": "A health assessment & digital operations dashboard for open-source communities.",
@@ -96,9 +97,9 @@
     "copy": "Copy",
     "edit": "Edit dashboard",
     "alerts_manage": "Alert Management",
-        "model_score": "Model Score",
-        "model_score_desc": "Comprehensive health score trend based on selected metrics",
-            "model_tag": "Model",
+    "model_score": "Model Score",
+    "model_score_desc": "Comprehensive health score trend based on selected metrics",
+    "model_tag": "Model",
     "collaboration_dev_index": "Collaboration Development Index",
     "save_as": "Save as new",
     "export_title": "Export",
