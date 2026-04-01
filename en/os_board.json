@@ -286,6 +286,7 @@
     "issue_total": "Total Issues",
     "issue_open": "Open Issues",
     "issue_completion_ratio": "Issue Completion Rate",
+    "avg_closed_loop_time": "Avg Closed Loop Time",
     "issue_unresponsive": "Unresponsive Issues",
     "issue_first_response": "First Response Time",
     "issue_comment_mean": "Avg Comments"
@@ -295,6 +296,7 @@
     "pr_total": "Total PRs",
     "pr_open": "Open PRs",
     "pr_completion_ratio": "PR Completion Rate",
+    "avg_closed_loop_time": "Avg Closed Loop Time",
     "pr_unresponsive": "Unresponsive PRs",
     "pr_first_response": "First Response Time"
   },

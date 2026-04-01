@@ -123,6 +123,7 @@
     "issue_completion_rate": "Issue 解决百分比",
     "unanswered_issue_count": "未响应 Issues 数量",
     "average_comments_count": "平均评论数量",
+    "average_response_time": "平均响应时间",
     "pull_requests": "Pull Request",
     "newly_created_pr_count": "新建 PR 数量",
     "pr_completion_rate": "PR 解决百分比",

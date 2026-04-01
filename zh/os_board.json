@@ -284,7 +284,8 @@
     "repo_name": "仓库名称",
     "issue_total": "Issue 总数",
     "issue_open": "打开 Issue 数量",
-    "issue_completion_ratio": "Issue 解决百分比",
+    "issue_completion_ratio": "Issue 闭环率",
+    "avg_closed_loop_time": "平均闭环时长",
     "issue_unresponsive": "未响应 Issue 数量",
     "issue_first_response": "Issue 首次响应时间",
     "issue_comment_mean": "平均评论数量"
@@ -292,8 +293,9 @@
   "pr_table": {
     "repo_name": "仓库名称",
     "pr_total": "PR 总数",
-    "pr_open": "PR 开启数量",
-    "pr_completion_ratio": "PR 解决百分比",
+    "pr_open": "PR 开启总数",
+    "pr_completion_ratio": "PR 闭环率",
+    "avg_closed_loop_time": "平均闭环时长",
     "pr_unresponsive": "未响应 PR 数量",
     "pr_first_response": "PR 首次响应时间"
   },
