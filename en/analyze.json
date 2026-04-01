@@ -123,6 +123,7 @@
     "issue_completion_rate": "Issue Resolution Rate",
     "unanswered_issue_count": "Unanswered Issue Count",
     "average_response_time": "Average Response Time",
+    "no_response": "No response",
     "average_comments_count": "Average Comments Count",
     "pull_requests": "Pull Request",
     "newly_created_pr_count": "PR Count",
