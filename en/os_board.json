@@ -289,7 +289,14 @@
     "avg_closed_loop_time": "Avg Closed Loop Time",
     "issue_unresponsive": "Unresponsive Issues",
     "issue_first_response": "First Response Time",
-    "issue_comment_mean": "Avg Comments"
+    "issue_comment_mean": "Avg Comments",
+    "priority": "Priority",
+    "priority_fatal": "Fatal",
+    "priority_serious": "Serious",
+    "priority_medium": "Medium",
+    "priority_info": "Info",
+    "label_filter": "Label Filter",
+    "label_all": "All"
   },
   "pr_table": {
     "repo_name": "Repository Name",

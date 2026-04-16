@@ -14,6 +14,15 @@
   "dimensionality_005": {
     "title": "Contribution Overview"
   },
+  "dimensionality_006": {
+    "title": "Developer Attraction"
+  },
+  "dimensionality_007": {
+    "title": "Developer Growth"
+  },
+  "dimensionality_008": {
+    "title": "Developer Retention"
+  },
   "model_001": {
     "title": "Response Timeliness",
     "desc": "Response timeliness model description",
@@ -315,6 +324,179 @@
       "metric_061": {
         "title": "Individual Manager Ratio",
         "desc": "Ratio of individual managers in community governance roles to total managers within the cycle"
+      }
+    }
+  },
+  "model_011": {
+    "title": "Developer Profiling",
+    "desc": "Profiles developers from the perspectives of background, skills, and participation intent based on public metadata and contribution behavior",
+    "metrics": {}
+  },
+  "model_012": {
+    "title": "Developer Attraction",
+    "desc": "Measures the community's ability to attract new organizational and individual contributors in the current cycle",
+    "metrics": {
+      "metric_065": {
+        "title": "New Organization Count",
+        "desc": "Number of unique organizations that made their first valid contribution (code or Issue) to the community in the current cycle"
+      },
+      "metric_066": {
+        "title": "New Organizational Code Contributors",
+        "desc": "Number of organizational members who made code contributions for the first time in the current cycle"
+      },
+      "metric_067": {
+        "title": "New Organizational Non-Code Contributors",
+        "desc": "Number of organizational members who made non-code contributions for the first time in the current cycle"
+      },
+      "metric_068": {
+        "title": "New Individual Code Contributors",
+        "desc": "Number of individual developers who made code contributions for the first time in the current cycle"
+      },
+      "metric_069": {
+        "title": "New Individual Non-Code Contributors",
+        "desc": "Number of individual developers who made non-code contributions for the first time in the current cycle"
+      }
+    }
+  },
+  "model_013": {
+    "title": "Developer Participation Tiers",
+    "desc": "Classifies contributors into core, regular, and visitor tiers across organizational or individual and code or Issue dimensions",
+    "metrics": {
+      "metric_070": {
+        "title": "Organizational Core Code Contributors and Managers",
+        "desc": "Number of organizational contributors whose code contribution share exceeds 50% in the current cycle"
+      },
+      "metric_071": {
+        "title": "Organizational Core Issue Contributors and Managers",
+        "desc": "Number of organizational members ranked in the top 50% by Issue activity in the current cycle"
+      },
+      "metric_072": {
+        "title": "Organizational Regular Code Contributors",
+        "desc": "Number of organizational members with sustained code contributions but below the core threshold in the current cycle (20%-50% contribution share)"
+      },
+      "metric_073": {
+        "title": "Organizational Regular Issue Contributors",
+        "desc": "Number of organizational members with sustained Issue participation but below the core threshold in the current cycle"
+      },
+      "metric_074": {
+        "title": "Organizational Visitor Code Contributors",
+        "desc": "Number of organizational members with occasional or one-off code contributions in the current cycle (below 20% contribution share)"
+      },
+      "metric_075": {
+        "title": "Organizational Visitor Issue Contributors",
+        "desc": "Number of organizational members with occasional Issue participation in the current cycle"
+      },
+      "metric_076": {
+        "title": "Individual Core Code Contributors and Managers",
+        "desc": "Number of individual developers ranked in the top 50% by code contribution in the current cycle"
+      },
+      "metric_077": {
+        "title": "Individual Core Issue Contributors and Managers",
+        "desc": "Number of individual developers ranked in the top 50% by Issue activity in the current cycle"
+      },
+      "metric_078": {
+        "title": "Individual Regular Code Contributors",
+        "desc": "Number of individual developers in the middle tier of code contribution in the current cycle"
+      },
+      "metric_079": {
+        "title": "Individual Regular Issue Contributors",
+        "desc": "Number of individual developers in the middle tier of Issue contribution in the current cycle (20%-50%)"
+      },
+      "metric_080": {
+        "title": "Individual Visitor Code Contributors",
+        "desc": "Number of individual developers with low-frequency or one-off code contributions in the current cycle (below 20%)"
+      },
+      "metric_081": {
+        "title": "Individual Visitor Issue Contributors",
+        "desc": "Number of individual developers with low-frequency or one-off Issue contributions in the current cycle (below 20%)"
+      }
+    }
+  },
+  "model_014": {
+    "title": "Developer Promotions",
+    "desc": "Measures how many contributors moved from regular or visitor tiers into the core tier between cycles",
+    "metrics": {
+      "metric_082": {
+        "title": "Promotions to Organizational Core Code Contributors and Managers",
+        "desc": "Number of organizational members who were non-core in the previous cycle and became core code contributors in the current cycle"
+      },
+      "metric_083": {
+        "title": "Promotions to Organizational Core Issue Contributors and Managers",
+        "desc": "Number of organizational members who were non-core in the previous cycle and became core Issue contributors in the current cycle"
+      },
+      "metric_084": {
+        "title": "Promotions to Individual Core Code Contributors and Managers",
+        "desc": "Number of individual developers who were non-core in the previous cycle and became core code contributors in the current cycle"
+      },
+      "metric_085": {
+        "title": "Promotions to Individual Core Issue Contributors and Managers",
+        "desc": "Number of individual developers who were non-core in the previous cycle and became core Issue contributors in the current cycle"
+      }
+    }
+  },
+  "model_015": {
+    "title": "Core Developer Retention Rate",
+    "desc": "Measures the proportion of core developers from the previous cycle who remained core in the current cycle",
+    "metrics": {
+      "metric_086": {
+        "title": "Retention Rate of Organizational Core Code Contributors and Managers",
+        "desc": "Proportion of organizational core code contributors from the previous cycle who remained core code contributors in the current cycle"
+      },
+      "metric_087": {
+        "title": "Retention Rate of Organizational Core Issue Contributors and Managers",
+        "desc": "Proportion of organizational core Issue contributors from the previous cycle who remained core Issue contributors in the current cycle"
+      },
+      "metric_088": {
+        "title": "Retention Rate of Individual Core Code Contributors and Managers",
+        "desc": "Proportion of individual core code contributors from the previous cycle who remained core code contributors in the current cycle"
+      },
+      "metric_089": {
+        "title": "Retention Rate of Individual Core Issue Contributors and Managers",
+        "desc": "Proportion of individual core Issue contributors from the previous cycle who remained core Issue contributors in the current cycle"
+      }
+    }
+  },
+  "model_016": {
+    "title": "Core Developer Step-Down Rate",
+    "desc": "Measures the proportion of core developers from the previous cycle who fell back to regular or visitor status in the current cycle",
+    "metrics": {
+      "metric_090": {
+        "title": "Step-Down Rate of Organizational Core Code Contributors and Managers",
+        "desc": "Proportion of organizational core code contributors from the previous cycle who dropped to regular or visitor status in the current cycle"
+      },
+      "metric_091": {
+        "title": "Step-Down Rate of Organizational Core Issue Contributors and Managers",
+        "desc": "Proportion of organizational core Issue contributors from the previous cycle who dropped to regular or visitor status in the current cycle"
+      },
+      "metric_092": {
+        "title": "Step-Down Rate of Individual Core Code Contributors and Managers",
+        "desc": "Proportion of individual core code contributors from the previous cycle who dropped to regular or visitor status in the current cycle"
+      },
+      "metric_093": {
+        "title": "Step-Down Rate of Individual Core Issue Contributors and Managers",
+        "desc": "Proportion of individual core Issue contributors from the previous cycle who dropped to regular or visitor status in the current cycle"
+      }
+    }
+  },
+  "model_017": {
+    "title": "Core Developer Attrition Rate",
+    "desc": "Measures the proportion of core developers from the previous cycle who had no contribution activity in the current cycle",
+    "metrics": {
+      "metric_094": {
+        "title": "Attrition Rate of Organizational Core Code Contributors and Managers",
+        "desc": "Proportion of organizational core code contributors from the previous cycle who had no contribution activity in the current cycle"
+      },
+      "metric_095": {
+        "title": "Attrition Rate of Organizational Core Issue Contributors and Managers",
+        "desc": "Proportion of organizational core Issue contributors from the previous cycle who had no interaction activity in the current cycle"
+      },
+      "metric_096": {
+        "title": "Attrition Rate of Individual Core Code Contributors and Managers",
+        "desc": "Proportion of individual core code contributors from the previous cycle who had no contribution activity in the current cycle"
+      },
+      "metric_097": {
+        "title": "Attrition Rate of Individual Core Issue Contributors and Managers",
+        "desc": "Proportion of individual core Issue contributors from the previous cycle who had no interaction activity in the current cycle"
       }
     }
   },
