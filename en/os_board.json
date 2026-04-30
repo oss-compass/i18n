@@ -63,7 +63,9 @@
       "select_help": "Drag metric cards to adjust display order",
       "cannot_delete_model_metric": "This metric belongs to model \"{{modelName}}\" and cannot be deleted separately",
       "independent": "Independent Metrics",
-      "metric_count": "{{count}} metrics"
+      "metric_count": "{{count}} metrics",
+      "selected_model_count": "{{count}} models selected",
+      "model_count": "{{count}} models"
     },
     "model_selection": {
       "selected_models": "Selected Models",

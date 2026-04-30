@@ -1,4 +1,16 @@
 {
+  "l1_community_health": {
+    "title": "Community Health"
+  },
+  "l1_contributor_overview": {
+    "title": "Contributor Overview"
+  },
+  "l1_developer_ecology": {
+    "title": "Developer Journey"
+  },
+  "l1_supply_chain_security": {
+    "title": "Open Source Supply Chain Security"
+  },
   "dimensionality_001": {
     "title": "Collaboration Efficiency"
   },
@@ -22,6 +34,15 @@
   },
   "dimensionality_008": {
     "title": "Developer Retention"
+  },
+  "dimensionality_009": {
+    "title": "Source Code Management"
+  },
+  "dimensionality_010": {
+    "title": "Development & Build"
+  },
+  "dimensionality_011": {
+    "title": "Release & Maintenance"
   },
   "model_001": {
     "title": "Response Timeliness",
@@ -497,6 +518,156 @@
       "metric_097": {
         "title": "Attrition Rate of Individual Core Issue Contributors and Managers",
         "desc": "Proportion of individual core Issue contributors from the previous cycle who had no interaction activity in the current cycle"
+      }
+    }
+  },
+  "model_018": {
+    "title": "Legal Compliance",
+    "desc": "Legal compliance model",
+    "metrics": {
+      "metric_098": {
+        "title": "License Header & Copyright Notice",
+        "desc": "Checks whether all source code files contain compliant License Header and Copyright text"
+      },
+      "metric_099": {
+        "title": "License Inclusion",
+        "desc": "Checks if a LICENSE file exists in the repository root directory and whether it is an OSI-approved open source license"
+      },
+      "metric_100": {
+        "title": "License Compatibility",
+        "desc": "Detects whether third-party dependency licenses conflict with the project's declared main license"
+      },
+      "metric_101": {
+        "title": "License & Copyright Anti-Tampering",
+        "desc": "Checks whether imported code snippets fully retain the original upstream License and Copyright information"
+      }
+    }
+  },
+  "model_019": {
+    "title": "Security Management",
+    "desc": "Security management model",
+    "metrics": {
+      "metric_102": {
+        "title": "Vulnerability Response & Disclosure",
+        "desc": "Assesses whether the project has established a public vulnerability reporting channel and fix response mechanism"
+      },
+      "metric_103": {
+        "title": "Security Vulnerabilities",
+        "desc": "Scans the project code and dependencies for publicly disclosed and unpatched CVE vulnerabilities"
+      }
+    }
+  },
+  "model_020": {
+    "title": "Development Documentation Quality",
+    "desc": "Development documentation quality model",
+    "metrics": {
+      "metric_104": {
+        "title": "README",
+        "desc": "Checks whether the repository contains a README document that clearly describes the project's functionality"
+      },
+      "metric_105": {
+        "title": "Build Documentation",
+        "desc": "Checks whether documentation is provided to guide users on building/installing the project from source"
+      },
+      "metric_106": {
+        "title": "API Documentation",
+        "desc": "Checks whether clear API interface definition documentation or specification files are provided"
+      },
+      "metric_107": {
+        "title": "Committers File",
+        "desc": "Checks whether a public list of core contributors with decision-making authority is maintained in the repository"
+      }
+    }
+  },
+  "model_021": {
+    "title": "Code Review Quality",
+    "desc": "Code review quality model",
+    "metrics": {
+      "metric_108": {
+        "title": "Dependency Accessibility",
+        "desc": "Verifies that all third-party libraries the project depends on are publicly accessible and downloadable"
+      },
+      "metric_109": {
+        "title": "Code Review Mechanism",
+        "desc": "Measures the proportion of code merged to the main branch that has undergone Pull Request peer review"
+      },
+      "metric_110": {
+        "title": "Snippet Reference",
+        "desc": "Identifies imported external code snippets and verifies the compliance of their source declarations"
+      },
+      "metric_111": {
+        "title": "DCO",
+        "desc": "Checks whether all code commits include a Developer Certificate of Origin (Signed-off-by)"
+      },
+      "metric_112": {
+        "title": "Snippet Reference",
+        "desc": "Identifies imported external code snippets and verifies the compliance of their source declarations"
+      },
+      "metric_113": {
+        "title": "Patent Risk",
+        "desc": "Analyzes whether introduced software has known patent infringement risks (based on OIN list)"
+      },
+      "metric_114": {
+        "title": "Test Coverage",
+        "desc": "Measures the proportion of code lines covered by automated test cases to total code lines"
+      }
+    }
+  },
+  "model_022": {
+    "title": "Trusted Build",
+    "desc": "Trusted build model",
+    "metrics": {
+      "metric_115": {
+        "title": "Buildable",
+        "desc": "Verifies whether the project can be successfully built from source into a working system using publicly available tools"
+      },
+      "metric_116": {
+        "title": "CI Integration",
+        "desc": "Checks whether the project has configured and enabled an automated continuous integration pipeline"
+      },
+      "metric_117": {
+        "title": "Build Metadata Availability",
+        "desc": "Checks whether build process input metadata (environment, version, etc.) is saved and provided"
+      },
+      "metric_118": {
+        "title": "Reproducible Build",
+        "desc": "Verifies whether the same source code produces binary packages with identical hash values in the same environment"
+      }
+    }
+  },
+  "model_023": {
+    "title": "Release Quality",
+    "desc": "Release quality model",
+    "metrics": {
+      "metric_119": {
+        "title": "SBOM Check",
+        "desc": "Verifies whether the released software version includes a standard Software Bill of Materials (SPDX/CycloneDX format)"
+      },
+      "metric_120": {
+        "title": "Binary Artifact Inclusion",
+        "desc": "Checks whether the source code repository illegally contains compiled binary files"
+      },
+      "metric_121": {
+        "title": "Package Signature",
+        "desc": "Verifies whether the released software package has been digitally signed to ensure integrity and anti-tampering"
+      },
+      "metric_122": {
+        "title": "Release Notes",
+        "desc": "Checks whether clear changelog documentation is provided at version release"
+      }
+    }
+  },
+  "model_024": {
+    "title": "Maintenance Management",
+    "desc": "Maintenance management model",
+    "metrics": {
+      "metric_123": {
+        "title": "Lifecycle Statement",
+        "desc": "Checks whether the maintenance lifecycle and End-of-Life (EOL) policy for software versions are explicitly declared"
+      },
+      "metric_124": {
+        "title": "Vulnerability Fix Time",
+        "desc": "Measures the average time from vulnerability report to fix code merge"
       }
     }
   },

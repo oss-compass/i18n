@@ -1,4 +1,16 @@
 {
+  "l1_community_health": {
+    "title": "社区生态健康"
+  },
+  "l1_contributor_overview": {
+    "title": "贡献总览"
+  },
+  "l1_developer_ecology": {
+    "title": "开发者旅程"
+  },
+  "l1_supply_chain_security": {
+    "title": "开源软件供应链安全"
+  },
   "dimensionality_001": {
     "title": "协作效率"
   },
@@ -22,6 +34,15 @@
   },
   "dimensionality_008": {
     "title": "开发者留存"
+  },
+  "dimensionality_009": {
+    "title": "源码管理"
+  },
+  "dimensionality_010": {
+    "title": "开发与构建"
+  },
+  "dimensionality_011": {
+    "title": "发布与维护"
   },
   "model_001": {
     "title": "响应及时性",
@@ -497,6 +518,156 @@
       "metric_097": {
         "title": "个人 Issue 核心开发者及管理者流失率",
         "desc": "上个周期的个人 Issue 核心开发者，在本周期没有任何互动行为的比例"
+      }
+    }
+  },
+  "model_018": {
+    "title": "合法合规",
+    "desc": "合法合规模型",
+    "metrics": {
+      "metric_098": {
+        "title": "许可头与版权声明",
+        "desc": "检查项目的所有源代码文件头部是否包含符合规范的 License Header 和 Copyright 文本"
+      },
+      "metric_099": {
+        "title": "许可证包含",
+        "desc": "检查仓库根目录下是否存在 LICENSE 文件，且内容为 OSI 认可的开源协议"
+      },
+      "metric_100": {
+        "title": "许可证兼容性",
+        "desc": "检测项目引入的第三方依赖库许可证是否与本项目声明的主许可证存在法律冲突"
+      },
+      "metric_101": {
+        "title": "许可证与版权声明防篡改",
+        "desc": "检查引入的代码片段是否完整保留了原上游软件的 License 及 Copyright 信息"
+      }
+    }
+  },
+  "model_019": {
+    "title": "安全管理",
+    "desc": "安全管理模型",
+    "metrics": {
+      "metric_102": {
+        "title": "漏洞响应与披露",
+        "desc": "评估项目是否建立了公开的漏洞反馈渠道及修复响应机制"
+      },
+      "metric_103": {
+        "title": "安全漏洞",
+        "desc": "扫描项目代码及依赖库中是否存在公开且未修复的 CVE 安全漏洞"
+      }
+    }
+  },
+  "model_020": {
+    "title": "开发文档质量",
+    "desc": "开发文档质量模型",
+    "metrics": {
+      "metric_104": {
+        "title": "README",
+        "desc": "检查仓库是否包含 README 文档，且清晰描述了项目功能"
+      },
+      "metric_105": {
+        "title": "构建文档",
+        "desc": "检查是否提供指导用户从源码编译/安装项目的文档说明"
+      },
+      "metric_106": {
+        "title": "接口文档",
+        "desc": "检查是否提供清晰的 API 接口定义文档或规范文件"
+      },
+      "metric_107": {
+        "title": "Committers文件",
+        "desc": "检查是否在仓库中公开维护了具备决策权的核心贡献者名单"
+      }
+    }
+  },
+  "model_021": {
+    "title": "代码审查质量",
+    "desc": "代码审查质量模型",
+    "metrics": {
+      "metric_108": {
+        "title": "依赖可获得",
+        "desc": "验证项目依赖的所有第三方库是否均可公开访问和下载"
+      },
+      "metric_109": {
+        "title": "代码评审机制",
+        "desc": "统计主分支合入的代码中，经过 Pull Request 同行评审（Review）的比例"
+      },
+      "metric_110": {
+        "title": "片段引用",
+        "desc": "识别引用的外部代码片段，并验证其来源声明的合规性"
+      },
+      "metric_111": {
+        "title": "DCO",
+        "desc": "检查所有代码提交（Commit）是否包含开发者原创性声明（Signed-off-by）"
+      },
+      "metric_112": {
+        "title": "片段引用",
+        "desc": "识别引用的外部代码片段，并验证其来源声明的合规性"
+      },
+      "metric_113": {
+        "title": "专利风险",
+        "desc": "分析引入的软件是否存在已知的专利侵权风险（基于OIN列表）"
+      },
+      "metric_114": {
+        "title": "测试覆盖度",
+        "desc": "衡量自动化测试用例执行时覆盖的代码行数占总代码行数的比例"
+      }
+    }
+  },
+  "model_022": {
+    "title": "可信构建",
+    "desc": "可信构建模型",
+    "metrics": {
+      "metric_115": {
+        "title": "可构建",
+        "desc": "验证项目能否使用公开工具从源码成功构建出可工作的系统"
+      },
+      "metric_116": {
+        "title": "CI集成",
+        "desc": "检查项目是否配置并启用了自动化的持续集成流水线"
+      },
+      "metric_117": {
+        "title": "构建元数据可获取",
+        "desc": "检查是否保存并提供了构建过程的输入元数据（环境、版本等）"
+      },
+      "metric_118": {
+        "title": "一致性构建",
+        "desc": "验证在相同环境下，同一源码是否能产出 Hash 值完全一致的二进制包"
+      }
+    }
+  },
+  "model_023": {
+    "title": "发布质量",
+    "desc": "发布质量模型",
+    "metrics": {
+      "metric_119": {
+        "title": "SBOM检查",
+        "desc": "验证发布的软件版本中是否包含标准的软件物料清单（SPDX/CycloneDX格式）"
+      },
+      "metric_120": {
+        "title": "二进制制品包含",
+        "desc": "检查源码仓库中是否违规包含了编译后的二进制文件"
+      },
+      "metric_121": {
+        "title": "软件包签名",
+        "desc": "验证发布的软件包是否经过数字签名以确保完整性和防篡改"
+      },
+      "metric_122": {
+        "title": "Release Notes",
+        "desc": "检查版本发布时是否提供了清晰的变更说明文档"
+      }
+    }
+  },
+  "model_024": {
+    "title": "维护管理",
+    "desc": "维护管理模型",
+    "metrics": {
+      "metric_123": {
+        "title": "生命周期申明",
+        "desc": "检查是否明确声明了软件版本的维护周期及停止支持（EOL）策略"
+      },
+      "metric_124": {
+        "title": "安全漏洞修复时间",
+        "desc": "统计从漏洞被报告到修复代码合入的平均耗时"
       }
     }
   },
