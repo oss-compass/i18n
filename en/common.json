@@ -11,7 +11,6 @@
     "news": "News",
     "lab": "Lab",
     "os_board": "OS Board",
-    "my_dashboards": "My Dashboards",
     "academe": "Collaboration",
     "about": "About",
     "submit_your_project": "Submit your project",
@@ -100,6 +99,7 @@
   "subscribe": "My Subscriptions",
   "profile_setting": "Account Setting",
   "my_models": "My Models",
+  "my_dashboards": "My Dashboards",
   "signout": "Sign Out",
   "system_admin": "System Admin",
   "btn": {
