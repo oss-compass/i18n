@@ -3,9 +3,11 @@
   "sidebar": {
     "title": "开源生态智能分析",
     "overview": "总览",
+    "rust": "Rust 分析",
     "submit_project": "提交项目",
     "my_submissions": "我的提交"
   },
+
   "overview_page": {
     "title": "开源生态智能分析",
     "description": "深度分析开源项目的关键贡献者和组织，评估其贡献影响力和生态价值，为开源社区发展提供智能洞察。",

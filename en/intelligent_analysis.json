@@ -3,9 +3,11 @@
   "sidebar": {
     "title": "OSS Intelligence Analysis",
     "overview": "Overview",
+    "rust": "Rust Analysis",
     "submit_project": "Submit Project",
     "my_submissions": "My Submissions"
   },
+
   "overview_page": {
     "title": "Open Source Ecosystem Intelligence Analysis",
     "description": "In-depth analysis of key contributors and organizations in open source projects, evaluating their contribution impact and ecosystem value, providing intelligent insights for open source community development.",
