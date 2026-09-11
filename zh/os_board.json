@@ -297,7 +297,11 @@
     "priority_medium": "一般",
     "priority_info": "提示",
     "label_filter": "标签筛选",
-    "label_all": "全部"
+    "label_all": "全部",
+    "organization_filter": "创建人组织",
+    "avg_processing_time": "平均处理时长",
+    "invert_selection": "反选",
+    "select_all": "全选"
   },
   "pr_table": {
     "repo_name": "仓库名称",

@@ -298,7 +298,11 @@
     "priority_medium": "Medium",
     "priority_info": "Info",
     "label_filter": "Label Filter",
-    "label_all": "All"
+    "label_all": "All",
+    "organization_filter": "Creator Organization",
+    "avg_processing_time": "Average Processing Time",
+    "invert_selection": "Invert",
+    "select_all": "Select All"
   },
   "pr_table": {
     "repo_name": "Repository Name",
