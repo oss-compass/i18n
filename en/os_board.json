@@ -278,6 +278,11 @@
       "trigger_time": "Trigger Time"
     }
   },
+  "list_export": {
+    "download": "Download",
+    "success": "Export succeeded, download started",
+    "failed": "Export failed"
+  },
   "sidebar": {
     "title": "Metric Navigation",
     "empty": "No metrics",
