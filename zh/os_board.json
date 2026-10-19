@@ -282,6 +282,10 @@
     "success": "导出成功，已开始下载",
     "failed": "导出失败"
   },
+  "table_filter": {
+    "reset": "重置",
+    "search_placeholder": "搜索组织"
+  },
   "sidebar": {
     "title": "指标导航",
     "empty": "暂无指标",

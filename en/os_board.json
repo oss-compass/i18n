@@ -283,6 +283,10 @@
     "success": "Export succeeded, download started",
     "failed": "Export failed"
   },
+  "table_filter": {
+    "reset": "Reset",
+    "search_placeholder": "Search organization"
+  },
   "sidebar": {
     "title": "Metric Navigation",
     "empty": "No metrics",
