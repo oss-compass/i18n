@@ -134,6 +134,7 @@
   "select_over_tips": "不能超过 10 条",
   "create": "创建",
   "edit": "编辑",
+  "edit_comment": "编辑评论",
   "new_version": "创建版本",
   "create_failed": "创建失败",
   "create_succeed": "创建成功",

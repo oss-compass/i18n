@@ -30,6 +30,8 @@
   "example_code_description": "以下是使用 JavaScript 调用 API 的示例代码：",
   "data_source": "数据源",
   "insight_description": "提供开源态势洞察的开源数据和模型资源。",
+  "insight_dataset": "开源洞察数据集",
+  "insight_dataset_description": "开源洞察数据集包含开源项目的基本信息、活跃度和社区规模。",
   "name": "名称",
   "description": "描述",
   "download_link": "下载链接",
