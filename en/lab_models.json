@@ -21,5 +21,8 @@
   "trigger_failed": "Failed to trigger model analysis ",
   "delete_success": "Deleted successfully",
   "reaching_daily_limit": "The daily analysis limit has been reached",
-  "reach_limit": "Parameter exceeds maximum limit"
+  "reach_limit": "Parameter exceeds maximum limit",
+  "members": {
+    "expired": "Invitation expired"
+  }
 }
